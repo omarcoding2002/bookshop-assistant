@@ -3,7 +3,8 @@ services:
     name: bookshop-assistant
     runtime: node
     plan: free
-    buildCommand: npm ci && npm run build
+    region: frankfurt
+    buildCommand: npm ci --include=dev && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     autoDeployTrigger: checksPass

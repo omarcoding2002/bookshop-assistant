@@ -59,6 +59,6 @@ This is not a substitute for the Anthropic workspace spending cap. Changing mode
 
 ## Deployment and rollback
 
-The Render blueprint uses Node, `npm ci && npm run build`, `npm start`, `/api/health` and the free plan. A PostgreSQL URL is mandatory in production. `RENDER_EXTERNAL_URL` sets the allowed origin; explicitly override for a custom domain. Do not enable multiple instances with the current request guards.
+The Render blueprint uses Node, `npm ci --include=dev && npm run build`, `npm start`, `/api/health` and the free plan. A PostgreSQL URL is mandatory in production. `RENDER_EXTERNAL_URL` sets the allowed origin; explicitly override for a custom domain. Do not enable multiple instances with the current request guards.
 
 Inspect CI, health and public purchase flow after deployment. Roll back the service to the previous successful Git commit if a release fails. Keep database state; migration 001 is compatible with this version. Free hosting cold starts are expected and excluded from warm performance measurements.

@@ -143,6 +143,10 @@ if (live) {
       "Live evaluation requires a running AI-mode server. No live model evaluation performed.",
     );
 }
+const transcripts: {
+  scenario: string;
+  turns: { message: string; latencyMs: number; response: ChatResult }[];
+}[] = [];
 const results: {
   name: string;
   passed: boolean;
@@ -165,10 +169,17 @@ for (const scenario of cases) {
   }
   const start = performance.now();
   const turns: ChatResult[] = [];
+  const transcript: {
+    message: string;
+    latencyMs: number;
+    response: ChatResult;
+  }[] = [];
+  transcripts.push({ scenario: scenario.name, turns: transcript });
   try {
     for (const message of scenario.turns) {
       if (live) {
         await new Promise((r) => setTimeout(r, 5500));
+        const turnStart = performance.now();
         const response = await fetch(`${base}/api/v1/chat`, {
           method: "POST",
           headers: { "Content-Type": "application/json", Cookie: cookie },
@@ -178,7 +189,13 @@ for (const scenario of cases) {
           throw new Error(
             `Chat failed: ${response.status} ${await response.text()}`,
           );
-        turns.push((await response.json()) as ChatResult);
+        const result = (await response.json()) as ChatResult;
+        turns.push(result);
+        transcript.push({
+          message,
+          latencyMs: Math.round(performance.now() - turnStart),
+          response: result,
+        });
       } else turns.push(await agent.chat(state.state.id, message));
     }
     const passed = scenario.check(turns.at(-1)!, turns);
@@ -198,7 +215,13 @@ for (const scenario of cases) {
       detail: (e as Error).message,
     });
   }
+  console.log(`${results.at(-1)!.passed ? "PASS" : "FAIL"} ${scenario.name}`);
 }
+if (live)
+  await writeFile(
+    new URL("../docs/evaluation-live-transcripts.json", import.meta.url),
+    JSON.stringify(transcripts, null, 2) + "\n",
+  );
 const report = {
   executedAt: new Date().toISOString(),
   mode: live ? "live-ai" : "offline-guided",
