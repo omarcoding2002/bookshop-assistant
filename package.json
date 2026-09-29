@@ -17,7 +17,8 @@
     "check": "npm run build && npm test",
     "eval": "node --import tsx scripts/evaluate.ts",
     "format": "prettier --write .",
-    "openapi": "node --import tsx scripts/openapi.ts"
+    "openapi": "node --import tsx scripts/openapi.ts",
+    "eval:performance": "node --import tsx scripts/performance.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",
