@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: bookshop-assistant
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_VERSION
+        value: 24.11.1
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATABASE_URL
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: MODEL_BUDGET_USD
+        value: "10"
+      - key: MODEL_INPUT_USD_PER_MILLION
+        value: "2"
+      - key: MODEL_OUTPUT_USD_PER_MILLION
+        value: "10"
+      - key: LIVE_BOOK_SEARCH
+        value: "false"

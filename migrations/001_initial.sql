@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS sessions (
+ id TEXT PRIMARY KEY, token_hash TEXT NOT NULL UNIQUE, state JSONB NOT NULL,
+ expires_at TIMESTAMPTZ NOT NULL
+);
+CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires_at);
+CREATE TABLE IF NOT EXISTS quotes (
+ id TEXT PRIMARY KEY, session_id TEXT NOT NULL REFERENCES sessions(id) ON DELETE CASCADE,
+ cart_version INTEGER NOT NULL, payload JSONB NOT NULL, expires_at TIMESTAMPTZ NOT NULL
+);
+CREATE TABLE IF NOT EXISTS orders (
+ id TEXT PRIMARY KEY, session_id TEXT NOT NULL REFERENCES sessions(id) ON DELETE CASCADE,
+ quote_id TEXT NOT NULL UNIQUE REFERENCES quotes(id) ON DELETE CASCADE,
+ idempotency_key TEXT NOT NULL, payload JSONB NOT NULL,
+ UNIQUE(session_id, idempotency_key)
+);
+CREATE TABLE IF NOT EXISTS model_budget (
+ id INTEGER PRIMARY KEY CHECK(id=1), spent_micros BIGINT NOT NULL DEFAULT 0,
+ reserved_micros BIGINT NOT NULL DEFAULT 0
+);
+INSERT INTO model_budget(id) VALUES(1) ON CONFLICT DO NOTHING;
+CREATE TABLE IF NOT EXISTS catalogue_cache (
+ cache_key TEXT PRIMARY KEY, payload JSONB NOT NULL, expires_at TIMESTAMPTZ NOT NULL
+);

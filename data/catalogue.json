@@ -1,0 +1,3443 @@
+[
+  {
+    "id": "OL26398835M",
+    "workId": "/works/OL498434W",
+    "title": "The Castle",
+    "authors": [
+      "Franz Kafka"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Fiction",
+      "Bureaucracy",
+      "Castles",
+      "Criticism and interpretation",
+      "Classic Literature",
+      "German literature",
+      "Classics",
+      "Classic",
+      "Continental european fiction (fictional works by one author)",
+      "New York Times reviewed",
+      "Germanic literature",
+      "Fiction, classics",
+      "Austrian Authors",
+      "Biography",
+      "Long Now Manual for Civilization",
+      "Jewish authors",
+      "Allegories",
+      "Alienation (Philosophy)"
+    ],
+    "isbn": [],
+    "year": 1926,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26398835M",
+    "fetchedAt": "2026-09-29T21:44:45.692Z",
+    "coverId": 12605605,
+    "pages": 339
+  },
+  {
+    "id": "OL62588651M",
+    "workId": "/works/OL28521353W",
+    "title": "Meditations",
+    "authors": [
+      "Marcus Aurelius"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Philosophy",
+      "Classical philology"
+    ],
+    "isbn": [
+      "9780140449334",
+      "0140449337"
+    ],
+    "year": 2006,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL62588651M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 13202688
+  },
+  {
+    "id": "OL51155585M",
+    "workId": "/works/OL318900W",
+    "title": "The Prophet",
+    "authors": [
+      "Kahlil Gibran"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Poetry",
+      "Classics",
+      "Literature & Fiction",
+      "Religion",
+      "American Prose poems",
+      "Mysticism",
+      "Spiritual life"
+    ],
+    "isbn": [
+      "9798534800074"
+    ],
+    "year": 1923,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51155585M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 418324
+  },
+  {
+    "id": "OL48186981M",
+    "workId": "/works/OL17916664W",
+    "title": "Mythos",
+    "authors": [
+      "Stephen Fry"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Mythology, greek",
+      "Mythology, classical",
+      "Gods",
+      "Goddesses",
+      "Legends",
+      "Greek Mythology",
+      "Classical Mythology",
+      "Mythology"
+    ],
+    "isbn": [
+      "9781405955102",
+      "1405955104"
+    ],
+    "year": 2017,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL48186981M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 8238803
+  },
+  {
+    "id": "OL37044614M",
+    "workId": "/works/OL1317211W",
+    "title": "Meditations",
+    "authors": [
+      "Marcus Aurelius"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Philosophy",
+      "Nonfiction",
+      "Classics",
+      "Self-Help",
+      "Ethics",
+      "Early works to 1800",
+      "Conduct of life",
+      "Ancient Philosophy",
+      "Stoics",
+      "Life"
+    ],
+    "isbn": [],
+    "year": 1626,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL37044614M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 211529
+  },
+  {
+    "id": "OL58668464M",
+    "workId": "/works/OL1073898W",
+    "title": "The Story Of Philosophy",
+    "authors": [
+      "Will Durant",
+      "讀書新聞社"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Philosophers",
+      "Philosophy",
+      "History",
+      "Biography",
+      "Philosophie",
+      "Philosophes",
+      "Philosophy, dictionaries",
+      "Philosophy, history",
+      "Nonfiction",
+      "Classics"
+    ],
+    "isbn": [],
+    "year": 1926,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58668464M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 405360
+  },
+  {
+    "id": "OL7669497M",
+    "workId": "/works/OL6091375W",
+    "title": "On Top of Spaghetti",
+    "authors": [
+      "Tom Glazer"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Songs",
+      "classic",
+      "Children: Grades 1-2"
+    ],
+    "isbn": [
+      "9780673362384",
+      "0673362388"
+    ],
+    "year": 1982,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL7669497M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 411242
+  },
+  {
+    "id": "OL24337004M",
+    "workId": "/works/OL61982W",
+    "title": "The Odyssey of Homer",
+    "authors": [
+      "Ὅμηρος"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "great_books_of_the_western_world",
+      "Poetry",
+      "Fiction",
+      "Classical literature",
+      "Open Library Staff Picks",
+      "Juvenile literature",
+      "Horses",
+      "Mythology, Greek, in literature",
+      "Diseases",
+      "Greek Mythology",
+      "great_books",
+      "Literatura grega clássica",
+      "Classic Literature",
+      "Homer",
+      "Greek Epic poetry",
+      "Hymns, Greek (Classical)",
+      "Greek poetry",
+      "Epic poetry"
+    ],
+    "isbn": [],
+    "year": 1488,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24337004M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 9045853,
+    "pages": 429
+  },
+  {
+    "id": "OL7824010M",
+    "workId": "/works/OL465360W",
+    "title": "Where the Red Fern Grows",
+    "authors": [
+      "Wilson Rawls"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Social Issues - Friendship",
+      "Juvenile Fiction",
+      "Children's Books/Ages 9-12 Fiction",
+      "Children: Grades 4-6",
+      "Social Situations - Adolescence",
+      "Social Issues - Adolescence",
+      "Classics",
+      "Juvenile Fiction / Social Situations / Adolescence",
+      "Children's 9-12 - Literature - Classics / Contemporary",
+      "Action & Adventure - General",
+      "Animals - Dogs",
+      "Fiction",
+      "children's classics",
+      "dogs",
+      "hounds",
+      "mountains",
+      "young adult fiction",
+      "Open Library Staff Picks"
+    ],
+    "isbn": [
+      "9780553274295",
+      "0553274295"
+    ],
+    "year": 1961,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL7824010M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 7996608
+  },
+  {
+    "id": "OL58723189M",
+    "workId": "/works/OL65906W",
+    "title": "On the Road",
+    "authors": [
+      "Jack Kerouac"
+    ],
+    "category": "Classics",
+    "subjects": [
+      "Beat generation",
+      "Fiction",
+      "Autobiographical fiction",
+      "Beat generation in literature",
+      "History and criticism",
+      "American Autobiographical fiction",
+      "Literature",
+      "Classic Literature",
+      "Beat generation -- Fiction",
+      "Beats (Persons)",
+      "Bohemianism",
+      "Drugs",
+      "Jazz",
+      "Kerouac, Jack, 1922-1969",
+      "Literature - Classics / Criticism",
+      "Literature: Classics",
+      "Classics",
+      "Fiction / Literary"
+    ],
+    "isbn": [],
+    "year": 1957,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58723189M",
+    "fetchedAt": "2026-09-29T21:44:45.694Z",
+    "coverId": 34655
+  },
+  {
+    "id": "OL27186692M",
+    "workId": "/works/OL8400950W",
+    "title": "The Blade Itself",
+    "authors": [
+      "Joe Abercrombie"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction, fantasy, general",
+      "Fantasy fiction",
+      "Fantasy",
+      "Fiction"
+    ],
+    "isbn": [
+      "9780316387316",
+      "0316387312"
+    ],
+    "year": 2001,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27186692M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 14543422
+  },
+  {
+    "id": "OL24088527M",
+    "workId": "/works/OL5738154W",
+    "title": "The Hero of Ages",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Fantasy fiction",
+      "Fiction, fantasy, general",
+      "Children's fiction",
+      "Imaginary places",
+      "Magic"
+    ],
+    "isbn": [
+      "9780765356147",
+      "0765356147"
+    ],
+    "year": 2008,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24088527M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 14658094
+  },
+  {
+    "id": "OL15987639M",
+    "workId": "/works/OL8369445W",
+    "title": "The lies of Locke Lamora",
+    "authors": [
+      "Scott Lynch"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction, fantasy, general",
+      "Fantasy",
+      "Fiction",
+      "American Science Fiction And Fantasy",
+      "Fiction - Fantasy",
+      "Fantasy - Epic",
+      "Fiction / Fantasy / Epic",
+      "Juvenile fiction",
+      "Gangsters",
+      "Swindlers and swindling",
+      "Orphans",
+      "Adventure stories",
+      "Fantasy fiction",
+      "Robbers and outlaws",
+      "Fiction, fantasy, epic"
+    ],
+    "isbn": [
+      "9780553804676",
+      "0553804677"
+    ],
+    "year": 2001,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL15987639M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 6307636
+  },
+  {
+    "id": "OL27172409M",
+    "workId": "/works/OL17546674W",
+    "title": "The Assassin’s Blade",
+    "authors": [
+      "Sarah J. Maas"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction, fantasy, collections & anthologies",
+      "Female assassins in fiction",
+      "Young adult fiction, fantasy, dark fantasy",
+      "[series:Throne_of_Glass]",
+      "Fantasy",
+      "Assassins",
+      "Fiction"
+    ],
+    "isbn": [
+      "9781619633612",
+      "1619633612"
+    ],
+    "year": 2014,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 7794980
+  },
+  {
+    "id": "OL43028647M",
+    "workId": "/works/OL2010436W",
+    "title": "Wizard's First Rule",
+    "authors": [
+      "Terry Goodkind"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction",
+      "Wizards",
+      "Wizards in fiction",
+      "Fiction, fantasy, general",
+      "Fiction, fantasy, epic",
+      "Amnell, kahlan (fictitious character), fiction",
+      "D'haran empire (imaginary place), fiction",
+      "Richard Rahl (Fictitious character)",
+      "Fantasy",
+      "Fantasy fiction",
+      "Magic",
+      "Epic Fantasy",
+      "High Fantasy",
+      "Adventure"
+    ],
+    "isbn": [
+      "9781448741083",
+      "1448741084"
+    ],
+    "year": 1994,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL43028647M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 1005963,
+    "pages": 579
+  },
+  {
+    "id": "OL24934473M",
+    "workId": "/works/OL7924103W",
+    "title": "The Eye of the World",
+    "authors": [
+      "Robert Jordan"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "series:The Wheel of Time",
+      "Fantasy fiction",
+      "Rand al'Thor (Fictitious character)",
+      "Fiction",
+      "Reader recommended, 2001-02",
+      "Fantasy .",
+      "American Fantasy",
+      "al'Thor Rand (Fictitious character)",
+      "Good and evil",
+      "Monsters",
+      "Rand al'thor (fictitious character), fiction",
+      "Fiction, fantasy, epic",
+      "Science fiction",
+      "Children's fiction",
+      "Fiction, fantasy, general",
+      "Comics & graphic novels, fantasy",
+      "Comic books, strips",
+      "nyt:hardcover-graphic-books=2013-02-17"
+    ],
+    "isbn": [
+      "9780812511819",
+      "9780812579956",
+      "9780613176347",
+      "9780812500486",
+      "0812511816",
+      "081257995X",
+      "0613176340",
+      "0812500482"
+    ],
+    "year": 1990,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24934473M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 980232
+  },
+  {
+    "id": "OL24255147M",
+    "workId": "/works/OL2577486W",
+    "title": "Blood of Elves",
+    "authors": [
+      "Andrzej Sapkowski"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fantasy",
+      "Fiction",
+      "Fiction, fantasy, general",
+      "Science fiction, fantasy, horror",
+      "Assassins",
+      "Polish Fantasy fiction",
+      "Fiction, fantasy, epic",
+      "Vampires, fiction",
+      "nyt:trade-fiction-paperback=2022-01-09",
+      "New York Times bestseller",
+      "Fiction, fantasy, dragons & mythical creatures",
+      "Fiction, fantasy, paranormal"
+    ],
+    "isbn": [
+      "9780316073714",
+      "0316073717"
+    ],
+    "year": 1994,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 8457619
+  },
+  {
+    "id": "OL28688483M",
+    "workId": "/works/OL19351054W",
+    "title": "The Poppy War",
+    "authors": [
+      "R. F. Kuang"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fiction",
+      "Fantasy",
+      "Historical",
+      "Epic",
+      "Cultural Heritage",
+      "Goddesses",
+      "Imaginary wars and battles",
+      "Magic",
+      "Military education",
+      "Shamans",
+      "Fiction, fantasy, epic",
+      "Fiction, fantasy, paranormal",
+      "FICTION / Fantasy / Epic",
+      "FICTION / Fantasy / Paranormal"
+    ],
+    "isbn": [
+      "9780008239848",
+      "0008239843"
+    ],
+    "year": 2018,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL28688483M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 8463552
+  },
+  {
+    "id": "OL21920251M",
+    "workId": "/works/OL486967W",
+    "title": "The Princess Bride",
+    "authors": [
+      "William Goldman"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Castles",
+      "Fiction",
+      "Princesses",
+      "Good and evil",
+      "Princes",
+      "Fiction, action & adventure",
+      "Fiction, fantasy, general",
+      "Fiction, romance, fantasy",
+      "Romance fiction",
+      "Fantasy",
+      "Juvenile fiction",
+      "Fantasy fiction",
+      "Pirates"
+    ],
+    "isbn": [
+      "0747543224",
+      "9780747543220"
+    ],
+    "year": 1973,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL21920251M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 9284881
+  },
+  {
+    "id": "OL1105059M",
+    "workId": "/works/OL7924208W",
+    "title": "Lord of Chaos",
+    "authors": [
+      "Robert Jordan"
+    ],
+    "category": "Fantasy",
+    "subjects": [
+      "Fantasy fiction",
+      "Rand al'Thor (Fictitious character)",
+      "Fiction",
+      "Fantasy",
+      "Fiction, fantasy, epic",
+      "Rand al'thor (fictitious character), fiction",
+      "American Fantasy fiction",
+      "Dragons",
+      "Fiction, fantasy, general",
+      "American literature"
+    ],
+    "isbn": [
+      "0312854285",
+      "9780312854287"
+    ],
+    "year": 1994,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+    "fetchedAt": "2026-09-29T21:44:48.118Z",
+    "coverId": 182398
+  },
+  {
+    "id": "OL26379432M",
+    "workId": "/works/OL472165W",
+    "title": "Peril at End House",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "English Detective and mystery stories",
+      "Fiction",
+      "Mystery",
+      "Private investigators",
+      "Detective and mystery stories",
+      "English literature",
+      "English language",
+      "Fiction, mystery & detective, general",
+      "Private investigators, fiction",
+      "Poirot, hercule (fictitious character), fiction",
+      "Fiction, mystery & detective, traditional",
+      "Detectives",
+      "Crime",
+      "Classics",
+      "Mystery Thriller",
+      "Detective",
+      "Murder Mystery",
+      "Thriller"
+    ],
+    "isbn": [
+      "0671428535",
+      "9780671428532"
+    ],
+    "year": 1932,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26379432M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 12996556
+  },
+  {
+    "id": "OL50517844M",
+    "workId": "/works/OL472549W",
+    "title": "The Man in the Brown Suit",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "English literature",
+      "Fiction, mystery & detective, general",
+      "French fiction",
+      "English Detective and mystery stories",
+      "London (england), fiction",
+      "Fiction, mystery & detective, traditional",
+      "Fiction, mystery & detective, international crime & mystery",
+      "Fiction, mystery & detective, amateur sleuth",
+      "Fiction, mystery & detective, women sleuths",
+      "South Africa -- Fiction",
+      "Detective and mystery stories",
+      "London (England) -- Fiction",
+      "Murder -- Investigation -- Fiction",
+      "Women adventurers",
+      "Fiction, thrillers, general",
+      "Race, colonel johnny (fictitious character), fiction"
+    ],
+    "isbn": [
+      "9780329261511",
+      "0329261517"
+    ],
+    "year": 1924,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL50517844M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 11153508
+  },
+  {
+    "id": "OL50648604M",
+    "workId": "/works/OL34224558W",
+    "title": "Never Lie",
+    "authors": [
+      "Freida McFadden"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Thriller",
+      "Mystery",
+      "Mystery Thriller",
+      "Fiction",
+      "Suspense",
+      "Crime",
+      "Psychological Thriller",
+      "Contemporary"
+    ],
+    "isbn": [
+      "9781464221361",
+      "1464221367"
+    ],
+    "year": 2022,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL50648604M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 13198561
+  },
+  {
+    "id": "OL40281128M",
+    "workId": "/works/OL472542W",
+    "title": "The Secret of Chimneys",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Superintendent Battle (Fictitious character)",
+      "English Detective and mystery stories",
+      "Murder",
+      "Investigation",
+      "Conspiracies",
+      "Manors",
+      "Detective and mystery stories",
+      "Fiction, mystery & detective, traditional",
+      "Fiction, thrillers, suspense",
+      "London (england), fiction",
+      "Poirot, hercule (fictitious character), fiction",
+      "Fiction, mystery & detective, general",
+      "Fiction, mystery & detective, police procedural",
+      "Fiction, mystery & detective, international crime & mystery",
+      "Fiction, thrillers, general",
+      "Fiction, historical, general"
+    ],
+    "isbn": [],
+    "year": 1925,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL40281128M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 12996574
+  },
+  {
+    "id": "OL51009206M",
+    "workId": "/works/OL265415W",
+    "title": "At Bertram's Hotel",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Jane Marple (Fictitious character)",
+      "Women detectives",
+      "Older women",
+      "History",
+      "Hotels",
+      "Mystery",
+      "Detective and mystery stories",
+      "Mystery fiction",
+      "Marple, Jane (Fictitious character)",
+      "Fiction, mystery & detective, traditional",
+      "Marple, jane (fictitious character), fiction",
+      "Fiction, mystery & detective, women sleuths",
+      "England, fiction",
+      "English literature",
+      "Fiction, mystery & detective, general"
+    ],
+    "isbn": [],
+    "year": 1965,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 6379981
+  },
+  {
+    "id": "OL26336963M",
+    "workId": "/works/OL471500W",
+    "title": "What Mrs. McGillicuddy Saw!",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Jane Marple (Fictitious character)",
+      "Fiction, mystery & detective, general",
+      "Marple, jane (fictitious character), fiction",
+      "English literature",
+      "English language",
+      "Fiction, mystery & detective, traditional",
+      "Murder",
+      "Investigation",
+      "Meurtre",
+      "Romans, nouvelles",
+      "Mystery fiction",
+      "Homicide",
+      "Fiction, mystery & detective, women sleuths",
+      "England, fiction",
+      "series:Miss_Marple",
+      "Women detectives"
+    ],
+    "isbn": [
+      "9780671823795",
+      "0671823795"
+    ],
+    "year": 1957,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26336963M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 13151352
+  },
+  {
+    "id": "OL51012140M",
+    "workId": "/works/OL471990W",
+    "title": "The Mirror Crack'd from Side to Side",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Jane Marple (Fictitious character)",
+      "Women detectives in fiction",
+      "Women detectives",
+      "Romance Ingles",
+      "Crime & mystery",
+      "England, fiction",
+      "Marple, jane (fictitious character), fiction",
+      "Fiction, mystery & detective, traditional",
+      "Fiction, mystery & detective, women sleuths",
+      "English literature",
+      "Fiction, mystery & detective, general",
+      "English language",
+      "Characters and characteristics in literature",
+      "Mystery fiction",
+      "Inspectrices de police",
+      "Romans, nouvelles"
+    ],
+    "isbn": [],
+    "year": 1960,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51012140M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 10561150
+  },
+  {
+    "id": "OL58597951M",
+    "workId": "/works/OL471947W",
+    "title": "The Big Four (Hercule Poirot Mysteries)",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Private investigators",
+      "Large type books",
+      "Hercule Poirot (Fictitious character)",
+      "Translations into Arabic",
+      "English Detective and mystery stories",
+      "English literature",
+      "Fiction, mystery & detective",
+      "Poirot, hercule (fictitious character), fiction",
+      "Private investigators, fiction",
+      "England, fiction",
+      "Fiction, mystery & detective, traditional",
+      "Détectives",
+      "Romans, nouvelles",
+      "Crime",
+      "Fiction, thrillers, espionage",
+      "Comic books, strips"
+    ],
+    "isbn": [],
+    "year": 1927,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58597951M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 12996529
+  },
+  {
+    "id": "OL46971624M",
+    "workId": "/works/OL471943W",
+    "title": "Funerals are Fatal",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Hercule Poirot (Fictitious character)",
+      "Private investigators",
+      "Belgians",
+      "Mystery and detective stories",
+      "England, fiction",
+      "Fiction, mystery & detective, traditional",
+      "Private investigators, fiction",
+      "Belgium, fiction",
+      "Fiction, mystery & detective, general",
+      "Fiction, crime",
+      "English literature",
+      "Détectives",
+      "Romans, nouvelles",
+      "Murder",
+      "Investigation",
+      "Detectives"
+    ],
+    "isbn": [],
+    "year": 1953,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 12996535,
+    "pages": 214
+  },
+  {
+    "id": "OL7666500M",
+    "workId": "/works/OL471832W",
+    "title": "Hallowe'en Party",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "category": "Mystery",
+    "subjects": [
+      "Fiction",
+      "Mystery",
+      "Murder",
+      "Murder Mystery",
+      "Private investigators",
+      "Private investigators in fiction",
+      "Hercule Poirot (Fictitious character)",
+      "Senior detectives",
+      "Drowning victims",
+      "Murder investigations",
+      "Halloween",
+      "Belgian detectives",
+      "Mystery fiction",
+      "Parties",
+      "Detective and mystery stories",
+      "Detectives",
+      "Large type books",
+      "Ariadne Oliver (Fictitious character)"
+    ],
+    "isbn": [
+      "9780671830731",
+      "0671830732"
+    ],
+    "year": 1969,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+    "fetchedAt": "2026-09-29T21:44:50.729Z",
+    "coverId": 11160095
+  },
+  {
+    "id": "OL37044712M",
+    "workId": "/works/OL52266W",
+    "title": "The Invisible Man",
+    "authors": [
+      "H. G. Wells"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Ciencia-ficción",
+      "Classic Literature",
+      "Fiction",
+      "Mentally ill",
+      "Science Fiction & Fantasy",
+      "Science fiction",
+      "Scientists",
+      "English Science fiction",
+      "Experiments",
+      "Adaptations",
+      "Time travel",
+      "British and irish fiction (fictional works by one author)",
+      "England, fiction",
+      "Scientists, fiction",
+      "Children's fiction",
+      "Mystery and detective stories",
+      "Literature and fiction, science fiction",
+      "Fiction, science fiction, general"
+    ],
+    "isbn": [
+      "0198702671",
+      "9780198702672"
+    ],
+    "year": 0,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL37044712M",
+    "fetchedAt": "2026-09-29T21:44:53.187Z",
+    "coverId": 6419199
+  },
+  {
+    "id": "OL10684706M",
+    "workId": "/works/OL46401W",
+    "title": "The Caves of Steel",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Robots",
+      "Fiction",
+      "Fiction, science fiction, hard science fiction",
+      "Fiction, mystery & detective, general",
+      "Interplanetary voyages",
+      "Murder",
+      "American literature",
+      "American Science fiction",
+      "Science fiction",
+      "Overpopulation"
+    ],
+    "isbn": [
+      "9780345329004",
+      "0345329007"
+    ],
+    "year": 1953,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL10684706M",
+    "fetchedAt": "2026-09-29T21:44:53.187Z",
+    "coverId": 13790511
+  },
+  {
+    "id": "OL27214093M",
+    "workId": "/works/OL17610507W",
+    "title": "Death's end",
+    "authors": [
+      "刘慈欣"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Fiction",
+      "Science Fiction",
+      "Fiction, science fiction, general",
+      "Human-alien encounters",
+      "Imaginary wars and battles",
+      "Fiction, science fiction, action & adventure",
+      "Chinese Science fiction",
+      "Survival",
+      "Extraterrestrial beings",
+      "Hard Science Fiction",
+      "Alien Contact",
+      "FICTION / Science Fiction / Hard Science Fiction",
+      "FICTION / Science Fiction / Alien Contact",
+      "Chinese fiction"
+    ],
+    "isbn": [
+      "9780765377104",
+      "0765377101"
+    ],
+    "year": 2010,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27214093M",
+    "fetchedAt": "2026-09-29T21:44:53.187Z",
+    "coverId": 7893958
+  },
+  {
+    "id": "OL7567520M",
+    "workId": "/works/OL46398W",
+    "title": "The Naked Sun",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Fiction",
+      "Science fiction",
+      "Robots",
+      "Robots in fiction",
+      "Fiction, science fiction, hard science fiction",
+      "Fiction, mystery & detective, general",
+      "American literature",
+      "Fiction, science fiction, general",
+      "American Science fiction",
+      "Murder",
+      "Investigation",
+      "Space colonies"
+    ],
+    "isbn": [
+      "9780449238059",
+      "0449238059"
+    ],
+    "year": 1954,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL7567520M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 6542967
+  },
+  {
+    "id": "OL24975267M",
+    "workId": "/works/OL1963251W",
+    "title": "The fall of Hyperion",
+    "authors": [
+      "Dan Simmons"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Littérature américaine",
+      "Science-fiction américaine",
+      "Science-fiction",
+      "Fiction, science fiction, action & adventure",
+      "Fiction, science fiction, general"
+    ],
+    "isbn": [
+      "0553288202",
+      "9780553288209"
+    ],
+    "year": 1990,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24975267M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 484900
+  },
+  {
+    "id": "OL24648194M",
+    "workId": "/works/OL7967812W",
+    "title": "Roadside Picnic",
+    "authors": [
+      "Аркадий Стругацкий",
+      "Борис Стругацкий",
+      "Arkady and Boris Strugatsky"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "science fiction",
+      "Russian science fiction",
+      "alien visitation",
+      "anomalies",
+      "Russian fiction",
+      "Fiction, science fiction, general"
+    ],
+    "isbn": [
+      "0671458426",
+      "9780671458423"
+    ],
+    "year": 1978,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24648194M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 6752719,
+    "pages": 156
+  },
+  {
+    "id": "OL48566815M",
+    "workId": "/works/OL46390W",
+    "title": "The Foundation Trilogy",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "American Science fiction",
+      "Fiction",
+      "Psychohistory",
+      "Science fiction",
+      "Life on other planets",
+      "Prophecies",
+      "Fiction, science fiction, general",
+      "Abenteuer",
+      "Science-Fiction-Literatur",
+      "Weltraum",
+      "Prophecy",
+      "Long Now Manual for Civilization"
+    ],
+    "isbn": [],
+    "year": 1950,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL48566815M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 6502517
+  },
+  {
+    "id": "OL27897732M",
+    "workId": "/works/OL16314245W",
+    "title": "The Dark Forest",
+    "authors": [
+      "刘慈欣"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Chinese Science fiction",
+      "Fiction",
+      "Science Fiction",
+      "Fiction, science fiction, general",
+      "Human-alien encounters",
+      "Imaginary wars and battles",
+      "FICTION / Science Fiction / General",
+      "General"
+    ],
+    "isbn": [
+      "9781784971618",
+      "1784971618"
+    ],
+    "year": 2008,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27897732M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 10526598
+  },
+  {
+    "id": "OL37044608M",
+    "workId": "/works/OL450063W",
+    "title": "Frankenstein",
+    "authors": [
+      "Mary Shelley"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Frankenstein (Fictitious character)",
+      "Frankenstein's monster (Fictitious character)",
+      "Fiction",
+      "Victor Frankenstein (Fictitious character)",
+      "Scientists",
+      "Monsters",
+      "Fiction, horror",
+      "Frankenstein (fictitious character), fiction",
+      "Physicians, fiction",
+      "British fiction (fictional works by one author)",
+      "Scientists, fiction",
+      "Geneva (Switzerland), fiction",
+      "Horror stories",
+      "Fiction, science fiction, general",
+      "Fiction, general",
+      "Horror tales",
+      "Frankenstein (Shelley, Mary Wollstonecraft)",
+      "English fiction"
+    ],
+    "isbn": [],
+    "year": 1818,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL37044608M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 12356249
+  },
+  {
+    "id": "OL51511307M",
+    "workId": "/works/OL46374W",
+    "title": "Nightfall",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "American Science fiction",
+      "American Fantasy fiction",
+      "Fiction, science fiction, general",
+      "Science fiction"
+    ],
+    "isbn": [],
+    "year": 1969,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51511307M",
+    "fetchedAt": "2026-09-29T21:44:53.188Z",
+    "coverId": 9302081
+  },
+  {
+    "id": "OL37985553M",
+    "workId": "/works/OL24390422W",
+    "title": "Twisted Love",
+    "authors": [
+      "Ana Huang"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Fiction, romance, multicultural & interracial",
+      "Fiction, romance, new adult",
+      "Fiction, romance, contemporary",
+      "nyt:combined-print-and-e-book-fiction=2023-07-02",
+      "New York Times bestseller",
+      "Romance",
+      "contemporary romance",
+      "new adult romance",
+      "brother's best friend",
+      "forbidden love",
+      "dark romance",
+      "grumpy-sunshine",
+      "angst",
+      "love triangle",
+      "self-discovery",
+      "redemption",
+      "Serie:Twisted"
+    ],
+    "isbn": [
+      "9780349434278",
+      "0349434271"
+    ],
+    "year": 2021,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL37985553M",
+    "fetchedAt": "2026-09-29T21:44:56.209Z",
+    "coverId": 12940491
+  },
+  {
+    "id": "OL35082870M",
+    "workId": "/works/OL25515697W",
+    "title": "Twisted Games",
+    "authors": [
+      "Ana Huang"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "contemporary romance",
+      "romantic suspense",
+      "new adult romance",
+      "forbidden love",
+      "bodyguard romance",
+      "dark romance",
+      "enemies to lovers",
+      "slow burn",
+      "angst",
+      "steamy",
+      "Fiction, romance, general",
+      "Fiction, general",
+      "Serie:Twisted",
+      "anthology",
+      "Anthologie",
+      "book_set"
+    ],
+    "isbn": [
+      "9781087886657",
+      "1087886651"
+    ],
+    "year": 2021,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL35082870M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 12821465
+  },
+  {
+    "id": "OL38429115M",
+    "workId": "/works/OL27245843W",
+    "title": "Twisted Hate",
+    "authors": [
+      "Ana Huang"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "enemies to lovers",
+      "contemporary romance",
+      "new adult",
+      "office romance",
+      "forbidden love",
+      "angst",
+      "steamy romance",
+      "alpha male",
+      "strong female lead",
+      "slow burn",
+      "Fiction, romance, general",
+      "Fiction, general",
+      "Serie:Twisted"
+    ],
+    "isbn": [
+      "9781728274881",
+      "1728274885"
+    ],
+    "year": 2022,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL38429115M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 12928487,
+    "pages": 512
+  },
+  {
+    "id": "OL47620785M",
+    "workId": "/works/OL35223328W",
+    "title": "Married at first sight",
+    "authors": [
+      "Gu Lingfei"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "Fiction, romance, contemporary",
+      "Fiction, romance, billionaires"
+    ],
+    "isbn": [],
+    "year": 2015,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL47620785M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 14312142
+  },
+  {
+    "id": "OL28300621M",
+    "workId": "/works/OL20893778W",
+    "title": "Corrupt",
+    "authors": [
+      "Penelope Douglas"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Dark Romance",
+      "Dark",
+      "Enemies To Lovers",
+      "New Adult",
+      "Contemporary",
+      "Contemporary Romance",
+      "Fiction",
+      "Romance"
+    ],
+    "isbn": [
+      "9781518783876",
+      "1518783872"
+    ],
+    "year": 2015,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL28300621M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 10226443
+  },
+  {
+    "id": "OL28169596M",
+    "workId": "/works/OL20808172W",
+    "title": "Punk 57",
+    "authors": [
+      "Penelope Douglas"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "New Adult",
+      "Contemporary",
+      "Young Adult",
+      "Contemporary Romance",
+      "High School",
+      "Fiction",
+      "Adult",
+      "Dark",
+      "Fiction, romance, general",
+      "Fiction, thrillers, suspense"
+    ],
+    "isbn": [
+      "9781539427766",
+      "1539427765"
+    ],
+    "year": 2016,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL28169596M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 10107803
+  },
+  {
+    "id": "OL49140417M",
+    "workId": "/works/OL27733867W",
+    "title": "It Starts with Us",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Contemporary",
+      "Romance",
+      "Friendship",
+      "Fiction",
+      "Young Adult Fiction",
+      "collectionid:nyt2020s",
+      "American literature",
+      "contemporary romance",
+      "new adult",
+      "domestic violence",
+      "second chance romance",
+      "forbidden love",
+      "family",
+      "forgiveness",
+      "redemption",
+      "healing",
+      "self-discovery"
+    ],
+    "isbn": [
+      "9798885792202"
+    ],
+    "year": 2022,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL49140417M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 12749873
+  },
+  {
+    "id": "OL32169066M",
+    "workId": "/works/OL24314065W",
+    "title": "The Sweetest Oblivion",
+    "authors": [
+      "Danielle Lori"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "dark romance",
+      "Mafia romance",
+      "forbidden love",
+      "age gap romance",
+      "arranged marriage",
+      "bodyguard romance",
+      "danger",
+      "suspense",
+      "passion",
+      "desire"
+    ],
+    "isbn": [
+      "9781721284443",
+      "1721284443"
+    ],
+    "year": 2018,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL32169066M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 10831263
+  },
+  {
+    "id": "OL27213498M",
+    "workId": "/works/OL18020194W",
+    "title": "It Ends With Us",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Fiction, Romance, Contemporary, Life change events",
+      "Triangles (Interpersonal relations)",
+      "Man-woman relationships",
+      "Neurosurgeons",
+      "First loves",
+      "Businesswomen",
+      "Fiction",
+      "Contemporary Women",
+      "New York Times bestseller",
+      "Fiction, romance, contemporary",
+      "Man-woman relationships, fiction",
+      "Fiction, women",
+      "collectionid:nyt2020s",
+      "Fiction, romance, new adult"
+    ],
+    "isbn": [
+      "9781471156267",
+      "9781501110368",
+      "1471156265",
+      "1501110365"
+    ],
+    "year": 2012,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27213498M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 10473609
+  },
+  {
+    "id": "OL38446297M",
+    "workId": "/works/OL27818823W",
+    "title": "Twisted Lies",
+    "authors": [
+      "Ana Huang"
+    ],
+    "category": "Romance",
+    "subjects": [
+      "Romance",
+      "suspense",
+      "mystery",
+      "thriller",
+      "dark romance",
+      "forbidden love",
+      "enemies to lovers",
+      "bad boy",
+      "strong heroine",
+      "college",
+      "academia",
+      "family drama",
+      "secrets",
+      "lies",
+      "betrayal",
+      "revenge",
+      "American literature",
+      "Fiction, romance, general"
+    ],
+    "isbn": [
+      "9781728274898",
+      "1728274893"
+    ],
+    "year": 2022,
+    "format": "paperback",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL38446297M",
+    "fetchedAt": "2026-09-29T21:44:56.212Z",
+    "coverId": 14425197,
+    "pages": 560
+  },
+  {
+    "id": "OL27383445M",
+    "workId": "/works/OL17812914W",
+    "title": "Diary of a Wimpy Kid",
+    "authors": [
+      "Jeff Kinney"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Humorous stories",
+      "Diaries",
+      "JUVENILE FICTION / Humorous Stories",
+      "Juvenile fiction",
+      "Family life",
+      "Fiction",
+      "Vacations",
+      "JUVENILE FICTION / Comics & Graphic Novels / General",
+      "Children's fiction",
+      "Family, fiction",
+      "Christmas, fiction",
+      "Diaries, fiction",
+      "Vacations, fiction",
+      "airplane",
+      "Diaries -- Juvenile fiction",
+      "Families -- Juvenile fiction",
+      "Vacations -- Juvenile fiction",
+      "Heffley, Greg -- Juvenile fiction"
+    ],
+    "isbn": [
+      "9780141385297",
+      "0141385294"
+    ],
+    "year": 2017,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27383445M",
+    "fetchedAt": "2026-09-29T21:44:59.503Z",
+    "coverId": 10332154
+  },
+  {
+    "id": "OL29919892M",
+    "workId": "/works/OL17603394W",
+    "title": "Double Down",
+    "authors": [
+      "Jeff Kinney"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Motion pictures",
+      "Humorous Stories",
+      "JUVENILE FICTION",
+      "JUVENILE FICTION / Humorous Stories",
+      "Comics & Graphic Novels",
+      "Video games",
+      "Family life",
+      "Fiction",
+      "Comics & Graphic Novels - General",
+      "JUVENILE FICTION / Social Themes / Friendship",
+      "Families",
+      "Diaries",
+      "Halloween",
+      "Children's Books/Ages 9-12 Fiction",
+      "General",
+      "JUVENILE FICTION / Comics & Graphic Novels / General",
+      "Production and direction",
+      "Cloth or Hardcover"
+    ],
+    "isbn": [
+      "9781690319849",
+      "1690319844"
+    ],
+    "year": 2007,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL29919892M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 7888937
+  },
+  {
+    "id": "OL22007893M",
+    "workId": "/works/OL10263W",
+    "title": "El Principito / The Little Prince",
+    "authors": [
+      "Antoine de Saint-Exupéry"
+    ],
+    "category": "Children",
+    "subjects": [
+      "adventure",
+      "fantasy",
+      "friendship",
+      "love",
+      "childhood",
+      "loss",
+      "loneliness",
+      "Children's fiction",
+      "Friendship, fiction",
+      "Fantasy fiction",
+      "Princes, fiction",
+      "Fairy tales",
+      "Adventure and adventurers, fiction",
+      "Princes",
+      "Fiction",
+      "Toy and movable books",
+      "Continental european fiction (fictional works by one author)",
+      "French language, readers"
+    ],
+    "isbn": [
+      "8459912019",
+      "9788459912013"
+    ],
+    "year": 1943,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL22007893M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 10708272
+  },
+  {
+    "id": "OL6477875M",
+    "workId": "/works/OL18417W",
+    "title": "The  new Wizard of Oz",
+    "authors": [
+      "L. Frank Baum"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Witches",
+      "Spanish language materials",
+      "Fiction",
+      "Wizards",
+      "Juvenile literature",
+      "Wizards in fiction",
+      "Children's stories, Russian",
+      "Specimens",
+      "Imaginary voyages in fiction",
+      "Classic Literature",
+      "Imaginary Voyages",
+      "Children's stories, American",
+      "Adventure and adventurers",
+      "Open Library Staff Picks",
+      "Books and reading",
+      "Children's stories",
+      "Witches in fiction",
+      "History"
+    ],
+    "isbn": [],
+    "year": 1899,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL6477875M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 552443
+  },
+  {
+    "id": "OL51733815M",
+    "workId": "/works/OL69630W",
+    "title": "A Little Princess",
+    "authors": [
+      "Frances Hodgson Burnett"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Children's fiction",
+      "Orphans, fiction",
+      "London (england), fiction",
+      "Boarding schools, fiction",
+      "England, fiction",
+      "Crewe, sara (fictitious character), fiction",
+      "Schools, fiction",
+      "Fiction",
+      "Orphans",
+      "Schools",
+      "Boarding schools",
+      "History",
+      "Social life and customs",
+      "Juvenile fiction",
+      "Translations into Russian",
+      "Children's stories, English",
+      "Children's plays",
+      "Girls"
+    ],
+    "isbn": [],
+    "year": 1905,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51733815M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 2328315
+  },
+  {
+    "id": "OL36660032M",
+    "workId": "/works/OL8483260W",
+    "title": "Diary of a Wimpy Kid",
+    "authors": [
+      "Jeff Kinney"
+    ],
+    "category": "Children",
+    "subjects": [
+      "School stories",
+      "Families",
+      "Diaries",
+      "Middle schools",
+      "Family life",
+      "Fiction",
+      "Children's stories",
+      "Schools",
+      "Friendship",
+      "Juvenile fiction",
+      "Comics & Graphic Novels",
+      "Socialization",
+      "Interpersonal Relations",
+      "Child",
+      "Humorous fiction",
+      "Friends",
+      "Family",
+      "Humorous Stories"
+    ],
+    "isbn": [
+      "9780810993136",
+      "0810993139"
+    ],
+    "year": 2007,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL36660032M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 14376136
+  },
+  {
+    "id": "OL60548206M",
+    "workId": "/works/OL42770100W",
+    "title": "Diary of a Wimpy Kid Party Pooper",
+    "authors": [
+      "Jeff Kinney"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Birthdays, fiction",
+      "Juvenile fiction"
+    ],
+    "isbn": [],
+    "year": 2025,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL60548206M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 15179458
+  },
+  {
+    "id": "OL17029559M",
+    "workId": "/works/OL5819962W",
+    "title": "The Summer I Turned Pretty",
+    "authors": [
+      "Jenny Han"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Beaches",
+      "Coming of age",
+      "Fiction",
+      "Friendship",
+      "Interpersonal relations",
+      "Summer",
+      "Vacation homes",
+      "Teenage girls",
+      "Teenage boy/girl",
+      "Juvenile fiction",
+      "Realistic fiction",
+      "Sixteen-year-old girls",
+      "Bildungsromans",
+      "Children's fiction",
+      "Interpersonal relations, fiction",
+      "Seashore, fiction",
+      "Summer, fiction",
+      "Friendship, fiction"
+    ],
+    "isbn": [
+      "9781416968238",
+      "1416968237"
+    ],
+    "year": 2000,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL17029559M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 8783502
+  },
+  {
+    "id": "OL35320786M",
+    "workId": "/works/OL16591835W",
+    "title": "The darkest minds",
+    "authors": [
+      "Alexandra Bracken",
+      "Amy McFadden",
+      "Montserrat Triviño Gonzalez"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "JUVENILE FICTION / Action & Adventure / General",
+      "JUVENILE FICTION / Love & Romance",
+      "Prisoners",
+      "Fiction",
+      "Science fiction",
+      "Interpersonal relations",
+      "Psychic ability",
+      "JUVENILE FICTION / Fantasy & Magic",
+      "Love & Romance",
+      "Action & Adventure",
+      "JUVENILE FICTION",
+      "Fantasy & Magic",
+      "General",
+      "Parapsychology",
+      "Children's fiction",
+      "Interpersonal relations, fiction",
+      "Parapsychology, fiction"
+    ],
+    "isbn": [
+      "9780732294588",
+      "9781460755594",
+      "9781460755631",
+      "0732294584",
+      "1460755596",
+      "1460755634"
+    ],
+    "year": 2012,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL35320786M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 7262992
+  },
+  {
+    "id": "OL26326652M",
+    "workId": "/works/OL2775807W",
+    "title": "Pollyanna",
+    "authors": [
+      "Eleanor Hodgman Porter",
+      "Porter",
+      "Neil Reed",
+      "Lee Giles"
+    ],
+    "category": "Children",
+    "subjects": [
+      "Aunts",
+      "Cheerfulness",
+      "Classic Literature",
+      "Conduct of life",
+      "Family",
+      "Fiction",
+      "History",
+      "Interpersonal relations",
+      "Juvenile Literature",
+      "Juvenile fiction",
+      "Orphans",
+      "Vermont",
+      "Families",
+      "Children: Grades 3-4",
+      "Large type books",
+      "Children's fiction",
+      "Orphans, fiction",
+      "Conduct of life, fiction"
+    ],
+    "isbn": [],
+    "year": 1912,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26326652M",
+    "fetchedAt": "2026-09-29T21:44:59.506Z",
+    "coverId": 902113
+  },
+  {
+    "id": "OL58549598M",
+    "workId": "/works/OL42975424W",
+    "title": "Can We Be Strangers Again?",
+    "authors": [
+      "Shrijeet Shandilya"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Young adult fiction"
+    ],
+    "isbn": [
+      "9780143475927",
+      "0143475924"
+    ],
+    "year": 2024,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58549598M",
+    "fetchedAt": "2026-09-29T21:45:02.892Z",
+    "coverId": 15073759
+  },
+  {
+    "id": "OL29471184M",
+    "workId": "/works/OL21084352W",
+    "title": "Good Girl, Bad Blood",
+    "authors": [
+      "Holly Jackson"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Young adult fiction",
+      "thrillers & suspense",
+      "crime\"",
+      "Young adult fiction, law & crime",
+      "Young adult fiction, family, blended families",
+      "Young adult fiction, romance, contemporary",
+      "Young adult fiction, school & education, college & university",
+      "Young adult fiction, diversity & multicultural"
+    ],
+    "isbn": [
+      "9781405297752",
+      "1405297751"
+    ],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL29471184M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 11466695
+  },
+  {
+    "id": "OL38994665M",
+    "workId": "/works/OL17797857W",
+    "title": "One of Us Is Lying",
+    "authors": [
+      "Karen M. McManus",
+      "Moisés Barcia Rodríguez",
+      "Yaʻel Akhmon"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Children's fiction",
+      "Mystery and detective stories",
+      "Murder, fiction",
+      "Schools, fiction",
+      "Young adult fiction",
+      "Juvenile fiction",
+      "Fiction",
+      "YOUNG ADULT FICTION / Social Themes / Friendship",
+      "Murder",
+      "YOUNG ADULT FICTION / Mysteries & Detective Stories",
+      "High schools",
+      "Schools",
+      "Murder suspects",
+      "YOUNG ADULT FICTION / Thrillers & Suspense",
+      "Young adult fiction, mysteries & detective stories",
+      "Young adult fiction, romance, contemporary",
+      "Young adult fiction, thrillers & suspense, general",
+      "nyt:young-adult-paperback-monthly=2023-04-09"
+    ],
+    "isbn": [
+      "9781524714758",
+      "1524714755"
+    ],
+    "year": 2014,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL38994665M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 12503935
+  },
+  {
+    "id": "OL34138558M",
+    "workId": "/works/OL21692056W",
+    "title": "The Inheritance Games",
+    "authors": [
+      "Jennifer Lynn Barnes"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Children's fiction",
+      "nyt:young-adult-hardcover=2020-09-20",
+      "New York Times bestseller",
+      "Young adult fiction, social themes, class differences",
+      "Young adult fiction, romance, contemporary",
+      "Young adult fiction, thrillers & suspense, general",
+      "Young adult fiction, mysteries & detective stories"
+    ],
+    "isbn": [
+      "9781549136474",
+      "154913647X"
+    ],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL34138558M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 10472357
+  },
+  {
+    "id": "OL29697592M",
+    "workId": "/works/OL21802553W",
+    "title": "Shatter Me Complete Collection",
+    "authors": [
+      "Tahereh Mafi"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Children's fiction",
+      "Love, fiction",
+      "Soldiers, fiction",
+      "Science fiction",
+      "Young adult fiction, dystopian",
+      "Young adult fiction, romance, paranormal",
+      "Young adult fiction, action & adventure, general",
+      "Young adult fiction, science fiction, romance",
+      "Young adult fiction, science fiction, general"
+    ],
+    "isbn": [
+      "9780062372703",
+      "006237270X"
+    ],
+    "year": 2011,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL29697592M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 14428312
+  },
+  {
+    "id": "OL60608485M",
+    "workId": "/works/OL20646061W",
+    "title": "A Good Girl's Guide to Murder: Deluxe Edition",
+    "authors": [
+      "Holly Jackson"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Cold cases (Criminal investigation)--Fiction.",
+      "Murder--Fiction.",
+      "Mystery and detective stories.",
+      "Children's fiction",
+      "Murder, fiction",
+      "Mystery and detective stories",
+      "Criminals, fiction",
+      "Young adult fiction, law & crime",
+      "Young adult fiction, social themes, prejudice & racism",
+      "Young adult fiction, thrillers & suspense",
+      "nyt:young-adult-hardcover=2020-02-23",
+      "New York Times bestseller",
+      "nyt:young-adult-paperback-monthly=2021-02-07",
+      "Young adult fiction, thrillers & suspense, general",
+      "series:A_Good_Girl's_Guide_to_Murder",
+      "Crime, fiction",
+      "Fiction, thrillers, crime",
+      "FICTION / Thrillers / Crime"
+    ],
+    "isbn": [
+      "9798217116775",
+      "9781984896391",
+      "1984896393"
+    ],
+    "year": 2019,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL60608485M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 13156188
+  },
+  {
+    "id": "OL47936421M",
+    "workId": "/works/OL20781257W",
+    "title": "midnight sun",
+    "authors": [
+      "Stephenie Meyer"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Young adult fiction, vampires",
+      "Young adult fiction, paranormal, occult & supernatural",
+      "Young adult fiction, fantasy, contemporary",
+      "Young adult fiction, social themes, dating & sex",
+      "Young adult fiction, romance, paranormal",
+      "New York Times reviewed",
+      "Fantasy",
+      "Romance",
+      "Young Adult",
+      "Vampires",
+      "Fiction",
+      "Paranormal",
+      "Paranormal Romance",
+      "Supernatural",
+      "Young Adult Fantasy"
+    ],
+    "isbn": [],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL47936421M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 9946539
+  },
+  {
+    "id": "OL48258839M",
+    "workId": "/works/OL17850410W",
+    "title": "The Cruel Prince",
+    "authors": [
+      "Holly Black"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Fairies--Fiction.",
+      "Sisters--Fiction.",
+      "Orphans--Fiction.",
+      "Princes--Fiction.",
+      "Courts and courtiers--Fiction.",
+      "Fantasy",
+      "Princes",
+      "Courts and courtiers",
+      "Orphans",
+      "Fairies",
+      "Fiction",
+      "Sisters",
+      "Juvenile fiction",
+      "Sisters, fiction",
+      "Fairies, fiction",
+      "Orphans, fiction",
+      "Princes, fiction",
+      "Courts and courtiers, fiction"
+    ],
+    "isbn": [
+      "9780316461252",
+      "0316461253"
+    ],
+    "year": 2018,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL48258839M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 8361789
+  },
+  {
+    "id": "OL33846383M",
+    "workId": "/works/OL24231383W",
+    "title": "The Hawthorne Legacy",
+    "authors": [
+      "Jennifer Lynn Barnes"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Children's fiction",
+      "nyt:young-adult-hardcover=2021-09-26",
+      "New York Times bestseller",
+      "Young adult fiction, romance, contemporary",
+      "Young adult fiction, social themes, class differences",
+      "Young adult fiction, social themes, new experience",
+      "Young adult fiction, mysteries & detective stories"
+    ],
+    "isbn": [
+      "9780241480724",
+      "0241480728"
+    ],
+    "year": 2021,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL33846383M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 10703547
+  },
+  {
+    "id": "OL46107812M",
+    "workId": "/works/OL20639427W",
+    "title": "One of Us Is Next",
+    "authors": [
+      "Karen M. McManus",
+      "Yaʻel Akhmon"
+    ],
+    "category": "Young adult",
+    "subjects": [
+      "Young adult fiction, mysteries & detective stories",
+      "Young adult fiction, school & education, general",
+      "Young adult fiction, thrillers & suspense",
+      "Young adult fiction, social themes, friendship",
+      "Children's fiction",
+      "nyt:young-adult-hardcover=2020-01-26",
+      "New York Times bestseller",
+      "Young adult fiction, thrillers & suspense, general",
+      "High school students",
+      "Fiction",
+      "High schools"
+    ],
+    "isbn": [
+      "9780525707998",
+      "0525707999"
+    ],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL46107812M",
+    "fetchedAt": "2026-09-29T21:45:02.894Z",
+    "coverId": 9255512
+  },
+  {
+    "id": "OL24088724M",
+    "workId": "/works/OL14909099W",
+    "title": "Debt",
+    "authors": [
+      "David Graeber"
+    ],
+    "category": "History",
+    "subjects": [
+      "Money",
+      "Debt",
+      "Financial crises",
+      "History",
+      "Financial crisis",
+      "Money, history",
+      "Pengar",
+      "Penningväsen",
+      "Finanskriser",
+      "Historia",
+      "Debt--history",
+      "Money--history",
+      "Financial crises--history",
+      "Hg3701 .g73 2014",
+      "332",
+      "Nonfiction",
+      "Economics",
+      "Business & Economics"
+    ],
+    "isbn": [
+      "9781933633862",
+      "1933633867"
+    ],
+    "year": 2011,
+    "format": "hardcover",
+    "priceCents": 2299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 6299464,
+    "pages": 534
+  },
+  {
+    "id": "OL61423016M",
+    "workId": "/works/OL50283W",
+    "title": "a people's history of the united states",
+    "authors": [
+      "Howard Zinn",
+      "Kathy Emery",
+      "Ellen Reeves",
+      "Matt Damon",
+      "Howard Zinn"
+    ],
+    "category": "History",
+    "subjects": [
+      "nyt:paperback_nonfiction=2010-05-16",
+      "New York Times bestseller",
+      "History",
+      "Historia",
+      "Civilización",
+      "História dos estados unidos",
+      "United states, history",
+      "United states, civilization",
+      "United States",
+      "Geschichte",
+      "Civilization",
+      "United states, history, 1865-",
+      "United states, history, sources",
+      "Civilisation",
+      "Histoire",
+      "Estados Unidos",
+      "United States -- History",
+      "Long Now Manual for Civilization"
+    ],
+    "isbn": [
+      "9780965607414",
+      "0965607410"
+    ],
+    "year": 1980,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 10592817
+  },
+  {
+    "id": "OL51008637M",
+    "workId": "/works/OL244537W",
+    "title": "The Art of War",
+    "authors": [
+      "孙武 (Sun Tzu)"
+    ],
+    "category": "History",
+    "subjects": [
+      "Open Library Staff Picks",
+      "Early works to 1800",
+      "Military art and science",
+      "great_books_of_the_western_world",
+      "Business",
+      "Self-Improvement",
+      "Philosophy",
+      "open_syllabus_project",
+      "Fiction",
+      "Nonfiction",
+      "Politics",
+      "Military",
+      "Classic Literature",
+      "History",
+      "Military art and science, early works to 1800",
+      "Strategy",
+      "Management",
+      "Military art and science, history"
+    ],
+    "isbn": [
+      "9780903203210",
+      "0903203219"
+    ],
+    "year": 1900,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL51008637M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 4849549
+  },
+  {
+    "id": "OL27700871M",
+    "workId": "/works/OL17075811W",
+    "title": "Sapiens",
+    "authors": [
+      "Yuval Noah Harari"
+    ],
+    "category": "History",
+    "subjects": [
+      "Technology and civilization",
+      "Human beings",
+      "Historical Chronology",
+      "Historia universal",
+      "Historia",
+      "Civilization",
+      "Hombre",
+      "World history",
+      "History",
+      "Non-Fiction",
+      "Science",
+      "SCIENCE / Life Sciences / General",
+      "SCIENCE / General",
+      "SCIENCE / Life Sciences / Evolution",
+      "Weltgeschichte",
+      "Civilization, history",
+      "Chronology, historical",
+      "Chronologie historique"
+    ],
+    "isbn": [
+      "9780771038518",
+      "0771038518"
+    ],
+    "year": 2011,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27700871M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 8634250
+  },
+  {
+    "id": "OL26645696M",
+    "workId": "/works/OL18170596W",
+    "title": "Ringkasan sejarat filsafat",
+    "authors": [
+      "K. Bertens"
+    ],
+    "category": "History",
+    "subjects": [
+      "Philosophy",
+      "History"
+    ],
+    "isbn": [
+      "9789794130834",
+      "9794130834"
+    ],
+    "year": 1975,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26645696M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 8333070
+  },
+  {
+    "id": "OL58667555M",
+    "workId": "/works/OL47181W",
+    "title": "The Rise And Fall Of The Third Reich",
+    "authors": [
+      "William L. Shirer"
+    ],
+    "category": "History",
+    "subjects": [
+      "National Book Award Winner",
+      "Third Reich",
+      "National socialism",
+      "History",
+      "World War, 1939-1945",
+      "Germany, history, 1933-1945",
+      "Histoire",
+      "15.70 history of Europe",
+      "Derde Rijk",
+      "National-socialisme",
+      "Germany",
+      "1933-1945",
+      "New York Times reviewed",
+      "Germany--History--1933-1945",
+      "Politics and government"
+    ],
+    "isbn": [],
+    "year": 1734,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58667555M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 6558536
+  },
+  {
+    "id": "OL42732646M",
+    "workId": "/works/OL15683250W",
+    "title": "Capitalist Realism",
+    "authors": [
+      "Mark Fisher",
+      "MARK FISHER"
+    ],
+    "category": "History",
+    "subjects": [
+      "Accelerationism",
+      "Capitalism / History / 21st century",
+      "Postmoderne",
+      "Capitalism",
+      "Capitalism / History / 20th century",
+      "Politics",
+      "Kapitalisme",
+      "Alternatieven",
+      "Kapitalismus",
+      "Kultur",
+      "History",
+      "Popular culture",
+      "Capitalism--history",
+      "Capitalism--history--20th century",
+      "Capitalism--history--21st century",
+      "Hb501 .f573 2009",
+      "330.122"
+    ],
+    "isbn": [
+      "9781803414300",
+      "1803414308"
+    ],
+    "year": 2009,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 6707037
+  },
+  {
+    "id": "OL61421782M",
+    "workId": "/works/OL1810842W",
+    "title": "The Great Conversation",
+    "authors": [
+      "Norman Melchert"
+    ],
+    "category": "History",
+    "subjects": [
+      "Textbooks",
+      "Philosophy",
+      "Introductions",
+      "History",
+      "Filosofie",
+      "Philosophy, history",
+      "Philosophy, introductions"
+    ],
+    "isbn": [
+      "9780195322729",
+      "019532272X"
+    ],
+    "year": 1991,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL61421782M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 1454089,
+    "pages": 162
+  },
+  {
+    "id": "OL26334043M",
+    "workId": "/works/OL1751683W",
+    "title": "Freedom at midnight",
+    "authors": [
+      "Dominique Lapierre",
+      "Larry Collins"
+    ],
+    "category": "History",
+    "subjects": [
+      "Politics and government",
+      "History",
+      "Asian / Middle Eastern history: postwar, from c 1945 -",
+      "Politics/International Relations",
+      "History / India",
+      "India, history, 1947-",
+      "India, history, british occupation, 1765-1947",
+      "Autonomie et mouvements indépendantistes"
+    ],
+    "isbn": [
+      "9780330251457",
+      "0330251457"
+    ],
+    "year": 1975,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26334043M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 4410
+  },
+  {
+    "id": "OL37841791M",
+    "workId": "/works/OL307247W",
+    "title": "This Earth of Mankind",
+    "authors": [
+      "Pramoedya Ananta Toer"
+    ],
+    "category": "History",
+    "subjects": [
+      "Young men",
+      "Fiction",
+      "History",
+      "New York Times reviewed",
+      "Earth (planet)",
+      "Earth sciences"
+    ],
+    "isbn": [
+      "9780140256352",
+      "0140256350"
+    ],
+    "year": 1972,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL37841791M",
+    "fetchedAt": "2026-09-29T21:45:08.993Z",
+    "coverId": 6643692
+  },
+  {
+    "id": "OL7787244M",
+    "workId": "/works/OL1983087W",
+    "title": "Biology",
+    "authors": [
+      "Neil Allison Campbell"
+    ],
+    "category": "Science",
+    "subjects": [
+      "Biology",
+      "Textbooks",
+      "Biology textbooks",
+      "Biologie",
+      "Science textbooks",
+      "Biology, Life Sciences",
+      "Biology (General)",
+      "Science",
+      "Science/Mathematics",
+      "Life Sciences - Biology - General",
+      "Problems, exercises",
+      "Biological Science Disciplines",
+      "Manuel",
+      "Biologi",
+      "Biological sciences & nutrition -> biology -> general",
+      "Qh308.2 .c34 2008",
+      "570",
+      "Children's non-fiction"
+    ],
+    "isbn": [
+      "9780536631237",
+      "0536631239"
+    ],
+    "year": 1987,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL7787244M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 581911
+  },
+  {
+    "id": "OL49829494M",
+    "workId": "/works/OL74128W",
+    "title": "A short history of nearly everything",
+    "authors": [
+      "Bill Bryson"
+    ],
+    "category": "Science",
+    "subjects": [
+      "Science",
+      "Popular works",
+      "Ciencia",
+      "Obras populares",
+      "Science, popular works",
+      "Obras de divulgacio n.",
+      "Natuurwetenschappen",
+      "Sciences",
+      "Ouvrages de vulgarisation",
+      "Wetenschapsbeoefening",
+      "Origin",
+      "Life",
+      "Humor",
+      "Travel",
+      "Philosophy",
+      "Culture",
+      "Nonfiction",
+      "Open Library Staff Picks"
+    ],
+    "isbn": [
+      "9780552997041",
+      "0552997048"
+    ],
+    "year": 2003,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL49829494M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 12725620
+  },
+  {
+    "id": "OL58326960M",
+    "workId": "/works/OL1737320W",
+    "title": "I Have No Mouth and I Must Scream",
+    "authors": [
+      "Harlan Ellison"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Fiction",
+      "science fiction",
+      "collections & anthologies"
+    ],
+    "isbn": [],
+    "year": 1972,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL58326960M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 5540875
+  },
+  {
+    "id": "OL32076580M",
+    "workId": "/works/OL29914687W",
+    "title": "Altered carbon",
+    "authors": [
+      "Richard K. Morgan"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Science Fiction",
+      "Cyberpunk",
+      "Thriller",
+      "Life on other planets",
+      "Fiction",
+      "Fiction, science fiction, hard science fiction",
+      "Fiction, science fiction, general",
+      "Long Now Manual for Civilization",
+      "Science Fiction And Fantasy",
+      "Fiction - Science Fiction",
+      "Science Fiction - High Tech",
+      "Fiction / Science Fiction / High Tech",
+      "Conspiracy",
+      "Murder",
+      "Private investigators",
+      "Soldiers of fortune",
+      "Rich people",
+      "Investigation"
+    ],
+    "isbn": [
+      "9780752856469",
+      "0752856464"
+    ],
+    "year": 2002,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL32076580M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 13223488
+  },
+  {
+    "id": "OL18674505M",
+    "workId": "/works/OL17365W",
+    "title": "2001",
+    "authors": [
+      "Arthur C. Clarke"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "Human-computer interaction",
+      "Computers",
+      "Fiction",
+      "Science fiction",
+      "Twenty-first century",
+      "Space vehicles",
+      "Long Now Manual for Civilization",
+      "English Science fiction",
+      "Fiction, science fiction, hard science fiction",
+      "Saturn",
+      "Jupiter",
+      "space travel",
+      "alien artifacts",
+      "human origins",
+      "High interest-low vocabulary books",
+      "Readers",
+      "Fiction, science fiction, general",
+      "English literature"
+    ],
+    "isbn": [
+      "0451118642",
+      "9780451118646"
+    ],
+    "year": 1968,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL18674505M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 11344400,
+    "pages": 226
+  },
+  {
+    "id": "OL29597011M",
+    "workId": "/works/OL21745884W",
+    "title": "Project Hail Mary",
+    "authors": [
+      "Andy Weir"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "hard science-fiction",
+      "science-fiction",
+      "sci-fi",
+      "hard sci-fi",
+      "nyt:hardcover-fiction=2021-05-23",
+      "New York Times bestseller",
+      "New York Times reviewed",
+      "Fiction, science fiction, action & adventure",
+      "Fiction, science fiction, hard science fiction",
+      "End of the world",
+      "Fiction",
+      "Astronauts",
+      "Space flight",
+      "Memory disorders",
+      "Survival",
+      "Fin du monde",
+      "Romans, nouvelles",
+      "Astronautes"
+    ],
+    "isbn": [
+      "9780593395561",
+      "0593395565"
+    ],
+    "year": 2021,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL29597011M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 11200092
+  },
+  {
+    "id": "OL27305728M",
+    "workId": "/works/OL893515W",
+    "title": "God Emperor of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "category": "Science fiction",
+    "subjects": [
+      "American Science fiction",
+      "Dune (imaginary place), fiction",
+      "Fiction, science fiction, general",
+      "Dune (Imaginary place)",
+      "Fiction",
+      "Science fiction",
+      "Roman",
+      "Science-fiction",
+      "Littérature fantastique",
+      "Français (langue)",
+      "Lectures et morceaux choisis",
+      "American literature"
+    ],
+    "isbn": [
+      "9780575029767",
+      "0575029765"
+    ],
+    "year": 1981,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27305728M",
+    "fetchedAt": "2026-09-29T21:45:12.060Z",
+    "coverId": 6711531
+  },
+  {
+    "id": "OL27948099M",
+    "workId": "/works/OL55806W",
+    "title": "The Power of your Subconscious Mind",
+    "authors": [
+      "Joseph Murphy"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-Help",
+      "Psychology",
+      "Nonfiction",
+      "Personal Development"
+    ],
+    "isbn": [
+      "9788192910963",
+      "8192910962"
+    ],
+    "year": 1963,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27948099M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 6553019
+  },
+  {
+    "id": "OL52666584M",
+    "workId": "/works/OL28098879W",
+    "title": "Don't Believe Everything You Think",
+    "authors": [
+      "Joseph Nguyen"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-help techniques",
+      "Spirituality"
+    ],
+    "isbn": [
+      "9798893310290"
+    ],
+    "year": 2022,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL52666584M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 15247742
+  },
+  {
+    "id": "OL27371038M",
+    "workId": "/works/OL17837119W",
+    "title": "12 Rules for Life",
+    "authors": [
+      "Jordan B. Peterson"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Conduct of life",
+      "Philosophy",
+      "PHILOSOPHY / Social",
+      "PSYCHOLOGY / Applied Psychology",
+      "SELF-HELP / Personal Growth",
+      "psychology",
+      "psychiatry",
+      "mythology",
+      "self-help",
+      "Ethics",
+      "Social",
+      "Applied Psychology",
+      "Personal Growth",
+      "Positive Psychologie",
+      "Psychologie",
+      "Lebensführung",
+      "Regel",
+      "Philosophische Psychologie"
+    ],
+    "isbn": [
+      "9780241351635",
+      "0241351634"
+    ],
+    "year": 2015,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27371038M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 8131760
+  },
+  {
+    "id": "OL34105393M",
+    "workId": "/works/OL25436364W",
+    "title": "The Mountain Is You",
+    "authors": [
+      "Brianna Wiest"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-help techniques",
+      "Mind and body",
+      "Self-defeating behavior",
+      "Self-actualization (Psychology)",
+      "Self-realization",
+      "Self-esteem",
+      "Self Concept",
+      "Défaitisme",
+      "Réalisation de soi",
+      "Estime de soi"
+    ],
+    "isbn": [
+      "9781949759228",
+      "1949759229"
+    ],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 0,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL34105393M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 13838236
+  },
+  {
+    "id": "OL34147323M",
+    "workId": "/works/OL25296570W",
+    "title": "A Gentle Reminder",
+    "authors": [
+      "Bianca Sparacino"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-help",
+      "personal development",
+      "self-love",
+      "self-care",
+      "mindfulness",
+      "motivation",
+      "inspiration",
+      "personal growth",
+      "mental health",
+      "well-being",
+      "Self-actualization (Psychology)",
+      "Hope",
+      "Espérance"
+    ],
+    "isbn": [
+      "9781949759297",
+      "1949759296"
+    ],
+    "year": 2020,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL34147323M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 14424196,
+    "pages": 146
+  },
+  {
+    "id": "OL35205843M",
+    "workId": "/works/OL26085514W",
+    "title": "When You're Ready, This Is How You Heal",
+    "authors": [
+      "Brianna Wiest"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-help techniques"
+    ],
+    "isbn": [
+      "9781949759440",
+      "194975944X"
+    ],
+    "year": 2022,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL35205843M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 15000579
+  },
+  {
+    "id": "OL38031752M",
+    "workId": "/works/OL2392324W",
+    "title": "Eat That Frog!",
+    "authors": [
+      "Brian Tracy"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Procrastination",
+      "Dilación",
+      "Time management",
+      "Berrett Koehler",
+      "business",
+      "Applied Psychology",
+      "Self-help techniques"
+    ],
+    "isbn": [
+      "9781626567337",
+      "1626567336"
+    ],
+    "year": 2001,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL38031752M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 847534
+  },
+  {
+    "id": "OL27918581M",
+    "workId": "/works/OL17930368W",
+    "title": "Atomic Habits",
+    "authors": [
+      "James Clear"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Habit",
+      "Habit breaking",
+      "Behavior modification",
+      "Self-actualization (psychology)",
+      "Business",
+      "psychology",
+      "Personal Growth",
+      "New York Times bestseller",
+      "BUSINESS & ECONOMICS / Organizational Behavior",
+      "PSYCHOLOGY / Social Psychology",
+      "SELF-HELP / Personal Growth / General."
+    ],
+    "isbn": [
+      "9781847941831",
+      "1847941834"
+    ],
+    "year": 2016,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL27918581M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 12539702
+  },
+  {
+    "id": "OL31489498M",
+    "workId": "/works/OL23746568W",
+    "title": "101 Essays That Will Change The Way You Think",
+    "authors": [
+      "Brianna Wiest",
+      "Andrea Hernández González"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Self-Help",
+      "Self-improvement",
+      "BODY, MIND & SPIRIT / Meditation",
+      "Essays",
+      "Literary collections",
+      "Emotions and cognition",
+      "Self-actualization (Psychology)",
+      "Change (Psychology)",
+      "Thought and thinking",
+      "Philosophy"
+    ],
+    "isbn": [
+      "9781945796067",
+      "1945796065"
+    ],
+    "year": 2018,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL31489498M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 10524689
+  },
+  {
+    "id": "OL26957069M",
+    "workId": "/works/OL19744000W",
+    "title": "The courage to be disliked",
+    "authors": [
+      "Ichirō Kishimi",
+      "Fumitake Koga"
+    ],
+    "category": "Personal growth",
+    "subjects": [
+      "Adlerian psychology",
+      "Self-actualization (Psychology)",
+      "Conduct of life",
+      "Thought and thinking",
+      "happiness",
+      "motivational",
+      "free will and determinism",
+      "Self-acceptance",
+      "Adler, alfred, 1870-1937",
+      "Self-help",
+      "psychology",
+      "philosophy",
+      "personal development",
+      "self-esteem",
+      "interpersonal relationships",
+      "psychotherapy",
+      "life lessons",
+      "personal growth"
+    ],
+    "isbn": [
+      "9781501197277",
+      "1501197274"
+    ],
+    "year": 2013,
+    "format": "unspecified",
+    "priceCents": 1299,
+    "stock": 5,
+    "stocked": true,
+    "sourceUrl": "https://openlibrary.org/books/OL26957069M",
+    "fetchedAt": "2026-09-29T21:45:14.454Z",
+    "coverId": 10873626
+  }
+]
