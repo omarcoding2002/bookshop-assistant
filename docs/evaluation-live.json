@@ -1,0 +1,113 @@
+{
+  "executedAt": "2026-09-29T22:45:31.747Z",
+  "mode": "live-ai",
+  "paidModelCalls": "See server budget ledger",
+  "passed": 20,
+  "total": 20,
+  "note": "Scenario checks require additional human review for factual accuracy, appropriateness and conversation quality.",
+  "results": [
+    {
+      "name": "Greeting",
+      "passed": true,
+      "latencyMs": 8518
+    },
+    {
+      "name": "Undecided reader",
+      "passed": true,
+      "latencyMs": 8940
+    },
+    {
+      "name": "Gift discovery",
+      "passed": true,
+      "latencyMs": 16220
+    },
+    {
+      "name": "Mystery within budget",
+      "passed": true,
+      "latencyMs": 15025
+    },
+    {
+      "name": "Fantasy discovery",
+      "passed": true,
+      "latencyMs": 12341
+    },
+    {
+      "name": "Science fiction discovery",
+      "passed": true,
+      "latencyMs": 12166
+    },
+    {
+      "name": "Romance discovery",
+      "passed": true,
+      "latencyMs": 13526
+    },
+    {
+      "name": "Children suitability uncertainty",
+      "passed": true,
+      "latencyMs": 12946
+    },
+    {
+      "name": "Teen reader",
+      "passed": true,
+      "latencyMs": 12989
+    },
+    {
+      "name": "Nonfiction reader",
+      "passed": true,
+      "latencyMs": 14642
+    },
+    {
+      "name": "Exact title",
+      "passed": true,
+      "latencyMs": 12377
+    },
+    {
+      "name": "Exact ISBN",
+      "passed": true,
+      "latencyMs": 10812
+    },
+    {
+      "name": "No title match",
+      "passed": true,
+      "latencyMs": 10641
+    },
+    {
+      "name": "Budget too low",
+      "passed": true,
+      "latencyMs": 14920
+    },
+    {
+      "name": "Price objection",
+      "passed": true,
+      "latencyMs": 10831
+    },
+    {
+      "name": "Comparison",
+      "passed": true,
+      "latencyMs": 24423
+    },
+    {
+      "name": "Preference memory and rejection",
+      "passed": true,
+      "latencyMs": 29392
+    },
+    {
+      "name": "Unavailable edition",
+      "passed": true,
+      "latencyMs": 15360
+    },
+    {
+      "name": "Cart changes",
+      "passed": true,
+      "latencyMs": 35140
+    },
+    {
+      "name": "Complete conversational sale",
+      "passed": true,
+      "latencyMs": 40412
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "testedCommit": "e239c89727f13d9cad7f0f1fdf425adc7ec00369",
+  "testEnvironment": "Local API connected to the same Neon database and Anthropic workspace as the public service"
+}

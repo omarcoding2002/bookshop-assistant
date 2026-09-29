@@ -1,0 +1,2436 @@
+[
+  {
+    "scenario": "Greeting",
+    "turns": [
+      {
+        "message": "Hello",
+        "latencyMs": 3015,
+        "response": {
+          "text": "Hello, and welcome to Between the Lines! I can help you find your next read, or a gift for someone else.\n\nWhat are you in the mood for? If you don't have a genre in mind, I can suggest a few, such as Mystery, Fantasy, or Science fiction.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Undecided reader",
+    "turns": [
+      {
+        "message": "I'm not sure what to read",
+        "latencyMs": 3438,
+        "response": {
+          "text": "No problem, we can figure it out together. Here are a few of the areas we carry: Mystery, Fantasy, and Science fiction.\n\nDo any of those appeal to you? If not, tell me about a book you've enjoyed, or what mood you're in, and I'll suggest some options.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Gift discovery",
+    "turns": [
+      {
+        "message": "Help me find a gift",
+        "latencyMs": 10717,
+        "response": {
+          "text": "Happy to help! Who is the gift for? If you can, tell me a bit about their interests and roughly how old they are. A budget helps too, and so does a category you have in mind. For example, Fantasy, Mystery, or Children.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Mystery within budget",
+    "turns": [
+      {
+        "message": "A mystery under $15",
+        "latencyMs": 9524,
+        "response": {
+          "text": "Here are three in-stock mysteries under $15. The cards show price, stock and edition details. This is a demo store, so no real payment or delivery is involved.\n\n- At Bertram's Hotel by Agatha Christie. The catalogue tags it with Jane Marple, women detectives and hotels.\n- Funerals are Fatal by Agatha Christie. The catalogue tags it with Hercule Poirot and private investigators, and lists 214 pages.\n- Hallowe'en Party by Agatha Christie. The catalogue tags it with Hercule Poirot, murder and private investigators.\n\nDo you prefer a particular detective, Miss Marple or Hercule Poirot, or are you open to either?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Fantasy discovery",
+    "turns": [
+      {
+        "message": "fantasy",
+        "latencyMs": 6839,
+        "response": {
+          "text": "Here are three fantasy books we have in stock. This is a demo store, so prices and stock are fictional.\n\n- Blood of Elves by Andrzej Sapkowski. The catalogue tags it as epic fantasy and lists assassins among its subjects. It's a good pick if you like Polish fantasy fiction.\n- Lord of Chaos by Robert Jordan. It's tagged as epic fantasy with dragons. It could suit you if you want a big-world epic.\n- The Assassin's Blade by Sarah J. Maas. It's a collection tagged dark fantasy and female assassins, and it belongs to the Throne of Glass series.\n\nPrice, stock and edition details are on the cards. The catalogue doesn't list a format for any of them.\n\nWhich do you enjoy more: epic quests, or darker, assassin-style stories?",
+          "books": [
+            {
+              "id": "OL24255147M",
+              "workId": "/works/OL2577486W",
+              "title": "Blood of Elves",
+              "authors": [
+                "Andrzej Sapkowski"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fantasy",
+                "Fiction",
+                "Fiction, fantasy, general",
+                "Science fiction, fantasy, horror",
+                "Assassins",
+                "Polish Fantasy fiction",
+                "Fiction, fantasy, epic",
+                "Vampires, fiction",
+                "nyt:trade-fiction-paperback=2022-01-09",
+                "New York Times bestseller",
+                "Fiction, fantasy, dragons & mythical creatures",
+                "Fiction, fantasy, paranormal"
+              ],
+              "isbn": [
+                "9780316073714",
+                "0316073717"
+              ],
+              "year": 1994,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 8457619
+            },
+            {
+              "id": "OL1105059M",
+              "workId": "/works/OL7924208W",
+              "title": "Lord of Chaos",
+              "authors": [
+                "Robert Jordan"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fantasy fiction",
+                "Rand al'Thor (Fictitious character)",
+                "Fiction",
+                "Fantasy",
+                "Fiction, fantasy, epic",
+                "Rand al'thor (fictitious character), fiction",
+                "American Fantasy fiction",
+                "Dragons",
+                "Fiction, fantasy, general",
+                "American literature"
+              ],
+              "isbn": [
+                "0312854285",
+                "9780312854287"
+              ],
+              "year": 1994,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 182398
+            },
+            {
+              "id": "OL27172409M",
+              "workId": "/works/OL17546674W",
+              "title": "The Assassin’s Blade",
+              "authors": [
+                "Sarah J. Maas"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fiction, fantasy, collections & anthologies",
+                "Female assassins in fiction",
+                "Young adult fiction, fantasy, dark fantasy",
+                "[series:Throne_of_Glass]",
+                "Fantasy",
+                "Assassins",
+                "Fiction"
+              ],
+              "isbn": [
+                "9781619633612",
+                "1619633612"
+              ],
+              "year": 2014,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 7794980
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Science fiction discovery",
+    "turns": [
+      {
+        "message": "science fiction",
+        "latencyMs": 6664,
+        "response": {
+          "text": "Here are three science fiction books we have in stock. They're all $12.99 (demo prices):\n\n- 2001 by Arthur C. Clarke (1968). Its subjects include computers, human-computer interaction and space vehicles. It has 226 pages.\n- Altered carbon by Richard K. Morgan (2002). Its subjects include cyberpunk and thriller.\n- Death's end by 刘慈欣 (2010). Its subjects include human-alien encounters, imaginary wars and battles, and survival.\n\nI picked these to give you a spread of subgenres. Which do you enjoy more: big-idea space stories, gritty cyberpunk, or epic alien-contact stories?",
+          "books": [
+            {
+              "id": "OL18674505M",
+              "workId": "/works/OL17365W",
+              "title": "2001",
+              "authors": [
+                "Arthur C. Clarke"
+              ],
+              "category": "Science fiction",
+              "subjects": [
+                "Human-computer interaction",
+                "Computers",
+                "Fiction",
+                "Science fiction",
+                "Twenty-first century",
+                "Space vehicles",
+                "Long Now Manual for Civilization",
+                "English Science fiction",
+                "Fiction, science fiction, hard science fiction",
+                "Saturn",
+                "Jupiter",
+                "space travel",
+                "alien artifacts",
+                "human origins",
+                "High interest-low vocabulary books",
+                "Readers",
+                "Fiction, science fiction, general",
+                "English literature"
+              ],
+              "isbn": [
+                "0451118642",
+                "9780451118646"
+              ],
+              "year": 1968,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL18674505M",
+              "fetchedAt": "2026-09-29T21:45:12.060Z",
+              "coverId": 11344400,
+              "pages": 226
+            },
+            {
+              "id": "OL32076580M",
+              "workId": "/works/OL29914687W",
+              "title": "Altered carbon",
+              "authors": [
+                "Richard K. Morgan"
+              ],
+              "category": "Science fiction",
+              "subjects": [
+                "Science Fiction",
+                "Cyberpunk",
+                "Thriller",
+                "Life on other planets",
+                "Fiction",
+                "Fiction, science fiction, hard science fiction",
+                "Fiction, science fiction, general",
+                "Long Now Manual for Civilization",
+                "Science Fiction And Fantasy",
+                "Fiction - Science Fiction",
+                "Science Fiction - High Tech",
+                "Fiction / Science Fiction / High Tech",
+                "Conspiracy",
+                "Murder",
+                "Private investigators",
+                "Soldiers of fortune",
+                "Rich people",
+                "Investigation"
+              ],
+              "isbn": [
+                "9780752856469",
+                "0752856464"
+              ],
+              "year": 2002,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL32076580M",
+              "fetchedAt": "2026-09-29T21:45:12.060Z",
+              "coverId": 13223488
+            },
+            {
+              "id": "OL27214093M",
+              "workId": "/works/OL17610507W",
+              "title": "Death's end",
+              "authors": [
+                "刘慈欣"
+              ],
+              "category": "Science fiction",
+              "subjects": [
+                "Fiction",
+                "Science Fiction",
+                "Fiction, science fiction, general",
+                "Human-alien encounters",
+                "Imaginary wars and battles",
+                "Fiction, science fiction, action & adventure",
+                "Chinese Science fiction",
+                "Survival",
+                "Extraterrestrial beings",
+                "Hard Science Fiction",
+                "Alien Contact",
+                "FICTION / Science Fiction / Hard Science Fiction",
+                "FICTION / Science Fiction / Alien Contact",
+                "Chinese fiction"
+              ],
+              "isbn": [
+                "9780765377104",
+                "0765377101"
+              ],
+              "year": 2010,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL27214093M",
+              "fetchedAt": "2026-09-29T21:44:53.187Z",
+              "coverId": 7893958
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Romance discovery",
+    "turns": [
+      {
+        "message": "romance",
+        "latencyMs": 8024,
+        "response": {
+          "text": "Here are three romance books we have in stock. All are demo listings with fictional prices and stock.\n\n- Corrupt by Penelope Douglas: The catalogue tags it Dark Romance, Enemies To Lovers, and Contemporary Romance. Choose it if you like an edgier, enemies-to-lovers style.\n- It Ends With Us by Colleen Hoover: The catalogue tags it Contemporary Women and First loves, and it also has a love-triangle subject. It's a good fit if you want a contemporary relationship story.\n- It Starts with Us by Colleen Hoover: The catalogue tags it Contemporary and Friendship.\n\nThe details are on the cards. Which do you prefer: a dark, intense romance, or something more contemporary and character-focused?",
+          "books": [
+            {
+              "id": "OL28300621M",
+              "workId": "/works/OL20893778W",
+              "title": "Corrupt",
+              "authors": [
+                "Penelope Douglas"
+              ],
+              "category": "Romance",
+              "subjects": [
+                "Dark Romance",
+                "Dark",
+                "Enemies To Lovers",
+                "New Adult",
+                "Contemporary",
+                "Contemporary Romance",
+                "Fiction",
+                "Romance"
+              ],
+              "isbn": [
+                "9781518783876",
+                "1518783872"
+              ],
+              "year": 2015,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL28300621M",
+              "fetchedAt": "2026-09-29T21:44:56.212Z",
+              "coverId": 10226443
+            },
+            {
+              "id": "OL27213498M",
+              "workId": "/works/OL18020194W",
+              "title": "It Ends With Us",
+              "authors": [
+                "Colleen Hoover"
+              ],
+              "category": "Romance",
+              "subjects": [
+                "Fiction, Romance, Contemporary, Life change events",
+                "Triangles (Interpersonal relations)",
+                "Man-woman relationships",
+                "Neurosurgeons",
+                "First loves",
+                "Businesswomen",
+                "Fiction",
+                "Contemporary Women",
+                "New York Times bestseller",
+                "Fiction, romance, contemporary",
+                "Man-woman relationships, fiction",
+                "Fiction, women",
+                "collectionid:nyt2020s",
+                "Fiction, romance, new adult"
+              ],
+              "isbn": [
+                "9781471156267",
+                "9781501110368",
+                "1471156265",
+                "1501110365"
+              ],
+              "year": 2012,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL27213498M",
+              "fetchedAt": "2026-09-29T21:44:56.212Z",
+              "coverId": 10473609
+            },
+            {
+              "id": "OL49140417M",
+              "workId": "/works/OL27733867W",
+              "title": "It Starts with Us",
+              "authors": [
+                "Colleen Hoover"
+              ],
+              "category": "Romance",
+              "subjects": [
+                "Contemporary",
+                "Romance",
+                "Friendship",
+                "Fiction",
+                "Young Adult Fiction",
+                "collectionid:nyt2020s",
+                "American literature",
+                "contemporary romance",
+                "new adult",
+                "domestic violence",
+                "second chance romance",
+                "forbidden love",
+                "family",
+                "forgiveness",
+                "redemption",
+                "healing",
+                "self-discovery"
+              ],
+              "isbn": [
+                "9798885792202"
+              ],
+              "year": 2022,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL49140417M",
+              "fetchedAt": "2026-09-29T21:44:56.212Z",
+              "coverId": 12749873
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Children suitability uncertainty",
+    "turns": [
+      {
+        "message": "A book for my child",
+        "latencyMs": 7443,
+        "response": {
+          "text": "Here are a few in-stock children's books to start with:\n\n- A Little Princess by Frances Hodgson Burnett. Its subjects include boarding schools, orphans and London, so it may suit a child who likes school or historical settings.\n- Diary of a Wimpy Kid by Jeff Kinney, 2017 edition. Its subjects include humorous stories, diaries and family life.\n- Diary of a Wimpy Kid by Jeff Kinney, 2007 edition. Its subjects include school stories, middle schools and family life.\n\nAge suitability is unverified for all of these. The catalogue doesn't give recommended ages, so please check they suit your child. The prices and stock are fictional demo data.\n\nHow old is your child, roughly? Knowing that will help me narrow the list.",
+          "books": [
+            {
+              "id": "OL51733815M",
+              "workId": "/works/OL69630W",
+              "title": "A Little Princess",
+              "authors": [
+                "Frances Hodgson Burnett"
+              ],
+              "category": "Children",
+              "subjects": [
+                "Children's fiction",
+                "Orphans, fiction",
+                "London (england), fiction",
+                "Boarding schools, fiction",
+                "England, fiction",
+                "Crewe, sara (fictitious character), fiction",
+                "Schools, fiction",
+                "Fiction",
+                "Orphans",
+                "Schools",
+                "Boarding schools",
+                "History",
+                "Social life and customs",
+                "Juvenile fiction",
+                "Translations into Russian",
+                "Children's stories, English",
+                "Children's plays",
+                "Girls"
+              ],
+              "isbn": [],
+              "year": 1905,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51733815M",
+              "fetchedAt": "2026-09-29T21:44:59.506Z",
+              "coverId": 2328315
+            },
+            {
+              "id": "OL27383445M",
+              "workId": "/works/OL17812914W",
+              "title": "Diary of a Wimpy Kid",
+              "authors": [
+                "Jeff Kinney"
+              ],
+              "category": "Children",
+              "subjects": [
+                "Humorous stories",
+                "Diaries",
+                "JUVENILE FICTION / Humorous Stories",
+                "Juvenile fiction",
+                "Family life",
+                "Fiction",
+                "Vacations",
+                "JUVENILE FICTION / Comics & Graphic Novels / General",
+                "Children's fiction",
+                "Family, fiction",
+                "Christmas, fiction",
+                "Diaries, fiction",
+                "Vacations, fiction",
+                "airplane",
+                "Diaries -- Juvenile fiction",
+                "Families -- Juvenile fiction",
+                "Vacations -- Juvenile fiction",
+                "Heffley, Greg -- Juvenile fiction"
+              ],
+              "isbn": [
+                "9780141385297",
+                "0141385294"
+              ],
+              "year": 2017,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL27383445M",
+              "fetchedAt": "2026-09-29T21:44:59.503Z",
+              "coverId": 10332154
+            },
+            {
+              "id": "OL36660032M",
+              "workId": "/works/OL8483260W",
+              "title": "Diary of a Wimpy Kid",
+              "authors": [
+                "Jeff Kinney"
+              ],
+              "category": "Children",
+              "subjects": [
+                "School stories",
+                "Families",
+                "Diaries",
+                "Middle schools",
+                "Family life",
+                "Fiction",
+                "Children's stories",
+                "Schools",
+                "Friendship",
+                "Juvenile fiction",
+                "Comics & Graphic Novels",
+                "Socialization",
+                "Interpersonal Relations",
+                "Child",
+                "Humorous fiction",
+                "Friends",
+                "Family",
+                "Humorous Stories"
+              ],
+              "isbn": [
+                "9780810993136",
+                "0810993139"
+              ],
+              "year": 2007,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL36660032M",
+              "fetchedAt": "2026-09-29T21:44:59.506Z",
+              "coverId": 14376136
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Teen reader",
+    "turns": [
+      {
+        "message": "young adult",
+        "latencyMs": 7484,
+        "response": {
+          "text": "Here are three in-stock Young adult picks. The cards show price and edition details.\n\n- A Good Girl's Guide to Murder: Deluxe Edition by Holly Jackson. Its catalogue subjects include cold cases, murder and detective stories, so it may suit you if you like mysteries.\n- Good Girl, Bad Blood by Holly Jackson. Its subjects list thrillers and suspense, crime, and contemporary romance.\n- Can We Be Strangers Again? by Shrijeet Shandilya. The catalogue only lists \"Young adult fiction\" for it, so I can't say more about the story.\n\nThese are demo listings, so prices and stock are fictional. If any of these are for a younger reader, I can't verify age suitability from the catalogue.\n\nWhat kind of story do you want: mystery and suspense, romance, or something else?",
+          "books": [
+            {
+              "id": "OL60608485M",
+              "workId": "/works/OL20646061W",
+              "title": "A Good Girl's Guide to Murder: Deluxe Edition",
+              "authors": [
+                "Holly Jackson"
+              ],
+              "category": "Young adult",
+              "subjects": [
+                "Cold cases (Criminal investigation)--Fiction.",
+                "Murder--Fiction.",
+                "Mystery and detective stories.",
+                "Children's fiction",
+                "Murder, fiction",
+                "Mystery and detective stories",
+                "Criminals, fiction",
+                "Young adult fiction, law & crime",
+                "Young adult fiction, social themes, prejudice & racism",
+                "Young adult fiction, thrillers & suspense",
+                "nyt:young-adult-hardcover=2020-02-23",
+                "New York Times bestseller",
+                "nyt:young-adult-paperback-monthly=2021-02-07",
+                "Young adult fiction, thrillers & suspense, general",
+                "series:A_Good_Girl's_Guide_to_Murder",
+                "Crime, fiction",
+                "Fiction, thrillers, crime",
+                "FICTION / Thrillers / Crime"
+              ],
+              "isbn": [
+                "9798217116775",
+                "9781984896391",
+                "1984896393"
+              ],
+              "year": 2019,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL60608485M",
+              "fetchedAt": "2026-09-29T21:45:02.894Z",
+              "coverId": 13156188
+            },
+            {
+              "id": "OL58549598M",
+              "workId": "/works/OL42975424W",
+              "title": "Can We Be Strangers Again?",
+              "authors": [
+                "Shrijeet Shandilya"
+              ],
+              "category": "Young adult",
+              "subjects": [
+                "Young adult fiction"
+              ],
+              "isbn": [
+                "9780143475927",
+                "0143475924"
+              ],
+              "year": 2024,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL58549598M",
+              "fetchedAt": "2026-09-29T21:45:02.892Z",
+              "coverId": 15073759
+            },
+            {
+              "id": "OL29471184M",
+              "workId": "/works/OL21084352W",
+              "title": "Good Girl, Bad Blood",
+              "authors": [
+                "Holly Jackson"
+              ],
+              "category": "Young adult",
+              "subjects": [
+                "Young adult fiction",
+                "thrillers & suspense",
+                "crime\"",
+                "Young adult fiction, law & crime",
+                "Young adult fiction, family, blended families",
+                "Young adult fiction, romance, contemporary",
+                "Young adult fiction, school & education, college & university",
+                "Young adult fiction, diversity & multicultural"
+              ],
+              "isbn": [
+                "9781405297752",
+                "1405297751"
+              ],
+              "year": 2020,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL29471184M",
+              "fetchedAt": "2026-09-29T21:45:02.894Z",
+              "coverId": 11466695
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Nonfiction reader",
+    "turns": [
+      {
+        "message": "history",
+        "latencyMs": 9140,
+        "response": {
+          "text": "Here are three History books that are in stock. The cards show price and stock. Prices and stock are fictional in this demo store.\n\n- a people's history of the united s­tates: its subjects cover United States history and civilization. It's a good fit if you want a broad look at one country's history.\n- Debt: its subjects include money, debt, and financial crises. It suits you if you're curious about how money has worked over time.\n- Capitalism / History / 20th and 21st century: this is Capitalism Realism's subject tag, so it may suit you if you want a shorter, politics-focused read. I haven't verified its length, so treat that as a guess.\n\nWhich period or region of history are you most drawn to?",
+          "books": [
+            {
+              "id": "OL61423016M",
+              "workId": "/works/OL50283W",
+              "title": "a people's history of the united states",
+              "authors": [
+                "Howard Zinn",
+                "Kathy Emery",
+                "Ellen Reeves",
+                "Matt Damon",
+                "Howard Zinn"
+              ],
+              "category": "History",
+              "subjects": [
+                "nyt:paperback_nonfiction=2010-05-16",
+                "New York Times bestseller",
+                "History",
+                "Historia",
+                "Civilización",
+                "História dos estados unidos",
+                "United states, history",
+                "United states, civilization",
+                "United States",
+                "Geschichte",
+                "Civilization",
+                "United states, history, 1865-",
+                "United states, history, sources",
+                "Civilisation",
+                "Histoire",
+                "Estados Unidos",
+                "United States -- History",
+                "Long Now Manual for Civilization"
+              ],
+              "isbn": [
+                "9780965607414",
+                "0965607410"
+              ],
+              "year": 1980,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+              "fetchedAt": "2026-09-29T21:45:08.993Z",
+              "coverId": 10592817
+            },
+            {
+              "id": "OL42732646M",
+              "workId": "/works/OL15683250W",
+              "title": "Capitalist Realism",
+              "authors": [
+                "Mark Fisher",
+                "MARK FISHER"
+              ],
+              "category": "History",
+              "subjects": [
+                "Accelerationism",
+                "Capitalism / History / 21st century",
+                "Postmoderne",
+                "Capitalism",
+                "Capitalism / History / 20th century",
+                "Politics",
+                "Kapitalisme",
+                "Alternatieven",
+                "Kapitalismus",
+                "Kultur",
+                "History",
+                "Popular culture",
+                "Capitalism--history",
+                "Capitalism--history--20th century",
+                "Capitalism--history--21st century",
+                "Hb501 .f573 2009",
+                "330.122"
+              ],
+              "isbn": [
+                "9781803414300",
+                "1803414308"
+              ],
+              "year": 2009,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+              "fetchedAt": "2026-09-29T21:45:08.993Z",
+              "coverId": 6707037
+            },
+            {
+              "id": "OL24088724M",
+              "workId": "/works/OL14909099W",
+              "title": "Debt",
+              "authors": [
+                "David Graeber"
+              ],
+              "category": "History",
+              "subjects": [
+                "Money",
+                "Debt",
+                "Financial crises",
+                "History",
+                "Financial crisis",
+                "Money, history",
+                "Pengar",
+                "Penningväsen",
+                "Finanskriser",
+                "Historia",
+                "Debt--history",
+                "Money--history",
+                "Financial crises--history",
+                "Hg3701 .g73 2014",
+                "332",
+                "Nonfiction",
+                "Economics",
+                "Business & Economics"
+              ],
+              "isbn": [
+                "9781933633862",
+                "1933633867"
+              ],
+              "year": 2011,
+              "format": "hardcover",
+              "priceCents": 2299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+              "fetchedAt": "2026-09-29T21:45:08.993Z",
+              "coverId": 6299464,
+              "pages": 534
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Exact title",
+    "turns": [
+      {
+        "message": "Meditations",
+        "latencyMs": 6874,
+        "response": {
+          "text": "We have two editions of Meditations by Marcus Aurelius in stock, and the cards show their details. Both are $12.99, with 5 copies each, and the format is unspecified for both.\n\n- The first edition is listed as 2006 and has ISBNs 9780140449334 and 0140449337. Its subjects are Philosophy and Classical philology.\n- The second edition is listed as 1626 and has no ISBN in the catalogue. Its subjects include Ancient Philosophy, Ethics, Conduct of life and Self-Help.\n\nThe catalogue doesn't say who translated either edition. If you need a particular translation or edition, for example for a course, I can't confirm that from this data.\n\nAre you reading it for yourself, for a class, or as a gift? That will help me point you to the better fit.",
+          "books": [
+            {
+              "id": "OL62588651M",
+              "workId": "/works/OL28521353W",
+              "title": "Meditations",
+              "authors": [
+                "Marcus Aurelius"
+              ],
+              "category": "Classics",
+              "subjects": [
+                "Philosophy",
+                "Classical philology"
+              ],
+              "isbn": [
+                "9780140449334",
+                "0140449337"
+              ],
+              "year": 2006,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL62588651M",
+              "fetchedAt": "2026-09-29T21:44:45.694Z",
+              "coverId": 13202688
+            },
+            {
+              "id": "OL37044614M",
+              "workId": "/works/OL1317211W",
+              "title": "Meditations",
+              "authors": [
+                "Marcus Aurelius"
+              ],
+              "category": "Classics",
+              "subjects": [
+                "Philosophy",
+                "Nonfiction",
+                "Classics",
+                "Self-Help",
+                "Ethics",
+                "Early works to 1800",
+                "Conduct of life",
+                "Ancient Philosophy",
+                "Stoics",
+                "Life"
+              ],
+              "isbn": [],
+              "year": 1626,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL37044614M",
+              "fetchedAt": "2026-09-29T21:44:45.694Z",
+              "coverId": 211529
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Exact ISBN",
+    "turns": [
+      {
+        "message": "9780140449334",
+        "latencyMs": 5308,
+        "response": {
+          "text": "I found an exact match for that ISBN (9780140449334): Meditations by Marcus Aurelius. It's a 2006 edition in the Classics category, and its format isn't specified in the catalogue. It's in stock, and the details card shows the current price and stock. This is a demo store, so no real payment or delivery happens.\n\nDo you want me to add it to your basket? Or I can suggest a couple of similar books if you're still browsing.",
+          "books": [
+            {
+              "id": "OL62588651M",
+              "workId": "/works/OL28521353W",
+              "title": "Meditations",
+              "authors": [
+                "Marcus Aurelius"
+              ],
+              "category": "Classics",
+              "subjects": [
+                "Philosophy",
+                "Classical philology"
+              ],
+              "isbn": [
+                "9780140449334",
+                "0140449337"
+              ],
+              "year": 2006,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL62588651M",
+              "fetchedAt": "2026-09-29T21:44:45.694Z",
+              "coverId": 13202688
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "No title match",
+    "turns": [
+      {
+        "message": "zzzznonexistentbookzzzz",
+        "latencyMs": 5138,
+        "response": {
+          "text": "I searched for that exact text and found no matches, so we don't have a book by that name.\n\nI can look for something else if you give me one of these:\n- A title or author you have in mind\n- A genre, such as Mystery, Fantasy or Classics\n- A topic or mood you like\n\nWhat kind of book are you in the mood for?",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Budget too low",
+    "turns": [
+      {
+        "message": "fantasy under $1",
+        "latencyMs": 9417,
+        "response": {
+          "text": "I couldn't find any Fantasy books at $1.00 or less in stock. That only rules out this budget. It doesn't mean the whole Fantasy category is empty.\n\nWould you like me to look at Fantasy books at a slightly higher price? If so, what's the most you'd want to spend per book? Prices here are fictional, since this is a demo store.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Price objection",
+    "turns": [
+      {
+        "message": "Give me a discount",
+        "latencyMs": 5331,
+        "response": {
+          "text": "I can't give discounts. Prices here are fixed, and this is a demo store, so no real payment happens. I can still help you find something that fits a budget.\n\nWhat's your budget, and what kind of book are you after? For example, Fantasy, Mystery, or Classics. If you give me a per-book limit, I'll search within it and only show books that are in stock.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Comparison",
+    "turns": [
+      {
+        "message": "mystery",
+        "latencyMs": 6489,
+        "response": {
+          "text": "Here are three in-stock mysteries, all by Agatha Christie. Prices and stock are fictional demo data, and the cards show the details.\n\n- At Bertram's Hotel (1965): a Jane Marple story set in a hotel. Its catalogue subjects include women detectives and older women.\n- Funerals are Fatal (1953): a Hercule Poirot mystery. The catalogue lists 214 pages.\n- Hallowe'en Party (1969): another Hercule Poirot mystery. Its subjects include murder and private investigators.\n\nDo you prefer Miss Marple or Hercule Poirot? Or would you like something other than classic detective stories?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "compare these books",
+        "latencyMs": 6929,
+        "response": {
+          "text": "Here is how the three compare, using the catalogue data. The cards show the full details.\n\n- Price and stock: All three cost $12.99 and have 5 in stock. This is fictional demo data. The format is unspecified for all three.\n- At Bertram's Hotel (1965): Jane Marple is the detective. Its subjects include hotels, women detectives and older women. No page count is listed.\n- Funerals are Fatal (1953): Hercule Poirot is the detective. Its subjects include private investigators and England. It is the only one with a page count, at 214 pages.\n- Hallowe'en Party (1969): Hercule Poirot is the detective. Its subjects include murder and senior detectives. It is the only one with an ISBN listed. No page count is listed.\n\nI can't compare length, because only one book has a page count. The catalogue doesn't tell me about tone or pacing either.\n\nMy suggestion is based on the detective, not on any verified detail. If you want to try Miss Marple, pick At Bertram's Hotel. If you want Poirot, pick either of the other two.\n\nWhich detective appeals to you more?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Preference memory and rejection",
+    "turns": [
+      {
+        "message": "mystery under $15",
+        "latencyMs": 8333,
+        "response": {
+          "text": "Here are three in-stock mysteries under $15. The cards show price and stock. This is a demo store, so there's no real payment or delivery.\n\n- At Bertram's Hotel by Agatha Christie. Its subjects list Jane Marple and a hotel setting, so it may suit you if you like a classic amateur-detective story.\n- Funerals are Fatal by Agatha Christie. Its subjects list Hercule Poirot, and the record gives 214 pages.\n- Hallowe'en Party by Agatha Christie. Its subjects list Hercule Poirot and murder.\n\nAll three are Christie, and the catalogue doesn't specify their formats. Do you prefer Marple or Poirot, or would you like something other than classic Christie-style detective fiction?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "different books please",
+        "latencyMs": 10051,
+        "response": {
+          "text": "Here are three different in-stock mysteries, all under $15. The cards show price and stock. This is a demo store, so there's no real payment or delivery.\n\n- Never Lie by Freida McFadden. Its subjects list thriller, psychological thriller and suspense. If you want something more contemporary than Christie, this is the one to try.\n- Peril at End House by Agatha Christie. Its subjects list private investigators and detective stories. It's a classic option if you still like that style.\n- The Big Four (Hercule Poirot Mysteries) by Agatha Christie. Its subjects list Hercule Poirot. The subjects also mention translations, which are work-level metadata, so I can't confirm this edition's language.\n\nNone of the records specify a format. Would you rather have modern psychological suspense or classic detective stories?",
+          "books": [
+            {
+              "id": "OL50648604M",
+              "workId": "/works/OL34224558W",
+              "title": "Never Lie",
+              "authors": [
+                "Freida McFadden"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Thriller",
+                "Mystery",
+                "Mystery Thriller",
+                "Fiction",
+                "Suspense",
+                "Crime",
+                "Psychological Thriller",
+                "Contemporary"
+              ],
+              "isbn": [
+                "9781464221361",
+                "1464221367"
+              ],
+              "year": 2022,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL50648604M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 13198561
+            },
+            {
+              "id": "OL26379432M",
+              "workId": "/works/OL472165W",
+              "title": "Peril at End House",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "English Detective and mystery stories",
+                "Fiction",
+                "Mystery",
+                "Private investigators",
+                "Detective and mystery stories",
+                "English literature",
+                "English language",
+                "Fiction, mystery & detective, general",
+                "Private investigators, fiction",
+                "Poirot, hercule (fictitious character), fiction",
+                "Fiction, mystery & detective, traditional",
+                "Detectives",
+                "Crime",
+                "Classics",
+                "Mystery Thriller",
+                "Detective",
+                "Murder Mystery",
+                "Thriller"
+              ],
+              "isbn": [
+                "0671428535",
+                "9780671428532"
+              ],
+              "year": 1932,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL26379432M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996556
+            },
+            {
+              "id": "OL58597951M",
+              "workId": "/works/OL471947W",
+              "title": "The Big Four (Hercule Poirot Mysteries)",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Private investigators",
+                "Large type books",
+                "Hercule Poirot (Fictitious character)",
+                "Translations into Arabic",
+                "English Detective and mystery stories",
+                "English literature",
+                "Fiction, mystery & detective",
+                "Poirot, hercule (fictitious character), fiction",
+                "Private investigators, fiction",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Détectives",
+                "Romans, nouvelles",
+                "Crime",
+                "Fiction, thrillers, espionage",
+                "Comic books, strips"
+              ],
+              "isbn": [],
+              "year": 1927,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL58597951M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996529
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Unavailable edition",
+    "turns": [
+      {
+        "message": "The lies of Locke Lamora",
+        "latencyMs": 9855,
+        "response": {
+          "text": "We carry The lies of Locke Lamora by Scott Lynch, but the catalogue shows 0 copies in stock right now. That means I can't add it to your basket. This is a demo store, so prices and stock are fictional. The format is unspecified.\n\nI found a few in-stock fantasy books that share an assassin or epic-fantasy tag in their catalogue subjects. I'm going only by that metadata, not by whether the tone or plot is similar.\n- Blood of Elves by Andrzej Sapkowski (subjects include Assassins and epic fantasy)\n- The Assassin’s Blade by Sarah J. Maas (subjects include Female assassins in fiction and dark fantasy)\n- Lord of Chaos by Robert Jordan (subjects include epic fantasy)\n\nWhat did you want from Locke Lamora: the heist and con-artist side, or the wider fantasy adventure? Your answer will help me narrow these down.",
+          "books": [
+            {
+              "id": "OL24255147M",
+              "workId": "/works/OL2577486W",
+              "title": "Blood of Elves",
+              "authors": [
+                "Andrzej Sapkowski"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fantasy",
+                "Fiction",
+                "Fiction, fantasy, general",
+                "Science fiction, fantasy, horror",
+                "Assassins",
+                "Polish Fantasy fiction",
+                "Fiction, fantasy, epic",
+                "Vampires, fiction",
+                "nyt:trade-fiction-paperback=2022-01-09",
+                "New York Times bestseller",
+                "Fiction, fantasy, dragons & mythical creatures",
+                "Fiction, fantasy, paranormal"
+              ],
+              "isbn": [
+                "9780316073714",
+                "0316073717"
+              ],
+              "year": 1994,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 8457619
+            },
+            {
+              "id": "OL1105059M",
+              "workId": "/works/OL7924208W",
+              "title": "Lord of Chaos",
+              "authors": [
+                "Robert Jordan"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fantasy fiction",
+                "Rand al'Thor (Fictitious character)",
+                "Fiction",
+                "Fantasy",
+                "Fiction, fantasy, epic",
+                "Rand al'thor (fictitious character), fiction",
+                "American Fantasy fiction",
+                "Dragons",
+                "Fiction, fantasy, general",
+                "American literature"
+              ],
+              "isbn": [
+                "0312854285",
+                "9780312854287"
+              ],
+              "year": 1994,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 182398
+            },
+            {
+              "id": "OL27172409M",
+              "workId": "/works/OL17546674W",
+              "title": "The Assassin’s Blade",
+              "authors": [
+                "Sarah J. Maas"
+              ],
+              "category": "Fantasy",
+              "subjects": [
+                "Fiction, fantasy, collections & anthologies",
+                "Female assassins in fiction",
+                "Young adult fiction, fantasy, dark fantasy",
+                "[series:Throne_of_Glass]",
+                "Fantasy",
+                "Assassins",
+                "Fiction"
+              ],
+              "isbn": [
+                "9781619633612",
+                "1619633612"
+              ],
+              "year": 2014,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+              "fetchedAt": "2026-09-29T21:44:48.118Z",
+              "coverId": 7794980
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Cart changes",
+    "turns": [
+      {
+        "message": "mystery",
+        "latencyMs": 6483,
+        "response": {
+          "text": "Here are three in-stock mysteries, all by Agatha Christie. Details and prices are on the cards.\n\n- At Bertram's Hotel: a Jane Marple story set in a hotel. The catalogue tags it with women detectives and older women.\n- Funerals are Fatal: a Hercule Poirot mystery. The catalogue lists it at 214 pages.\n- Hallowe'en Party: another Hercule Poirot book. Its catalogue subjects include murder and private investigators.\n\nThis is a demo store, so prices and stock are fictional and no real payment or delivery happens.\n\nDo you prefer Miss Marple or Poirot, or would you like something that isn't Christie?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "add the first one",
+        "latencyMs": 6198,
+        "response": {
+          "text": "I added At Bertram's Hotel to your basket. The basket total is $12.99 for 1 item. This is a demo store, so no real payment is taken.\n\nWould you like to keep browsing, or check out? If you check out, I'll prepare a quote first. You then confirm it yourself.",
+          "books": [],
+          "cart": {
+            "lines": [
+              {
+                "book": {
+                  "id": "OL51009206M",
+                  "workId": "/works/OL265415W",
+                  "title": "At Bertram's Hotel",
+                  "authors": [
+                    "Agatha Christie"
+                  ],
+                  "category": "Mystery",
+                  "subjects": [
+                    "Fiction",
+                    "Jane Marple (Fictitious character)",
+                    "Women detectives",
+                    "Older women",
+                    "History",
+                    "Hotels",
+                    "Mystery",
+                    "Detective and mystery stories",
+                    "Mystery fiction",
+                    "Marple, Jane (Fictitious character)",
+                    "Fiction, mystery & detective, traditional",
+                    "Marple, jane (fictitious character), fiction",
+                    "Fiction, mystery & detective, women sleuths",
+                    "England, fiction",
+                    "English literature",
+                    "Fiction, mystery & detective, general"
+                  ],
+                  "isbn": [],
+                  "year": 1965,
+                  "format": "unspecified",
+                  "priceCents": 1299,
+                  "stock": 5,
+                  "stocked": true,
+                  "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+                  "fetchedAt": "2026-09-29T21:44:50.729Z",
+                  "coverId": 6379981
+                },
+                "quantity": 1,
+                "subtotalCents": 1299
+              }
+            ],
+            "totalCents": 1299,
+            "count": 1,
+            "currency": "USD",
+            "version": 1
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "remove the first one",
+        "latencyMs": 5951,
+        "response": {
+          "text": "I removed At Bertram's Hotel, so your basket is empty and the total is $0.00.\n\nWould you like to look at Funerals are Fatal or Hallowe'en Party instead? Or I can look for something that isn't Christie.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 2
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "Complete conversational sale",
+    "turns": [
+      {
+        "message": "mystery",
+        "latencyMs": 6391,
+        "response": {
+          "text": "Here are three mysteries we have in stock. All three are by Agatha Christie, and the cards show price and stock. This is a demo store, so prices and stock are fictional.\n\n- At Bertram's Hotel (1965): a Jane Marple story set in a hotel. Pick this if you like an older woman detective.\n- Funerals are Fatal (1953): a Hercule Poirot story, with 214 pages listed.\n- Hallowe'en Party (1969): another Hercule Poirot story, tagged in the catalogue with murder mystery and private investigators.\n\nDo you prefer Miss Marple or Hercule Poirot? Or would you like something different, such as a different author or style?",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            },
+            {
+              "id": "OL46971624M",
+              "workId": "/works/OL471943W",
+              "title": "Funerals are Fatal",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Hercule Poirot (Fictitious character)",
+                "Private investigators",
+                "Belgians",
+                "Mystery and detective stories",
+                "England, fiction",
+                "Fiction, mystery & detective, traditional",
+                "Private investigators, fiction",
+                "Belgium, fiction",
+                "Fiction, mystery & detective, general",
+                "Fiction, crime",
+                "English literature",
+                "Détectives",
+                "Romans, nouvelles",
+                "Murder",
+                "Investigation",
+                "Detectives"
+              ],
+              "isbn": [],
+              "year": 1953,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL46971624M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 12996535,
+              "pages": 214
+            },
+            {
+              "id": "OL7666500M",
+              "workId": "/works/OL471832W",
+              "title": "Hallowe'en Party",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Mystery",
+                "Murder",
+                "Murder Mystery",
+                "Private investigators",
+                "Private investigators in fiction",
+                "Hercule Poirot (Fictitious character)",
+                "Senior detectives",
+                "Drowning victims",
+                "Murder investigations",
+                "Halloween",
+                "Belgian detectives",
+                "Mystery fiction",
+                "Parties",
+                "Detective and mystery stories",
+                "Detectives",
+                "Large type books",
+                "Ariadne Oliver (Fictitious character)"
+              ],
+              "isbn": [
+                "9780671830731",
+                "0671830732"
+              ],
+              "year": 1969,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL7666500M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 11160095
+            }
+          ],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 0
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "add the first one",
+        "latencyMs": 4998,
+        "response": {
+          "text": "I've added At Bertram's Hotel to your basket. The total is $12.99. This is a demo store, so nothing is actually charged or shipped.\n\nWould you like to look at another mystery, or check out with this one?",
+          "books": [],
+          "cart": {
+            "lines": [
+              {
+                "book": {
+                  "id": "OL51009206M",
+                  "workId": "/works/OL265415W",
+                  "title": "At Bertram's Hotel",
+                  "authors": [
+                    "Agatha Christie"
+                  ],
+                  "category": "Mystery",
+                  "subjects": [
+                    "Fiction",
+                    "Jane Marple (Fictitious character)",
+                    "Women detectives",
+                    "Older women",
+                    "History",
+                    "Hotels",
+                    "Mystery",
+                    "Detective and mystery stories",
+                    "Mystery fiction",
+                    "Marple, Jane (Fictitious character)",
+                    "Fiction, mystery & detective, traditional",
+                    "Marple, jane (fictitious character), fiction",
+                    "Fiction, mystery & detective, women sleuths",
+                    "England, fiction",
+                    "English literature",
+                    "Fiction, mystery & detective, general"
+                  ],
+                  "isbn": [],
+                  "year": 1965,
+                  "format": "unspecified",
+                  "priceCents": 1299,
+                  "stock": 5,
+                  "stocked": true,
+                  "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+                  "fetchedAt": "2026-09-29T21:44:50.729Z",
+                  "coverId": 6379981
+                },
+                "quantity": 1,
+                "subtotalCents": 1299
+              }
+            ],
+            "totalCents": 1299,
+            "count": 1,
+            "currency": "USD",
+            "version": 1
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "checkout",
+        "latencyMs": 5125,
+        "response": {
+          "text": "Your demo checkout quote is ready:\n\n- At Bertram's Hotel by Agatha Christie, quantity 1, $12.99\n- Total: $12.99\n\nThis is a demo, so no payment will be taken and nothing will ship. The quote hasn't placed an order yet. To place the demo order, press Confirm demo order or type exactly: confirm order",
+          "books": [],
+          "quote": {
+            "id": "bfdd54fa-60a4-462b-b80b-531109d3be5f",
+            "cart": {
+              "lines": [
+                {
+                  "book": {
+                    "id": "OL51009206M",
+                    "workId": "/works/OL265415W",
+                    "title": "At Bertram's Hotel",
+                    "authors": [
+                      "Agatha Christie"
+                    ],
+                    "category": "Mystery",
+                    "subjects": [
+                      "Fiction",
+                      "Jane Marple (Fictitious character)",
+                      "Women detectives",
+                      "Older women",
+                      "History",
+                      "Hotels",
+                      "Mystery",
+                      "Detective and mystery stories",
+                      "Mystery fiction",
+                      "Marple, Jane (Fictitious character)",
+                      "Fiction, mystery & detective, traditional",
+                      "Marple, jane (fictitious character), fiction",
+                      "Fiction, mystery & detective, women sleuths",
+                      "England, fiction",
+                      "English literature",
+                      "Fiction, mystery & detective, general"
+                    ],
+                    "isbn": [],
+                    "year": 1965,
+                    "format": "unspecified",
+                    "priceCents": 1299,
+                    "stock": 5,
+                    "stocked": true,
+                    "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+                    "fetchedAt": "2026-09-29T21:44:50.729Z",
+                    "coverId": 6379981
+                  },
+                  "quantity": 1,
+                  "subtotalCents": 1299
+                }
+              ],
+              "totalCents": 1299,
+              "count": 1,
+              "currency": "USD",
+              "version": 1
+            },
+            "expiresAt": "2026-09-29T22:55:21.264Z",
+            "label": "Demo quote — no payment will be taken"
+          },
+          "cart": {
+            "lines": [
+              {
+                "book": {
+                  "id": "OL51009206M",
+                  "workId": "/works/OL265415W",
+                  "title": "At Bertram's Hotel",
+                  "authors": [
+                    "Agatha Christie"
+                  ],
+                  "category": "Mystery",
+                  "subjects": [
+                    "Fiction",
+                    "Jane Marple (Fictitious character)",
+                    "Women detectives",
+                    "Older women",
+                    "History",
+                    "Hotels",
+                    "Mystery",
+                    "Detective and mystery stories",
+                    "Mystery fiction",
+                    "Marple, Jane (Fictitious character)",
+                    "Fiction, mystery & detective, traditional",
+                    "Marple, jane (fictitious character), fiction",
+                    "Fiction, mystery & detective, women sleuths",
+                    "England, fiction",
+                    "English literature",
+                    "Fiction, mystery & detective, general"
+                  ],
+                  "isbn": [],
+                  "year": 1965,
+                  "format": "unspecified",
+                  "priceCents": 1299,
+                  "stock": 5,
+                  "stocked": true,
+                  "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+                  "fetchedAt": "2026-09-29T21:44:50.729Z",
+                  "coverId": 6379981
+                },
+                "quantity": 1,
+                "subtotalCents": 1299
+              }
+            ],
+            "totalCents": 1299,
+            "count": 1,
+            "currency": "USD",
+            "version": 1
+          },
+          "mode": "ai"
+        }
+      },
+      {
+        "message": "confirm order",
+        "latencyMs": 1891,
+        "response": {
+          "text": "Your demo order is confirmed for $12.99. No payment was taken.",
+          "books": [],
+          "cart": {
+            "lines": [],
+            "totalCents": 0,
+            "count": 0,
+            "currency": "USD",
+            "version": 2
+          },
+          "order": {
+            "id": "DEMO-224ebc2e-39b7-419a-bd34-0222de3fde48",
+            "quoteId": "bfdd54fa-60a4-462b-b80b-531109d3be5f",
+            "cart": {
+              "lines": [
+                {
+                  "book": {
+                    "id": "OL51009206M",
+                    "workId": "/works/OL265415W",
+                    "title": "At Bertram's Hotel",
+                    "authors": [
+                      "Agatha Christie"
+                    ],
+                    "category": "Mystery",
+                    "subjects": [
+                      "Fiction",
+                      "Jane Marple (Fictitious character)",
+                      "Women detectives",
+                      "Older women",
+                      "History",
+                      "Hotels",
+                      "Mystery",
+                      "Detective and mystery stories",
+                      "Mystery fiction",
+                      "Marple, Jane (Fictitious character)",
+                      "Fiction, mystery & detective, traditional",
+                      "Marple, jane (fictitious character), fiction",
+                      "Fiction, mystery & detective, women sleuths",
+                      "England, fiction",
+                      "English literature",
+                      "Fiction, mystery & detective, general"
+                    ],
+                    "isbn": [],
+                    "year": 1965,
+                    "format": "unspecified",
+                    "priceCents": 1299,
+                    "stock": 5,
+                    "stocked": true,
+                    "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+                    "fetchedAt": "2026-09-29T21:44:50.729Z",
+                    "coverId": 6379981
+                  },
+                  "quantity": 1,
+                  "subtotalCents": 1299
+                }
+              ],
+              "totalCents": 1299,
+              "count": 1,
+              "currency": "USD",
+              "version": 1
+            },
+            "createdAt": "2026-09-29T22:45:30.644Z",
+            "label": "Demo order — no payment taken"
+          },
+          "mode": "ai"
+        }
+      }
+    ]
+  }
+]

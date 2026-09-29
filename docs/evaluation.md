@@ -12,33 +12,33 @@ Browser tests initially found an unnamed icon-only mobile basket control; this w
 
 See `release-status.md` for final counts. Source, integration and browser tests verify application behaviour; mocked model responses do not establish live conversational quality.
 
-## Still required for live release
+## Live verification
 
-No Anthropic key was available during implementation. Therefore there are **no live LLM evaluation results**, no measured live token costs and no validated warm AI latency/concurrency result. PostgreSQL cloud connectivity and Render deployment also require the owner’s accounts.
+The funded `claude-sonnet-5-5` integration was exercised against the shared Neon database. The 20-scenario suite covers greeting, undecided readers, gifts, categories, children, exact titles/ISBNs, missing titles, budget constraints, objections, comparisons, rejected suggestions, unavailable stock, cart edits and explicit checkout. Results are in `evaluation-live.json`; synthetic conversations and actual per-turn timings are in `evaluation-live-transcripts.json`. Scenario-level timing includes deliberate rate-limit pacing and must not be interpreted as response latency.
 
-With the AI-mode server running and provider cap configured:
+Transcript review found that the first passing run still made unsupported page-length comparisons and mistook a persistent budget filter for an empty category. Search tools now expose their effective filters, and the prompt explicitly forbids those inferences, asks for age-suitability uncertainty and exact titles, and avoids reciting every category. The final report is from the subsequent run: **20/20 automated scenarios passed**. Review confirmed correct budget-filter wording, explicit unverified age suitability, and an honest page-count comparison. Remaining quality exceptions: the History response altered “Capitalist Realism” and guessed that it was shorter; the unavailable-title response still referenced narrative features beyond the returned tags. These two scenarios are not counted as clean factual-grounding passes (18/20 in this engineering review). Structured cards retain authoritative titles, prices and stock. No fabricated price, stock or successful-order claim was observed in the reviewed final suite. This is an engineering review of synthetic scenarios, not an independent literary-quality assessment or a guarantee against hallucinations.
+
+Reproduce against an AI-mode server:
 
 ```sh
-npm run eval -- --live
+EVAL_BASE_URL=http://localhost:3000 npm run eval -- --live
+EVAL_BASE_URL=https://bookshop-assistant.onrender.com npm run eval:performance
 ```
 
-Use `EVAL_BASE_URL` to target the public deployment. The script verifies AI mode before proceeding, spaces requests to respect limits and uses the running server’s shared budget ledger. It writes `evaluation-live.json`. This is a paid run under the application/provider cap; stop rather than raising the cap automatically.
+Both commands consume the running server's shared allowance. Do not increase the cap automatically. The public UI was checked separately through add-to-basket → review quote → explicit confirmation → receipt, including its production session cookie and origin protections.
 
-The automated rubric checks observable actions/cards, not literary judgement. Review the transcripts separately against:
+## Performance evidence
 
-1. Did the agent ask useful questions without interrogating the customer?
-2. Were recommendations grounded in available facts and the visitor’s constraints?
-3. Were uncertain age suitability, edition compatibility and missing descriptions acknowledged?
-4. Were there any unsupported claims about prices, availability, content or successful orders?
-5. Did the agent handle refusals, rejection and budget changes respectfully?
-6. Did every successful order have an explicit user confirmation and backend receipt?
+`performance-live.json` records thirty live turns across three concurrent, isolated visitor sessions on the public free Render service. Batches are paced to respect 12 chat requests per minute per IP. Timings measure the entire HTTP response, exclude pacing delays, and use nearest-rank percentiles over successful turns. The final run completed 30/30 with zero errors, p50 4.628 seconds and p95 8.366 seconds, under the 15-second target. `performance-initial.json` retains the earlier run (p95 10.365 seconds). Both reports identify the tested code commit and model.
 
-Target at least 18/20 live scenarios passing and zero fabricated commerce facts. Budget exhaustion is a failed/incomplete evaluation, not a pass.
+These are warm-service measurements. Free-host cold starts were not benchmarked and can be substantially slower. This small workload establishes prototype feasibility, not a production throughput or availability guarantee.
 
-## Performance procedure
-
-After warming the service, run thirty ordinary chat turns distributed across three isolated sessions, respecting the public rate limit. Measure request start to final structured result, error rate, provider token usage and reservation/spend totals. Report p50/p95 and model/version. Target p95 ≤15 seconds; report any miss rather than increasing resources silently. Measure cold starts separately and do not mix them into warm latency.
+The $10 cumulative application ledger is shared by local AI verification and the public service. It persists through deployments. The owner configured a separate $20 monthly Anthropic workspace cap with auto-reload disabled. The application stops further model calls at its lower allowance; browsing and manual demo checkout remain usable.
 
 ## Known limitations
 
 The deterministic offline mode understands a small set of demo intents. It is not a general language model. Keyword search can miss vague or unusually phrased requests. Metadata is sparse and occasionally noisy; recommendations cannot responsibly supply unsupported plot/age claims. The single-instance session lock and in-memory IP throttling are prototype constraints. The public $10 allowance can be exhausted by visitors; provider caps remain necessary.
+
+## Verification budget snapshot
+
+At completion of paid verification, the shared ledger recorded **$2.338110 spent/accounted**, **$0 reserved**, and **$7.661890 remaining** from the $10 allowance. Public use after this snapshot changes the remaining amount. This includes both scenario runs, both concurrency runs and smoke tests.

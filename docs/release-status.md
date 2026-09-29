@@ -1,26 +1,33 @@
 # Release status
 
-Updated 30 September 2026.
+Updated 30 September 2026 (Asia/Qatar).
 
-| Deliverable                             | Status                                                                       |
-| --------------------------------------- | ---------------------------------------------------------------------------- |
-| Working local application               | Implemented; `npm run build && npm start`                                    |
-| Real book metadata                      | 97 Open Library editions with provenance                                     |
-| Conversational AI integration           | Implemented; provider boundary tested with mocks; funded live test pending   |
-| Offline demonstration                   | Working and visibly labelled; 20/20 scenario checks passed                   |
-| Commerce and API tests                  | 32/32 passed, including restart persistence and concurrent confirmations     |
-| Desktop/mobile browser tests            | 8/8 passed                                                                   |
-| Responsive UI                           | Implemented directly; Claude Code CLI was unavailable                        |
-| Requirements/architecture/API docs      | Included                                                                     |
-| GitHub destination                      | Published and verified: https://github.com/omarcoding2002/bookshop-assistant |
-| Public Render demo                      | Not deployed; account authorization/database/model setup pending             |
-| Dependency audit                        | Zero known vulnerabilities reported after patch updates                      |
-| Live quality and performance acceptance | Pending funded model access; not represented by offline tests                |
+- **Live demo:** https://bookshop-assistant.onrender.com
+- **Repository:** https://github.com/omarcoding2002/bookshop-assistant
+- **Requirements and diagram:** [requirements.md](requirements.md)
 
-## Account actions needed to finish publication
+| Deliverable                   | Status                                                                                    |
+| ----------------------------- | ----------------------------------------------------------------------------------------- |
+| Conversational AI             | Funded Claude Sonnet 5.5 integration verified                                             |
+| Real book metadata            | 97 Open Library editions with provenance                                                  |
+| Public hosting                | Render free web service, Frankfurt; Neon PostgreSQL, Frankfurt                            |
+| Commerce                      | Conversational basket/quote and explicit simulated order confirmation                     |
+| Public UI purchase            | Browser verified quote, confirmation, itemized receipt and $12.99 demo total              |
+| Backend checks                | 32 passing tests and successful production build                                          |
+| Desktop/mobile checks         | 8 passing Chromium browser tests in CI                                                    |
+| Offline evaluation            | 20/20 guided scenarios passed                                                             |
+| Live evaluation               | 20/20 automated checks; 18/20 clean grounding review; two prose limitations documented    |
+| Concurrency/latency           | 30/30 public live turns, three visitors; p50 4.628 s, p95 8.366 s                         |
+| Continuous delivery           | GitHub Actions checks gate Render deployments from main                                   |
+| Requirements/architecture/API | Included with setup, data/price decisions and UI handoff                                  |
+| Secrets                       | Loaded privately into service environment; no credential values found in Git history scan |
 
-- Complete/approve Render’s GitHub authorization and repository connection. The browser reached an authorization page requesting identity verification, knowledge of accessible resources, acting on the account’s behalf and read access to email addresses; it was not approved automatically.
-- Provide a Neon `DATABASE_URL` and an Anthropic `ANTHROPIC_API_KEY` through the local environment/Render secrets, with a dedicated $10 capped workspace.
-- If Claude Code specifically must perform the UI phase, install/authenticate it; the existing UI and handoff are ready.
+No further account setup is needed to use this release. Claude Code is optional for later UI changes; the current UI is implemented and tested.
 
-Once those are available, apply the Render blueprint to the published repository, run live evaluation and the public purchase smoke test, then record the confirmed public URL here. No public-demo URL should be invented from the intended service name.
+## Cost and operating limits
+
+The app enforces a **$10 cumulative model allowance**, stored in Neon and shared by verification and public visitors. The owner's separate Anthropic workspace has a $20 monthly cap and auto-reload disabled. Do not reset the database budget or raise either limit without owner authorization. Verification used $2.338110, leaving $7.661890 at the release snapshot. Recorded usage is an application estimate based on provider token counts and configured rates, not a billing invoice; uncertain failures consume conservative reservations.
+
+Both hosting services remain on free plans. Cold starts can delay the first visit. This is an English/USD prototype with fictional prices/stock and no payment or fulfilment. Optional online catalogue searches are disabled; all 97 seeded records retain Open Library provenance. The public can consume the remaining model allowance; once exhausted, manual browsing and demo checkout remain available.
+
+See [evaluation.md](evaluation.md) for test methodology, reviewed quality issues and limitations.

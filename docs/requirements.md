@@ -6,7 +6,7 @@ Version 1.0 · 30 September 2026 · Prototype
 
 Provide an English-speaking conversational sales assistant for a fictional USD bookstore. Help a visitor discover suitable books and complete a simulated purchase with informed, explicit confirmation. The agent should behave like a helpful bookseller: curious, concise, respectful of budget and unpressured.
 
-Success requires a runnable Git repository, a public browser demo, reproducible setup, source-backed recommendations, deterministic commerce, and documented evaluation. Local completion and public deployment are separate release gates. See `release-status.md` for evidence and outstanding external dependencies.
+Success requires a runnable Git repository, a public browser demo, reproducible setup, source-backed recommendations, deterministic commerce, and documented evaluation. Local completion and public deployment are separate release gates. See `release-status.md` for verified release evidence.
 
 ## Audience and user stories
 
@@ -54,7 +54,7 @@ Success requires a runnable Git repository, a public browser demo, reproducible 
 | NFR-04 | Rate control        | 90 requests/minute/IP globally; 12 chat requests and 10 session creations/minute/IP. Same-session writes cannot overlap in the single-instance deployment.     |
 | NFR-05 | Data lifetime       | Expire anonymous sessions, related quotes and orders after seven days; hourly/startup purge. Reset deletes immediately. No raw chat in server logs.            |
 | NFR-06 | Usability           | Keyboard-labelled controls and native accessible dialogs; no horizontal page overflow at tested desktop/mobile sizes; visible errors and loading state.        |
-| NFR-07 | Performance         | Target 95% of warm AI turns under 15 seconds with three concurrent visitors. This is an unverified target until funded live testing, not a claimed result.     |
+| NFR-07 | Performance         | Target 95% of warm AI turns under 15 seconds with three concurrent visitors. Measured live results and workload are recorded in evaluation.md.                 |
 | NFR-08 | Reproducibility     | Committed lockfile, seed and schema; `npm ci`, build and start work without external credentials in offline mode.                                              |
 | NFR-09 | Failure containment | Missing database blocks production startup; model/source errors do not fabricate an answer or erase the basket.                                                |
 | NFR-10 | Observability       | Structured request/latency logs and budget ledger; retain error codes rather than credentials or raw conversations.                                            |
@@ -100,4 +100,4 @@ The model has no order-creation tool. See `architecture.md` for interfaces, tran
 4. Public URL serves the UI; health verifies database; a real AI conversation and confirmed demo purchase succeed on that URL.
 5. README, source/price decision, architecture, requirements and evidence are committed to the repository.
 
-Items 3 and 4 remain gated on the external accounts. Do not mark them passed based on mocked provider tests or offline scenarios.
+Live evaluation and public deployment evidence are recorded in `evaluation.md` and `release-status.md`. Automated scenario passes are supplemented by transcript review; they are not a guarantee of correctness for every future model response.

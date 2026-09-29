@@ -2,7 +2,9 @@
 
 A conversational bookstore prototype: discover a reader’s preferences, find real books, compare editions, build a basket, and explicitly confirm a **simulated** order.
 
-**Status:** implemented, tested locally and published to GitHub. A public Render deployment and real-model evaluation require account access; do not confuse the guided offline mode with live AI. The implementation includes a ready-to-use React UI; Claude Code was not installed during this build, so its separate handoff brief is included.
+**Live demo:** [Between the Lines](https://bookshop-assistant.onrender.com) · **Repository:** [GitHub](https://github.com/omarcoding2002/bookshop-assistant).
+
+Live Claude conversations, Neon persistence and simulated checkout are deployed on Render's free Frankfurt service. See [release evidence](docs/release-status.md). The React UI is included; a Claude Code handoff brief supports later refinements.
 
 ![Desktop demo](docs/screenshots/desktop.png)
 
@@ -31,7 +33,7 @@ The visible **Offline demo** label means responses are deterministic guided inte
 
 ## Enable live AI
 
-Use a dedicated Anthropic workspace with a funded API key, a US$10 spending limit and automatic replenishment disabled. The application does not fund accounts. Configure:
+Use a dedicated Anthropic workspace with a funded API key and automatic replenishment disabled. This deployment has an owner-configured $20 monthly provider cap and a stricter $10 cumulative application allowance. Keep both safeguards; the application allowance does not reset monthly. The application does not fund accounts. Configure:
 
 ```dotenv
 ANTHROPIC_API_KEY=your-secret-key
@@ -61,25 +63,28 @@ Refresh is an explicit maintenance operation, not a startup task. Source coverag
 
 ## Commands
 
-| Command                  | Purpose                                                                              |
-| ------------------------ | ------------------------------------------------------------------------------------ |
-| `npm run build`          | Type-check the whole project and build the UI                                        |
-| `npm start`              | Run the production-style server locally                                              |
-| `npm run dev`            | Watch the backend                                                                    |
-| `npm run dev:ui`         | Vite UI development server; set `PUBLIC_ORIGIN=http://localhost:5173` on the backend |
-| `npm test`               | Backend, commerce, provider-boundary and security regression tests                   |
-| `npm run test:e2e`       | Desktop and mobile browser journeys; local Google Chrome is used                     |
-| `npm run eval`           | 20 deterministic offline customer scenarios; no paid calls                           |
-| `npm run eval -- --live` | Evaluate a running AI-mode server; consumes its capped API allowance                 |
-| `npm run check`          | Build and backend tests                                                              |
-| `npm run format`         | Format source, tests and documentation                                               |
-| `npm run openapi`        | Regenerate the checked-in API contract                                               |
+| Command                    | Purpose                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| `npm run build`            | Type-check the whole project and build the UI                                        |
+| `npm start`                | Run the production-style server locally                                              |
+| `npm run dev`              | Watch the backend                                                                    |
+| `npm run dev:ui`           | Vite UI development server; set `PUBLIC_ORIGIN=http://localhost:5173` on the backend |
+| `npm test`                 | Backend, commerce, provider-boundary and security regression tests                   |
+| `npm run test:e2e`         | Desktop and mobile browser journeys; local Google Chrome is used                     |
+| `npm run eval`             | 20 deterministic offline customer scenarios; no paid calls                           |
+| `npm run eval -- --live`   | Evaluate a running AI-mode server; consumes its capped API allowance                 |
+| `npm run eval:performance` | Measure 30 live turns with three concurrent visitors; requires `EVAL_BASE_URL`       |
+| `npm run check`            | Build and backend tests                                                              |
+| `npm run format`           | Format source, tests and documentation                                               |
+| `npm run openapi`          | Regenerate the checked-in API contract                                               |
 
 For browser tests on a machine without Google Chrome, install Playwright Chromium with `npx playwright install chromium` and run with `PLAYWRIGHT_CHROMIUM=true npm run test:e2e`. CI uses bundled Chromium. Browser tests deliberately block remote covers to verify the built-in cover fallback and avoid a third-party dependency.
 
 ## Public deployment
 
-The published repository is [omarcoding2002/bookshop-assistant](https://github.com/omarcoding2002/bookshop-assistant). The Render blueprint is included and ready to connect to that repository.
+The published repository is [omarcoding2002/bookshop-assistant](https://github.com/omarcoding2002/bookshop-assistant). The public demo is [bookshop-assistant.onrender.com](https://bookshop-assistant.onrender.com), backed by Neon PostgreSQL. GitHub Actions must pass before Render automatically deploys main. Both hosting services use their free plans in Frankfurt.
+
+To reproduce deployment in your own accounts:
 
 1. Connect the repository to Render and create a Blueprint using `render.yaml`.
 2. Supply a Neon PostgreSQL connection string as `DATABASE_URL` and the dedicated `ANTHROPIC_API_KEY` as secrets.
