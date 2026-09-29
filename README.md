@@ -2,7 +2,7 @@
 
 A conversational bookstore prototype: discover a reader’s preferences, find real books, compare editions, build a basket, and explicitly confirm a **simulated** order.
 
-**Status:** implemented and tested locally. A public Render deployment and real-model evaluation require account access; do not confuse the guided offline mode with live AI. The implementation includes a ready-to-use React UI; Claude Code was not installed during this build, so its separate handoff brief is included.
+**Status:** implemented, tested locally and published to GitHub. A public Render deployment and real-model evaluation require account access; do not confuse the guided offline mode with live AI. The implementation includes a ready-to-use React UI; Claude Code was not installed during this build, so its separate handoff brief is included.
 
 ![Desktop demo](docs/screenshots/desktop.png)
 
@@ -79,7 +79,7 @@ For browser tests on a machine without Google Chrome, install Playwright Chromiu
 
 ## Public deployment
 
-The intended repository is [omarcoding2002/bookshop-assistant](https://github.com/omarcoding2002/bookshop-assistant). The local checkout must be pushed before the Render blueprint can deploy it.
+The published repository is [omarcoding2002/bookshop-assistant](https://github.com/omarcoding2002/bookshop-assistant). The Render blueprint is included and ready to connect to that repository.
 
 1. Connect the repository to Render and create a Blueprint using `render.yaml`.
 2. Supply a Neon PostgreSQL connection string as `DATABASE_URL` and the dedicated `ANTHROPIC_API_KEY` as secrets.
