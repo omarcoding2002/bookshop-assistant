@@ -1,196 +1,73 @@
 {
-  "executedAt": "2026-09-30T07:17:56.269Z",
+  "executedAt": "2026-09-30T07:51:00.169Z",
   "baseUrl": "https://bookshop-assistant.onrender.com",
   "mode": "live-ai",
   "concurrentVisitors": 3,
-  "totalTurns": 30,
-  "successfulTurns": 30,
+  "totalTurns": 9,
+  "successfulTurns": 9,
   "errorRate": 0,
-  "p50Ms": 3840,
-  "p95Ms": 7864,
+  "p50Ms": 4564,
+  "p95Ms": 5336,
   "targetP95Ms": 15000,
   "targetMet": true,
-  "note": "Warm service, three concurrent sessions, ten turns each. Batches start at least 17 seconds apart to respect the public chat rate limit. Client-observed full-response latency excludes pacing delays. No model tokens or credentials are included in this report.",
+  "note": "Warm service, three concurrent sessions, 3 turns each. Batches start at least 17 seconds apart to respect the public chat rate limit. Client-observed full-response latency excludes pacing delays. No model tokens or credentials are included in this report.",
   "samples": [
     {
       "visitor": 2,
       "turn": 1,
       "status": 200,
-      "latencyMs": 4491
-    },
-    {
-      "visitor": 1,
-      "turn": 1,
-      "status": 200,
-      "latencyMs": 5397
-    },
-    {
-      "visitor": 3,
-      "turn": 1,
-      "status": 200,
-      "latencyMs": 5950
-    },
-    {
-      "visitor": 1,
-      "turn": 2,
-      "status": 200,
-      "latencyMs": 3741
-    },
-    {
-      "visitor": 2,
-      "turn": 2,
-      "status": 200,
-      "latencyMs": 3725
-    },
-    {
-      "visitor": 3,
-      "turn": 2,
-      "status": 200,
-      "latencyMs": 3759
-    },
-    {
-      "visitor": 2,
-      "turn": 3,
-      "status": 200,
-      "latencyMs": 3014
-    },
-    {
-      "visitor": 1,
-      "turn": 3,
-      "status": 200,
-      "latencyMs": 3071
-    },
-    {
-      "visitor": 3,
-      "turn": 3,
-      "status": 200,
-      "latencyMs": 3702
-    },
-    {
-      "visitor": 1,
-      "turn": 4,
-      "status": 200,
-      "latencyMs": 4863
-    },
-    {
-      "visitor": 3,
-      "turn": 4,
-      "status": 200,
       "latencyMs": 4980
     },
     {
-      "visitor": 2,
-      "turn": 4,
+      "visitor": 3,
+      "turn": 1,
       "status": 200,
-      "latencyMs": 5246
+      "latencyMs": 4979
     },
     {
       "visitor": 1,
-      "turn": 5,
+      "turn": 1,
       "status": 200,
-      "latencyMs": 7054
-    },
-    {
-      "visitor": 2,
-      "turn": 5,
-      "status": 200,
-      "latencyMs": 7558
-    },
-    {
-      "visitor": 3,
-      "turn": 5,
-      "status": 200,
-      "latencyMs": 7864
+      "latencyMs": 5336
     },
     {
       "visitor": 1,
-      "turn": 6,
+      "turn": 2,
       "status": 200,
-      "latencyMs": 3575
+      "latencyMs": 3942
     },
     {
       "visitor": 2,
-      "turn": 6,
+      "turn": 2,
       "status": 200,
-      "latencyMs": 4251
+      "latencyMs": 4564
     },
     {
       "visitor": 3,
-      "turn": 6,
+      "turn": 2,
       "status": 200,
-      "latencyMs": 4650
+      "latencyMs": 5317
+    },
+    {
+      "visitor": 3,
+      "turn": 3,
+      "status": 200,
+      "latencyMs": 3551
     },
     {
       "visitor": 2,
-      "turn": 7,
+      "turn": 3,
       "status": 200,
-      "latencyMs": 2950
-    },
-    {
-      "visitor": 3,
-      "turn": 7,
-      "status": 200,
-      "latencyMs": 3020
+      "latencyMs": 3778
     },
     {
       "visitor": 1,
-      "turn": 7,
+      "turn": 3,
       "status": 200,
-      "latencyMs": 3840
-    },
-    {
-      "visitor": 2,
-      "turn": 8,
-      "status": 200,
-      "latencyMs": 2711
-    },
-    {
-      "visitor": 3,
-      "turn": 8,
-      "status": 200,
-      "latencyMs": 3442
-    },
-    {
-      "visitor": 1,
-      "turn": 8,
-      "status": 200,
-      "latencyMs": 4448
-    },
-    {
-      "visitor": 2,
-      "turn": 9,
-      "status": 200,
-      "latencyMs": 6429
-    },
-    {
-      "visitor": 1,
-      "turn": 9,
-      "status": 200,
-      "latencyMs": 6837
-    },
-    {
-      "visitor": 3,
-      "turn": 9,
-      "status": 200,
-      "latencyMs": 8373
-    },
-    {
-      "visitor": 2,
-      "turn": 10,
-      "status": 200,
-      "latencyMs": 2944
-    },
-    {
-      "visitor": 3,
-      "turn": 10,
-      "status": 200,
-      "latencyMs": 2944
-    },
-    {
-      "visitor": 1,
-      "turn": 10,
-      "status": 200,
-      "latencyMs": 3688
+      "latencyMs": 3961
     }
-  ]
+  ],
+  "testedCommit": "7f1fc118b03e861c4cb08bffbe5b24704b2eaf05",
+  "model": "claude-sonnet-5-5",
+  "cacheState": "Source queries/details primed by the retained initial 30-turn measurement."
 }

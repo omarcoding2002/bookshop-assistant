@@ -53,7 +53,7 @@ The agent uses validated tools for facts and commerce. It cannot directly create
 
 The repository contains **97 real edition records from Open Library** across ten categories. Source URLs and retrieval dates are retained. The seed is checked in so the demo works without catalogue network access.
 
-All prices and stock are fictional. Paperback and unspecified-format editions cost $12.99; verified hardcovers cost $22.99; verified ebooks would cost $7.99. The current snapshot may not contain every format. Unknown formats are labelled honestly. A work’s original publication year is distinct from an edition’s publication date.
+All prices and stock are fictional. Paperback and unspecified-format editions cost $12.99; editions verified as hardcover at admission cost $22.99; verified ebooks at admission cost $7.99. Later metadata enrichment does not change the admitted price. The current snapshot may not contain every format. Unknown formats are labelled honestly. A work’s original publication year is distinct from an edition’s publication date.
 
 Each visitor gets an independent fictional stock allocation. The initial shelves remain curated, while explicit searches and chat requests can discover additional Open Library editions. Validated editions with a title and author receive fictional offers; incomplete or work-only records remain discovery-only. Offers are saved in PostgreSQL and their prices are frozen on admission. A book admitted with unknown format keeps its $12.99 price even if a later detail lookup identifies a hardcover.
 

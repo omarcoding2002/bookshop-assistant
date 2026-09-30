@@ -31,7 +31,11 @@ const config = await request<{ liveSearch: boolean }>("/config");
 if (!config.liveSearch)
   throw new Error("Live discovery must be enabled on the test server");
 const results: { query: string; book: Book; passed: boolean }[] = [];
-for (const query of ["The Dispossessed", "Piranesi", "A Wizard of Earthsea"]) {
+for (const [query, author] of [
+  ["The Dispossessed", "Ursula K. Le Guin"],
+  ["Piranesi", "Susanna Clarke"],
+  ["A Wizard of Earthsea", "Ursula K. Le Guin"],
+]) {
   const found = await request<DiscoveryResult>(
     `/discover?${new URLSearchParams({ query, kind: "title" })}`,
   );
@@ -39,7 +43,8 @@ for (const query of ["The Dispossessed", "Piranesi", "A Wizard of Earthsea"]) {
     (b) =>
       !seed.has(b.id) &&
       b.stocked &&
-      b.title.toLowerCase().includes(query.toLowerCase()),
+      b.authors.includes(author) &&
+      b.title.toLowerCase().replace(/\s+/g, " ").includes(query.toLowerCase()),
   );
   if (!book)
     throw new Error(

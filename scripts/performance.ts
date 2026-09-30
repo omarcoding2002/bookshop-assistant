@@ -32,6 +32,9 @@ const prompts = [
   "I would like a fantasy book under $15 instead.",
   "Tell me the demo store's delivery policy.",
 ];
+const turnCount = Number(process.env.PERF_TURNS || prompts.length);
+if (!Number.isInteger(turnCount) || turnCount < 3 || turnCount > prompts.length)
+  throw new Error("PERF_TURNS must be 3–10");
 const samples: {
   visitor: number;
   turn: number;
@@ -39,7 +42,7 @@ const samples: {
   latencyMs: number;
   error?: string;
 }[] = [];
-for (let turn = 0; turn < prompts.length; turn++) {
+for (let turn = 0; turn < turnCount; turn++) {
   const batchStart = performance.now();
   await Promise.all(
     cookies.map(async (cookie, visitor) => {
@@ -70,8 +73,8 @@ for (let turn = 0; turn < prompts.length; turn++) {
       }
     }),
   );
-  console.log(`Measured batch ${turn + 1}/${prompts.length}`);
-  if (turn < prompts.length - 1)
+  console.log(`Measured batch ${turn + 1}/${turnCount}`);
+  if (turn < turnCount - 1)
     await new Promise((r) =>
       setTimeout(r, Math.max(0, 17_000 - (performance.now() - batchStart))),
     );
@@ -93,8 +96,10 @@ const report = {
   p50Ms: percentile(0.5),
   p95Ms: percentile(0.95),
   targetP95Ms: 15_000,
-  targetMet: values.length === 30 && (percentile(0.95) ?? Infinity) <= 15_000,
-  note: "Warm service, three concurrent sessions, ten turns each. Batches start at least 17 seconds apart to respect the public chat rate limit. Client-observed full-response latency excludes pacing delays. No model tokens or credentials are included in this report.",
+  targetMet:
+    values.length === cookies.length * turnCount &&
+    (percentile(0.95) ?? Infinity) <= 15_000,
+  note: `Warm service, three concurrent sessions, ${turnCount} turns each. Batches start at least 17 seconds apart to respect the public chat rate limit. Client-observed full-response latency excludes pacing delays. No model tokens or credentials are included in this report.`,
   samples,
 };
 await writeFile(

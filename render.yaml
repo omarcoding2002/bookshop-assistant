@@ -28,4 +28,4 @@ services:
       - key: MODEL_OUTPUT_USD_PER_MILLION
         value: "10"
       - key: LIVE_BOOK_SEARCH
-        value: "false"
+        value: "true"

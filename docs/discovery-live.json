@@ -1,32 +1,33 @@
 {
-  "executedAt": "2026-09-30T07:27:55.029Z",
-  "baseUrl": "http://localhost:3002",
+  "executedAt": "2026-09-30T07:52:37.658Z",
+  "baseUrl": "https://bookshop-assistant.onrender.com",
   "paidModelCalls": 0,
   "passed": true,
-  "exactISBN": "9781526622419",
-  "exactEdition": "OL61022665M",
+  "exactISBN": "006051275X",
+  "exactEdition": "OL3684801M",
   "descriptionCount": 3,
   "pagination": {
-    "firstCount": 22,
+    "firstCount": 19,
     "nextCount": 12
   },
-  "orderId": "DEMO-8a67470b-2d41-465f-98b8-0d24c82608c0",
+  "orderId": "DEMO-989e5558-e21b-4b24-9efa-440bff1dd7c7",
   "results": [
     {
       "query": "The Dispossessed",
       "book": {
-        "id": "OL24938050M",
-        "isbn": [],
-        "year": 1974,
-        "pages": 311,
+        "id": "OL3684801M",
+        "isbn": [
+          "006051275X"
+        ],
+        "pages": 387,
         "stock": 5,
-        "title": "The Dispossessed",
+        "title": "The  dispossessed",
         "format": "unspecified",
         "workId": "/works/OL59863W",
         "authors": [
           "Ursula K. Le Guin"
         ],
-        "coverId": 6902259,
+        "coverId": 26459,
         "stocked": true,
         "category": "Open Library",
         "language": [
@@ -52,15 +53,15 @@
           "award:hugo_award=1975",
           "award:hugo_award=novel"
         ],
-        "fetchedAt": "2026-09-30T07:27:34.771Z",
-        "sourceUrl": "https://openlibrary.org/books/OL24938050M",
+        "fetchedAt": "2026-09-30T07:31:25.666Z",
+        "sourceUrl": "https://openlibrary.org/books/OL3684801M",
         "priceCents": 1299,
         "sourceKind": "openlibrary",
         "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe.  To do this dangerous task will mean giving up his family and possibly his life.  Shevek must make the unprecedented journey to the planet, Anarres, to challenge the complex structures of life and living, and ignite the fires of change.",
         "admissionFormat": "unspecified",
         "descriptionLevel": "work",
-        "detailsFetchedAt": "2026-09-30T07:27:38.065Z",
-        "editionPublishDate": "1974",
+        "detailsFetchedAt": "2026-09-30T07:38:17.568Z",
+        "editionPublishDate": "2003",
         "descriptionSourceUrl": "https://openlibrary.org/works/OL59863W",
         "descriptionTruncated": false
       },
@@ -107,7 +108,7 @@
         "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
         "admissionFormat": "unspecified",
         "descriptionLevel": "work",
-        "detailsFetchedAt": "2026-09-30T07:27:42.558Z",
+        "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
         "editionPublishDate": "2020-09-15",
         "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
         "descriptionTruncated": true

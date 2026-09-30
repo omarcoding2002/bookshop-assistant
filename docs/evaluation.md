@@ -57,6 +57,14 @@ Regression coverage includes the altered title, missing page counts, unsupported
 
 The initial exact-ISBN test exposed an ISBN-13 request whose correct source edition listed only its equivalent ISBN-10. Checksum-validated equivalence now handles this without substituting editions; a separate regression rejects wrong checksums and different ISBNs.
 
-Backend checks now cover 55 cases, and desktop/mobile browser checks cover 10 journeys. Source-outage and missing-description cases use deterministic mocked responses; the real source acceptance validates actual returned records. A new uncached search can take longer than 15 seconds because source calls are serialized at one per second. The 15-second p95 goal applies to warm responses; source-cold timings remain visible in the discovery transcript.
+Backend checks now cover 55 cases, and desktop/mobile browser checks cover 10 journeys. Source-outage and missing-description cases use deterministic mocked responses; the real source acceptance validates actual returned records. A new uncached search can take longer than 15 seconds because source calls are serialized at one per second. The 15-second p95 goal applies to warm responses; the first uncached exploratory checks took up to 22.3 seconds. The final repeated discovery transcript benefited from persisted source caches.
 
 The accuracy release's separate public measurement is retained in `performance-accuracy.json`: 30/30 turns, p50 3.840 s, p95 7.864 s. It was deployed and verified before discovery work began.
+
+## Final public discovery evidence
+
+Public source acceptance checks both the requested title and intended author before ordering; same-titled books by different authors do not count as the target edition. `discovery-live.json` contains the resulting source records and exact ISBN check. The UI separately confirmed a $12.99 purchase of Piranesi by Susanna Clarke; `screenshots/discovery-receipt.png` records the receipt.
+
+`performance-discovery-initial.json` retains all 30 successful requests (three simultaneous visitors, ten turns each). Its p95 of 15.047 seconds missed the target; the first source-lookup batch took about 15 seconds. `performance-live.json` is a separate nine-request repeat of the first three turns with persisted caches: p50 4.564 seconds and p95 5.336 seconds, all successful. The smaller warm sample establishes the target for that workload only; first-time discovery is slower. No samples were removed from either report.
+
+At the final paid-test snapshot, $5.395384 was accounted and nothing reserved, leaving $4.604616 of the original $10. Phase 1 used $1.544678; phase 2 used $1.451744. No spending reset, allowance increase or extra reviewer model call was used.
