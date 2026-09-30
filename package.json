@@ -19,7 +19,9 @@
     "format": "prettier --write .",
     "openapi": "node --import tsx scripts/openapi.ts",
     "eval:performance": "node --import tsx scripts/performance.ts",
-    "eval:accuracy": "node --import tsx scripts/evaluate-accuracy.ts"
+    "eval:accuracy": "node --import tsx scripts/evaluate-accuracy.ts",
+    "eval:discovery": "node --import tsx scripts/evaluate-discovery.ts",
+    "eval:discovery-ai": "node --import tsx scripts/evaluate-discovery-ai.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

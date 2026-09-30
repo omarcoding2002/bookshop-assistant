@@ -15,6 +15,16 @@ export type Book = {
   sourceUrl: string;
   fetchedAt: string;
   coverId?: number;
+  language?: string[];
+  editionPublishDate?: string;
+  description?: string;
+  descriptionSourceUrl?: string;
+  descriptionLevel?: "work" | "edition";
+  descriptionTruncated?: boolean;
+  detailsFetchedAt?: string;
+  sourceKind?: "seed" | "openlibrary";
+  admissionFormat?: Book["format"];
+  metadataWarning?: string;
 };
 export type CartLine = { book: Book; quantity: number; subtotalCents: number };
 export type Cart = {
@@ -70,3 +80,10 @@ export const money = (cents: number) =>
   new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
     cents / 100,
   );
+
+export type DiscoveryResult = {
+  books: Book[];
+  page: number;
+  nextPage?: number;
+  warning?: string;
+};

@@ -14,7 +14,7 @@ Use `src/shared.ts` and `docs/openapi.json`. The same-origin backend owns all co
 
 - `POST /api/v1/sessions` with `{}` resumes/creates the HttpOnly session. `{reset:true}` deletes the old session/history/basket/orders.
 - `GET /api/v1/config` supplies mode, categories and demo flags.
-- `GET /api/v1/books` supports query/category/maxPriceCents/limit. Do not offer unstocked external results for sale.
+- `GET /api/v1/books` supports query/category/maxPriceCents/limit. Curated browsing is local. Explicit search uses `GET /api/v1/discover?query=...&kind=all|title|author|topic&page=1`; append subsequent pages using nextPage and deduplicate works. Typing does not trigger network discovery. Validated imported editions may be offered; work-only/incomplete records remain discovery-only. Fetch `/api/v1/books/:id` when opening details, preserve unknown fields, and attribute source description excerpts.
 - `POST /api/v1/chat` with `{message,stream:true}` returns SSE `status`, `result`, `error`. Handle errors after HTTP 200 and interrupted streams.
 - `PATCH /api/v1/cart` sets `{bookId,quantity}`; zero removes. Refresh from the response and discard any previous quote.
 - `POST /api/v1/quotes` returns an authoritative ten-minute quote.

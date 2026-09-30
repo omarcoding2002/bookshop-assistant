@@ -1,0 +1,1003 @@
+{
+  "executedAt": "2026-09-30T07:38:39.040Z",
+  "baseUrl": "http://localhost:3002",
+  "passed": 9,
+  "total": 9,
+  "results": [
+    {
+      "message": "Find Piranesi by Susanna Clarke under $15.",
+      "passed": true,
+      "latencyMs": 8233,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nPiranesi — Susanna Clarke\nFormat not verified. Work first published: 2020. ISBN: 9781526622419, 1526622416. The source lists these subject labels: \"genre:fantasy\", \"Labyrinths\", \"Curiosities and wonders\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+        "books": [
+          {
+            "id": "OL61022665M",
+            "isbn": [
+              "9781526622419",
+              "1526622416"
+            ],
+            "year": 2020,
+            "stock": 5,
+            "title": "Piranesi",
+            "format": "unspecified",
+            "workId": "/works/OL20893680W",
+            "authors": [
+              "Susanna Clarke"
+            ],
+            "coverId": 15155469,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "form:novel",
+              "genre:fantasy",
+              "English literature",
+              "nyt:combined-print-and-e-book-fiction=2020-10-04",
+              "New York Times bestseller",
+              "Labyrinths",
+              "Fiction",
+              "Curiosities and wonders",
+              "Dwellings",
+              "Dead"
+            ],
+            "fetchedAt": "2026-09-30T07:27:39.133Z",
+            "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+            "editionPublishDate": "2020-09-15",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+            "descriptionTruncated": true
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "What are the page count and format?",
+      "passed": true,
+      "latencyMs": 4447,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nPiranesi — Susanna Clarke\nFormat not verified. Edition page count unavailable. Work first published: 2020. ISBN: 9781526622419, 1526622416. The source lists these subject labels: \"genre:fantasy\", \"New York Times bestseller\", \"Fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+        "books": [
+          {
+            "id": "OL61022665M",
+            "isbn": [
+              "9781526622419",
+              "1526622416"
+            ],
+            "year": 2020,
+            "stock": 5,
+            "title": "Piranesi",
+            "format": "unspecified",
+            "workId": "/works/OL20893680W",
+            "authors": [
+              "Susanna Clarke"
+            ],
+            "coverId": 15155469,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "form:novel",
+              "genre:fantasy",
+              "English literature",
+              "nyt:combined-print-and-e-book-fiction=2020-10-04",
+              "New York Times bestseller",
+              "Labyrinths",
+              "Fiction",
+              "Curiosities and wonders",
+              "Dwellings",
+              "Dead"
+            ],
+            "fetchedAt": "2026-09-30T07:27:39.133Z",
+            "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+            "editionPublishDate": "2020-09-15",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+            "descriptionTruncated": true
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "Add the first one to my basket.",
+      "passed": true,
+      "latencyMs": 5639,
+      "response": {
+        "text": "Your basket has been updated. 1 book(s), $12.99 total. All prices are fictional; no payment is taken.\n\nHere are the verified catalogue details. Prices and availability are fictional demo data.\n\nPiranesi — Susanna Clarke\nFormat not verified. ISBN: 9781526622419, 1526622416. $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+        "books": [
+          {
+            "id": "OL61022665M",
+            "isbn": [
+              "9781526622419",
+              "1526622416"
+            ],
+            "year": 2020,
+            "stock": 5,
+            "title": "Piranesi",
+            "format": "unspecified",
+            "workId": "/works/OL20893680W",
+            "authors": [
+              "Susanna Clarke"
+            ],
+            "coverId": 15155469,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "form:novel",
+              "genre:fantasy",
+              "English literature",
+              "nyt:combined-print-and-e-book-fiction=2020-10-04",
+              "New York Times bestseller",
+              "Labyrinths",
+              "Fiction",
+              "Curiosities and wonders",
+              "Dwellings",
+              "Dead"
+            ],
+            "fetchedAt": "2026-09-30T07:27:39.133Z",
+            "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+            "editionPublishDate": "2020-09-15",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+            "descriptionTruncated": true
+          }
+        ],
+        "cart": {
+          "lines": [
+            {
+              "book": {
+                "id": "OL61022665M",
+                "isbn": [
+                  "9781526622419",
+                  "1526622416"
+                ],
+                "year": 2020,
+                "stock": 5,
+                "title": "Piranesi",
+                "format": "unspecified",
+                "workId": "/works/OL20893680W",
+                "authors": [
+                  "Susanna Clarke"
+                ],
+                "coverId": 15155469,
+                "stocked": true,
+                "category": "Open Library",
+                "language": [
+                  "eng"
+                ],
+                "subjects": [
+                  "form:novel",
+                  "genre:fantasy",
+                  "English literature",
+                  "nyt:combined-print-and-e-book-fiction=2020-10-04",
+                  "New York Times bestseller",
+                  "Labyrinths",
+                  "Fiction",
+                  "Curiosities and wonders",
+                  "Dwellings",
+                  "Dead"
+                ],
+                "fetchedAt": "2026-09-30T07:27:39.133Z",
+                "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+                "priceCents": 1299,
+                "sourceKind": "openlibrary",
+                "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+                "admissionFormat": "unspecified",
+                "descriptionLevel": "work",
+                "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+                "editionPublishDate": "2020-09-15",
+                "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+                "descriptionTruncated": true
+              },
+              "quantity": 1,
+              "subtotalCents": 1299
+            }
+          ],
+          "totalCents": 1299,
+          "count": 1,
+          "currency": "USD",
+          "version": 1
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "checkout",
+      "passed": true,
+      "latencyMs": 4702,
+      "response": {
+        "text": "Your demo quote is ready: 1 book(s), $12.99 total. No order has been placed. Press Confirm demo order or type exactly: confirm order. No payment or delivery will occur.\n\nHere are the verified catalogue details. Prices and availability are fictional demo data.\n\nPiranesi — Susanna Clarke\nFormat not verified. ISBN: 9781526622419, 1526622416. $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+        "books": [
+          {
+            "id": "OL61022665M",
+            "isbn": [
+              "9781526622419",
+              "1526622416"
+            ],
+            "year": 2020,
+            "stock": 5,
+            "title": "Piranesi",
+            "format": "unspecified",
+            "workId": "/works/OL20893680W",
+            "authors": [
+              "Susanna Clarke"
+            ],
+            "coverId": 15155469,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "form:novel",
+              "genre:fantasy",
+              "English literature",
+              "nyt:combined-print-and-e-book-fiction=2020-10-04",
+              "New York Times bestseller",
+              "Labyrinths",
+              "Fiction",
+              "Curiosities and wonders",
+              "Dwellings",
+              "Dead"
+            ],
+            "fetchedAt": "2026-09-30T07:27:39.133Z",
+            "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+            "editionPublishDate": "2020-09-15",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+            "descriptionTruncated": true
+          }
+        ],
+        "quote": {
+          "id": "4b0dd46f-f9c6-48e0-b643-82a14affd879",
+          "cart": {
+            "lines": [
+              {
+                "book": {
+                  "id": "OL61022665M",
+                  "isbn": [
+                    "9781526622419",
+                    "1526622416"
+                  ],
+                  "year": 2020,
+                  "stock": 5,
+                  "title": "Piranesi",
+                  "format": "unspecified",
+                  "workId": "/works/OL20893680W",
+                  "authors": [
+                    "Susanna Clarke"
+                  ],
+                  "coverId": 15155469,
+                  "stocked": true,
+                  "category": "Open Library",
+                  "language": [
+                    "eng"
+                  ],
+                  "subjects": [
+                    "form:novel",
+                    "genre:fantasy",
+                    "English literature",
+                    "nyt:combined-print-and-e-book-fiction=2020-10-04",
+                    "New York Times bestseller",
+                    "Labyrinths",
+                    "Fiction",
+                    "Curiosities and wonders",
+                    "Dwellings",
+                    "Dead"
+                  ],
+                  "fetchedAt": "2026-09-30T07:27:39.133Z",
+                  "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+                  "priceCents": 1299,
+                  "sourceKind": "openlibrary",
+                  "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+                  "admissionFormat": "unspecified",
+                  "descriptionLevel": "work",
+                  "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+                  "editionPublishDate": "2020-09-15",
+                  "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+                  "descriptionTruncated": true
+                },
+                "quantity": 1,
+                "subtotalCents": 1299
+              }
+            ],
+            "totalCents": 1299,
+            "count": 1,
+            "currency": "USD",
+            "version": 1
+          },
+          "expiresAt": "2026-09-30T07:47:24.778Z",
+          "label": "Demo quote — no payment will be taken"
+        },
+        "cart": {
+          "lines": [
+            {
+              "book": {
+                "id": "OL61022665M",
+                "isbn": [
+                  "9781526622419",
+                  "1526622416"
+                ],
+                "year": 2020,
+                "stock": 5,
+                "title": "Piranesi",
+                "format": "unspecified",
+                "workId": "/works/OL20893680W",
+                "authors": [
+                  "Susanna Clarke"
+                ],
+                "coverId": 15155469,
+                "stocked": true,
+                "category": "Open Library",
+                "language": [
+                  "eng"
+                ],
+                "subjects": [
+                  "form:novel",
+                  "genre:fantasy",
+                  "English literature",
+                  "nyt:combined-print-and-e-book-fiction=2020-10-04",
+                  "New York Times bestseller",
+                  "Labyrinths",
+                  "Fiction",
+                  "Curiosities and wonders",
+                  "Dwellings",
+                  "Dead"
+                ],
+                "fetchedAt": "2026-09-30T07:27:39.133Z",
+                "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+                "priceCents": 1299,
+                "sourceKind": "openlibrary",
+                "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+                "admissionFormat": "unspecified",
+                "descriptionLevel": "work",
+                "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+                "editionPublishDate": "2020-09-15",
+                "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+                "descriptionTruncated": true
+              },
+              "quantity": 1,
+              "subtotalCents": 1299
+            }
+          ],
+          "totalCents": 1299,
+          "count": 1,
+          "currency": "USD",
+          "version": 1
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "confirm order",
+      "passed": true,
+      "latencyMs": 1837,
+      "response": {
+        "text": "Your demo order is confirmed for $12.99. No payment was taken.",
+        "books": [],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 2
+        },
+        "order": {
+          "id": "DEMO-b662bbe3-b8e6-4063-b715-8e0a462ca8e0",
+          "quoteId": "4b0dd46f-f9c6-48e0-b643-82a14affd879",
+          "cart": {
+            "lines": [
+              {
+                "book": {
+                  "id": "OL61022665M",
+                  "isbn": [
+                    "9781526622419",
+                    "1526622416"
+                  ],
+                  "year": 2020,
+                  "stock": 5,
+                  "title": "Piranesi",
+                  "format": "unspecified",
+                  "workId": "/works/OL20893680W",
+                  "authors": [
+                    "Susanna Clarke"
+                  ],
+                  "coverId": 15155469,
+                  "stocked": true,
+                  "category": "Open Library",
+                  "language": [
+                    "eng"
+                  ],
+                  "subjects": [
+                    "form:novel",
+                    "genre:fantasy",
+                    "English literature",
+                    "nyt:combined-print-and-e-book-fiction=2020-10-04",
+                    "New York Times bestseller",
+                    "Labyrinths",
+                    "Fiction",
+                    "Curiosities and wonders",
+                    "Dwellings",
+                    "Dead"
+                  ],
+                  "fetchedAt": "2026-09-30T07:27:39.133Z",
+                  "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+                  "priceCents": 1299,
+                  "sourceKind": "openlibrary",
+                  "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+                  "admissionFormat": "unspecified",
+                  "descriptionLevel": "work",
+                  "detailsFetchedAt": "2026-09-30T07:27:47.686Z",
+                  "editionPublishDate": "2020-09-15",
+                  "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+                  "descriptionTruncated": true
+                },
+                "quantity": 1,
+                "subtotalCents": 1299
+              }
+            ],
+            "totalCents": 1299,
+            "count": 1,
+            "currency": "USD",
+            "version": 1
+          },
+          "createdAt": "2026-09-30T07:37:34.930Z",
+          "label": "Demo order — no payment taken"
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "Find books by Ursula K. Le Guin under $15.",
+      "passed": true,
+      "latencyMs": 9257,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe Left Hand of Darkness — Ursula K. Le Guin\nShelved under Open Library. Format not verified. Edition length: 230 pages. Work first published: 1969. The source lists these subject labels: \"Hugo Award Winner\", \"human nature\", \"gender\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL58688990M",
+            "isbn": [],
+            "year": 1969,
+            "pages": 230,
+            "stock": 5,
+            "title": "The Left Hand of Darkness",
+            "format": "unspecified",
+            "workId": "/works/OL59800W",
+            "authors": [
+              "Ursula K. Le Guin"
+            ],
+            "coverId": 14920821,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Ciencia-ficción",
+              "Hugo Award Winner",
+              "award:hugo_award=1970",
+              "award:hugo_award=novel",
+              "human nature",
+              "gender",
+              "space travel",
+              "ice age",
+              "Science fiction",
+              "American literature",
+              "Fiction, science fiction, general",
+              "LGBTQ gender identity",
+              "LGBTQ science fiction & fantasy",
+              "award:nebula_award=novel",
+              "Life on other planets",
+              "Fiction",
+              "American Science fiction",
+              "Extraterrestrial anthropology"
+            ],
+            "fetchedAt": "2026-09-30T07:27:48.886Z",
+            "sourceUrl": "https://openlibrary.org/books/OL58688990M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "[Comment by Kim Stanley Robinson, on The Guardian's website][1]:  The Left Hand of Darkness by Ursula K Le Guin (1969)    > One of my favorite novels is The Left Hand of Darkness, by Ursula K Le Guin. For more than 40 years I've been recommending this book to people who want to try science fiction for the first time, and it still serves very well for that. One of the things I like about it is how clearly it demonstrates that science fiction can have not only the usual virtues and pleasures of the novel, but also the startling and transformative power of the thought experiment.    > In this case, the thought experiment is quickly revealed: \"The king was pregnant,\" the book tells us early on, and after that we learn more and more about this planet named Winter, stuck in an ice age, where the humans are most of the time neither male nor female, but with the potential to become either. The man from Earth investigating this situation has a lot to learn, and so do we; and we learn it in the course of a thrilling adventure story, including a great \"crossing of the ice\". Le Guin's language is clear and clean, and has within it both the anthropological mindset of her father Alfred Kroeber, ",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:30:44.893Z",
+            "editionPublishDate": "1969",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL59800W",
+            "descriptionTruncated": true
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "Find books about coral reefs under $15.",
+      "passed": true,
+      "latencyMs": 10040,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe biology of coral reefs — Charles Sheppard\nFormat not verified. Edition length: 339 pages. Work first published: 2009. The source lists these subject labels: \"Coral reefs and islands\", \"Coral reef biology\", \"Coral reef conservation\". $12.99; 5 demo copies available.\n\nCoral reefs — Samantha Brooke\nFormat not verified. Edition length: 46 pages. Work first published: 2013. The source lists these subject labels: \"Coral reef ecology\", \"Coral reefs and islands\", \"Marine animals\". $12.99; 5 demo copies available.\n\nCoral reefs — Dwight Holing, Frank Balthis\nFormat not verified. Edition length: 39 pages. Work first published: 1990. The source lists these subject labels: \"Coral reefs and islands\", \"Corals\", \"Coral reef biology\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL23213351M",
+            "isbn": [
+              "9780198566366",
+              "9780198566359"
+            ],
+            "year": 2009,
+            "pages": 339,
+            "stock": 5,
+            "title": "The biology of coral reefs",
+            "format": "unspecified",
+            "workId": "/works/OL8356067W",
+            "authors": [
+              "Charles Sheppard"
+            ],
+            "coverId": 12832134,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Coral reefs and islands",
+              "Biology",
+              "Coral reef biology",
+              "Coral reef ecology",
+              "Coral reef conservation"
+            ],
+            "fetchedAt": "2026-09-30T07:31:02.933Z",
+            "sourceUrl": "https://openlibrary.org/books/OL23213351M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "A concise but comprehensive introduction to the biology of coral reefs, providing an overview of the ecology of coral reefs and their functioning, and the biology of their major species groups. The responses to modern environmental pressures, climate change, and use of their resources is also described.",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "edition",
+            "detailsFetchedAt": "2026-09-30T07:38:05.314Z",
+            "editionPublishDate": "2009",
+            "descriptionSourceUrl": "https://openlibrary.org/books/OL23213351M",
+            "descriptionTruncated": false
+          },
+          {
+            "id": "OL32089388M",
+            "isbn": [
+              "9780448478326",
+              "0448478323"
+            ],
+            "year": 2013,
+            "pages": 46,
+            "stock": 5,
+            "title": "Coral reefs",
+            "format": "unspecified",
+            "workId": "/works/OL24257680W",
+            "authors": [
+              "Samantha Brooke"
+            ],
+            "coverId": 10743906,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Coral reef ecology",
+              "Coral reefs and islands",
+              "Marine animals, juvenile literature",
+              "Marine animals"
+            ],
+            "fetchedAt": "2026-09-30T07:31:03.199Z",
+            "sourceUrl": "https://openlibrary.org/books/OL32089388M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "admissionFormat": "unspecified",
+            "detailsFetchedAt": "2026-09-30T07:31:09.517Z",
+            "editionPublishDate": "2013"
+          },
+          {
+            "id": "OL1105710M",
+            "isbn": [
+              "0382248570",
+              "0918303222"
+            ],
+            "year": 1990,
+            "pages": 39,
+            "stock": 5,
+            "title": "Coral reefs",
+            "format": "unspecified",
+            "workId": "/works/OL15835495W",
+            "authors": [
+              "Dwight Holing",
+              "Frank Balthis"
+            ],
+            "coverId": 6723853,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Coral reefs and islands",
+              "Corals",
+              "Coral reef animals",
+              "Juvenile literature",
+              "Coral reef biology"
+            ],
+            "fetchedAt": "2026-09-30T07:31:02.668Z",
+            "sourceUrl": "https://openlibrary.org/books/OL1105710M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "admissionFormat": "unspecified",
+            "detailsFetchedAt": "2026-09-30T07:31:05.887Z",
+            "editionPublishDate": "1995"
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "9780060512750",
+      "passed": true,
+      "latencyMs": 5373,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe  dispossessed — Ursula K. Le Guin\nFormat not verified. Edition length: 387 pages. Original publication year unavailable. ISBN: 006051275X. The source lists these subject labels: \"Anarchism\", \"Communal living\", \"Fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+        "books": [
+          {
+            "id": "OL3684801M",
+            "isbn": [
+              "006051275X"
+            ],
+            "pages": 387,
+            "stock": 5,
+            "title": "The  dispossessed",
+            "format": "unspecified",
+            "workId": "/works/OL59863W",
+            "authors": [
+              "Ursula K. Le Guin"
+            ],
+            "coverId": 26459,
+            "stocked": true,
+            "category": "Open Library",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Anarchism",
+              "Anarquismo",
+              "Ciencia-ficción",
+              "Communal living",
+              "Ficción",
+              "Fiction",
+              "Fiction in English",
+              "Físicos",
+              "Hugo Award Winner",
+              "Life on other planets",
+              "Novela utópica",
+              "Physicists",
+              "Science fiction",
+              "Utopias",
+              "Vida comunal",
+              "Vida en otros planets",
+              "award:hugo_award=1975",
+              "award:hugo_award=novel"
+            ],
+            "fetchedAt": "2026-09-30T07:31:25.666Z",
+            "sourceUrl": "https://openlibrary.org/books/OL3684801M",
+            "priceCents": 1299,
+            "sourceKind": "openlibrary",
+            "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe.  To do this dangerous task will mean giving up his family and possibly his life.  Shevek must make the unprecedented journey to the planet, Anarres, to challenge the complex structures of life and living, and ignite the fires of change.",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:38:17.568Z",
+            "editionPublishDate": "2003",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL59863W",
+            "descriptionTruncated": false
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "message": "A science book for a ten-year-old under $15. Can you verify age suitability?",
+      "passed": true,
+      "latencyMs": 11843,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nA short history of nearly everything — Bill Bryson\nShelved under Science. Work first published: 2003. ISBN: 9780552997041. The source lists these subject labels: \"Science\", \"Popular works\", \"Science, popular works\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nAge suitability is unverified; check the edition before choosing for a child.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL49829494M",
+            "isbn": [
+              "9780552997041"
+            ],
+            "year": 2003,
+            "stock": 5,
+            "title": "A short history of nearly everything",
+            "format": "unspecified",
+            "workId": "/works/OL74128W",
+            "authors": [
+              "Bill Bryson"
+            ],
+            "coverId": 15214565,
+            "stocked": true,
+            "category": "Science",
+            "language": [
+              "eng"
+            ],
+            "subjects": [
+              "Science",
+              "Popular works",
+              "Ciencia",
+              "Obras populares",
+              "Science, popular works",
+              "Obras de divulgacio n.",
+              "Natuurwetenschappen",
+              "Sciences",
+              "Ouvrages de vulgarisation",
+              "Wetenschapsbeoefening",
+              "Origin",
+              "Life",
+              "Humor",
+              "Travel",
+              "Philosophy",
+              "Culture",
+              "Nonfiction",
+              "Open Library Staff Picks"
+            ],
+            "fetchedAt": "2026-09-29T21:45:12.060Z",
+            "sourceUrl": "https://openlibrary.org/books/OL49829494M",
+            "priceCents": 1299,
+            "sourceKind": "seed",
+            "description": "A Short History of Nearly Everything by American author Bill Bryson is a popular science book that explains some areas of science, using easily accessible language that appeals more so to the general public than many other books dedicated to the subject. It was one of the bestselling popular science books of 2005 in the United Kingdom, selling over 300,000 copies.    A Short History deviates from Bryson's popular travel book genre, instead describing general sciences such as chemistry, paleontology, astronomy, and particle physics. In it, he explores time from the Big Bang to the discovery of quantum mechanics, via evolution and geology.    Bill Bryson wrote this book because he was dissatisfied with his scientific knowledge—that was, not much at all. He writes that science was a distant, unexplained subject at school. Textbooks and teachers alike did not ignite the passion for knowledge in him, mainly because they never delved in the whys, hows, and whens.    The ebook can be found elsewhere on the web at:  http://www.huzheng.org/bookstore/AShortHistoryofNearlyEverything.pdf",
+            "admissionFormat": "unspecified",
+            "descriptionLevel": "work",
+            "detailsFetchedAt": "2026-09-30T07:31:45.685Z",
+            "editionPublishDate": "2004",
+            "descriptionSourceUrl": "https://openlibrary.org/works/OL74128W",
+            "descriptionTruncated": false
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    }
+  ],
+  "authorSearchRecheck": {
+    "executedAt": "2026-09-30T07:40:51.674Z",
+    "passed": true,
+    "latencyMs": 11835,
+    "response": {
+      "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe Left Hand of Darkness — Ursula K. Le Guin\nFormat not verified. Edition length: 230 pages. Work first published: 1969. The source lists these subject labels: \"Hugo Award Winner\", \"human nature\", \"gender\". $12.99; 5 demo copies available.\n\nThe Tombs of Atuan (The Earthsea Cycle, Book 2) — Ursula K. Le Guin\nFormat: paperback. Edition length: 160 pages. Work first published: 1971. The source lists these subject labels: \"Magic\", \"Fantasy\", \"Wizards\". $12.99; 5 demo copies available.\n\nTales from Earthsea — Ursula K. Le Guin\nFormat not verified. Edition length: 296 pages. Work first published: 2001. The source lists these subject labels: \"Fantasy\", \"Ged (Fictitious character)\", \"Magic\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+      "books": [
+        {
+          "id": "OL58688990M",
+          "isbn": [],
+          "year": 1969,
+          "pages": 230,
+          "stock": 5,
+          "title": "The Left Hand of Darkness",
+          "format": "unspecified",
+          "workId": "/works/OL59800W",
+          "authors": [
+            "Ursula K. Le Guin"
+          ],
+          "coverId": 14920821,
+          "stocked": true,
+          "category": "Open Library",
+          "language": [
+            "eng"
+          ],
+          "subjects": [
+            "Ciencia-ficción",
+            "Hugo Award Winner",
+            "award:hugo_award=1970",
+            "award:hugo_award=novel",
+            "human nature",
+            "gender",
+            "space travel",
+            "ice age",
+            "Science fiction",
+            "American literature",
+            "Fiction, science fiction, general",
+            "LGBTQ gender identity",
+            "LGBTQ science fiction & fantasy",
+            "award:nebula_award=novel",
+            "Life on other planets",
+            "Fiction",
+            "American Science fiction",
+            "Extraterrestrial anthropology"
+          ],
+          "fetchedAt": "2026-09-30T07:27:48.886Z",
+          "sourceUrl": "https://openlibrary.org/books/OL58688990M",
+          "priceCents": 1299,
+          "sourceKind": "openlibrary",
+          "description": "[Comment by Kim Stanley Robinson, on The Guardian's website][1]:  The Left Hand of Darkness by Ursula K Le Guin (1969)    > One of my favorite novels is The Left Hand of Darkness, by Ursula K Le Guin. For more than 40 years I've been recommending this book to people who want to try science fiction for the first time, and it still serves very well for that. One of the things I like about it is how clearly it demonstrates that science fiction can have not only the usual virtues and pleasures of the novel, but also the startling and transformative power of the thought experiment.    > In this case, the thought experiment is quickly revealed: \"The king was pregnant,\" the book tells us early on, and after that we learn more and more about this planet named Winter, stuck in an ice age, where the humans are most of the time neither male nor female, but with the potential to become either. The man from Earth investigating this situation has a lot to learn, and so do we; and we learn it in the course of a thrilling adventure story, including a great \"crossing of the ice\". Le Guin's language is clear and clean, and has within it both the anthropological mindset of her father Alfred Kroeber, ",
+          "admissionFormat": "unspecified",
+          "descriptionLevel": "work",
+          "detailsFetchedAt": "2026-09-30T07:30:44.893Z",
+          "editionPublishDate": "1969",
+          "descriptionSourceUrl": "https://openlibrary.org/works/OL59800W",
+          "descriptionTruncated": true
+        },
+        {
+          "id": "OL7823944M",
+          "isbn": [
+            "9780553273311",
+            "0553273310"
+          ],
+          "year": 1971,
+          "pages": 160,
+          "stock": 5,
+          "title": "The Tombs of Atuan (The Earthsea Cycle, Book 2)",
+          "format": "paperback",
+          "workId": "/works/OL59801W",
+          "authors": [
+            "Ursula K. Le Guin"
+          ],
+          "coverId": 368884,
+          "stocked": true,
+          "category": "Open Library",
+          "language": [
+            "eng"
+          ],
+          "subjects": [
+            "Magic",
+            "Novela fantástica estadounidense",
+            "Magic in fiction",
+            "Fiction",
+            "Fantasy",
+            "Wizards",
+            "American Fantasy fiction",
+            "Children's stories",
+            "Wizards in fiction",
+            "Magic -- Fiction",
+            "Wizards -- Fiction",
+            "Fantasy fiction",
+            "Newbery Honor",
+            "Fiction, general",
+            "Large type books",
+            "Women priests",
+            "Juvenile fiction",
+            "Thieves"
+          ],
+          "fetchedAt": "2026-09-30T07:27:49.017Z",
+          "sourceUrl": "https://openlibrary.org/books/OL7823944M",
+          "priceCents": 1299,
+          "sourceKind": "openlibrary",
+          "description": "Arha's isolated existence as high priestess in the tombs of Atuan is jarred by a thief who seeks a special treasure.",
+          "admissionFormat": "unspecified",
+          "descriptionLevel": "work",
+          "detailsFetchedAt": "2026-09-30T07:40:47.512Z",
+          "editionPublishDate": "June 1, 1984",
+          "descriptionSourceUrl": "https://openlibrary.org/works/OL59801W",
+          "descriptionTruncated": false
+        },
+        {
+          "id": "OL3940470M",
+          "isbn": [
+            "0151005613"
+          ],
+          "year": 2001,
+          "pages": 296,
+          "stock": 5,
+          "title": "Tales from Earthsea",
+          "format": "unspecified",
+          "workId": "/works/OL59812W",
+          "authors": [
+            "Ursula K. Le Guin"
+          ],
+          "coverId": 112188,
+          "stocked": true,
+          "category": "Open Library",
+          "language": [
+            "eng"
+          ],
+          "subjects": [
+            "Fantasy",
+            "Ged (Fictitious character)",
+            "Magic",
+            "Wizards",
+            "Fiction",
+            "Juvenile fiction",
+            "Ged (fictitious character), fiction",
+            "Fiction, fantasy, general",
+            "Children's fiction",
+            "Fantasy fiction",
+            "Magic, fiction",
+            "Wizards, fiction",
+            "Short stories",
+            "American Fantasy fiction",
+            "American Short stories",
+            "Earthsea (Imaginary place)",
+            "Magos",
+            "Magia"
+          ],
+          "fetchedAt": "2026-09-30T07:27:49.541Z",
+          "sourceUrl": "https://openlibrary.org/books/OL3940470M",
+          "priceCents": 1299,
+          "sourceKind": "openlibrary",
+          "description": "Explores further the magical world of Earthsea through five tales of events which occur before or after the time of the original novels, as well as an essay on the people, languages, history and magic of the place.",
+          "admissionFormat": "unspecified",
+          "descriptionLevel": "edition",
+          "detailsFetchedAt": "2026-09-30T07:40:48.287Z",
+          "editionPublishDate": "2001",
+          "descriptionSourceUrl": "https://openlibrary.org/books/OL3940470M",
+          "descriptionTruncated": false
+        }
+      ],
+      "cart": {
+        "lines": [],
+        "totalCents": 0,
+        "count": 0,
+        "currency": "USD",
+        "version": 0
+      },
+      "mode": "ai"
+    }
+  }
+}

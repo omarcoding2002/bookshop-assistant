@@ -15,9 +15,9 @@ The tested legacy batch-book endpoint returned 404, so the importer uses search 
 | Verified ebook     |                $7.99 |
 | Unspecified        |               $12.99 |
 
-Prices are not market estimates, publisher prices or offers from Open Library. They are static seed values, computed in integer cents. Stock is five copies for normal seeded items and zero for deliberately unavailable examples. Stock is independent per visitor. No tax, delivery fees or discretionary discounts exist. A refresh can change the selected books; prices do not change during a running session unless a new catalogue is deployed, in which case confirmation rechecks totals.
+Prices are not market estimates, publisher prices or offers from Open Library. They are frozen admission values, computed in integer cents. Stock is five copies for normal seeded items and zero for deliberately unavailable examples. Stock is independent per visitor. No tax, delivery fees or discretionary discounts exist. Metadata refreshes preserve persisted offer prices, including through deployments. Confirmation independently rechecks totals.
 
-Search-only external books have `stocked:false`, zero stock and no offered price. The UI displays “Not stocked” rather than $0.00. They cannot enter a basket.
+Work-only or incomplete external books have `stocked:false`, zero stock and no offered price. The UI labels these discovery-only. They cannot enter a basket. Validated editions can be admitted under the rules below.
 
 ## 2. Catalogue quality and licensing
 
@@ -50,3 +50,15 @@ Free Render hosting is the selected prototype target; the committed blueprint do
 ## 6. UI delivery deviation
 
 Claude Code was unavailable, but a useful local prototype did not need to wait. The React UI was implemented directly using the agreed API contract and tested on desktop/mobile. `claude-code-ui-brief.md` lets Claude Code refine or replace it later. No claim is made that Claude Code authored the current UI.
+
+## Live discovery extension
+
+The original 97-book seed remains the curated shelf, not the discovery boundary. Search uses Open Library's Search API with English editions for general discovery, and direct ISBN lookup for exact requests (never silently replaced by a different ISBN). The API currently returns one preferred edition per work; discovery is not an exhaustive edition browser. Page size is 12 upstream works, with at most 20 pages per query; the first page can also include up to 12 saved matches. Duplicate works are combined for browsing. Exact ISBN requests retain edition identity.
+
+Work-only or incomplete records have no offer. A validated edition ID, title and author qualify for a fictional offer. Format-based pricing is assigned once: where format is unknown on admission, $12.99 is retained after enrichment. The five-copy visitor allocation and seed out-of-stock examples remain unchanged. Source metadata is not evidence of real-world retail availability.
+
+Description excerpts retain work/edition attribution and a source link. Missing page counts, formats, languages and descriptions are not inferred. Source descriptions are displayed as escaped text and excluded from model context; book recommendations continue using validated factual references.
+
+Sources: [Open Library usage guidance](https://openlibrary.org/developers/api), [Search API and edition selection](https://openlibrary.org/dev/docs/api/search). Keep this a low-volume human-facing prototype; bulk imports or commercial scale require a different data-access arrangement.
+
+ISBN-10 and its equivalent 978-prefixed ISBN-13 are matched only after checksum validation. Source ISBN strings remain unchanged; the application does not invent a second ISBN field.

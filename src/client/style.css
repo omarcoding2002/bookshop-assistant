@@ -1241,3 +1241,57 @@ dd {
     transition: none !important;
   }
 }
+
+/* Explicit discovery controls wrap naturally on small screens. */
+.search-row {
+  flex-wrap: wrap;
+}
+.search-row .search {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+.search-row select {
+  max-width: 100%;
+  min-width: 0;
+}
+.search-submit {
+  padding: 12px 16px;
+}
+.discovery-note {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 10px 0 18px;
+}
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+}
+.source-description {
+  border-top: 1px solid #deddd4;
+  margin: 20px 0;
+  padding-top: 14px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.source-description h3 {
+  font-size: 21px;
+}
+.source-description a,
+.source-description small {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+@media (max-width: 600px) {
+  .search-row .search {
+    flex-basis: 100%;
+  }
+  .search-row select {
+    flex: 1 1 110px;
+  }
+  .search-submit {
+    width: 100%;
+  }
+}

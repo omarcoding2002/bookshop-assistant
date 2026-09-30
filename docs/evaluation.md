@@ -48,3 +48,15 @@ At completion of paid verification, the shared ledger recorded **$2.338110 spent
 The two prose defects are now addressed at the output boundary rather than through additional prompt warnings. The AI selects edition IDs, fact names and subject indices. Exact titles and factual sentences are rendered by application code. Arbitrary prose, invented IDs, invalid evidence and unsupported comparisons are rejected; verified cards and an uncertainty notice remain available. Neutral follow-up questions cannot introduce unverified narrative details.
 
 Regression coverage includes the altered title, missing page counts, unsupported narrative claims, malicious metadata, invalid references, previous-turn books and unstructured provider responses. The ten repeated live checks (five per original issue) are recorded in `accuracy-live.json`; all ten passed. The original prose-based evaluation findings above are retained as historical evidence, not as a description of the new response path.
+
+## Discovery release acceptance
+
+`discovery-live.json` records real Open Library lookups for The Dispossessed, Piranesi and A Wizard of Earthsea, source-attributed descriptions, exact ISBN lookup, paginated author results and a confirmed simulated purchase. The resulting order was retrieved after restarting the service against Neon. These source/API checks do not consume model tokens.
+
+`discovery-ai-live.json` exercises nine live conversation turns: title, author, topic, ISBN, missing edition facts, child suitability and the complete conversational sale. Factual accuracy is reviewed separately from automated action assertions: names and prices come from saved records, subject statements are explicitly catalogue labels, missing pages/format and age suitability are stated as unknown. Source descriptions remain attributed UI text, not model-generated claims.
+
+The initial exact-ISBN test exposed an ISBN-13 request whose correct source edition listed only its equivalent ISBN-10. Checksum-validated equivalence now handles this without substituting editions; a separate regression rejects wrong checksums and different ISBNs.
+
+Backend checks now cover 55 cases, and desktop/mobile browser checks cover 10 journeys. Source-outage and missing-description cases use deterministic mocked responses; the real source acceptance validates actual returned records. A new uncached search can take longer than 15 seconds because source calls are serialized at one per second. The 15-second p95 goal applies to warm responses; source-cold timings remain visible in the discovery transcript.
+
+The accuracy release's separate public measurement is retained in `performance-accuracy.json`: 30/30 turns, p50 3.840 s, p95 7.864 s. It was deployed and verified before discovery work began.

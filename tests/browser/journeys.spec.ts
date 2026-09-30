@@ -1,5 +1,7 @@
 import { test, expect } from "@playwright/test";
 test.beforeEach(async ({ page }) => {
+  // Ten journeys plus session resets must respect the real 10/minute visitor limit.
+  await new Promise((resolve) => setTimeout(resolve, 6500));
   await page.route("https://covers.openlibrary.org/**", (route) =>
     route.abort(),
   );
@@ -78,7 +80,10 @@ test("unknown search, offline transparency, and a fresh session", async ({
   page,
 }) => {
   await expect(page.getByText("Offline demo · guided responses")).toBeVisible();
-  await page.getByLabel("Search books").fill("zzzznonexistentbookzzzz");
+  await page
+    .getByLabel("Search books", { exact: true })
+    .fill("zzzznonexistentbookzzzz");
+  await page.getByRole("button", { name: "Search books", exact: true }).click();
   await expect(
     page.getByText("No books on this shelf just yet."),
   ).toBeVisible();
@@ -103,6 +108,88 @@ test("capture usable layout", async ({ page }, info) => {
     path: `docs/screenshots/${info.project.name}.png`,
     fullPage: true,
   });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("explicit discovery, pagination and attributed details", async ({
+  page,
+}) => {
+  await expect(page.locator(".book-card")).toHaveCount(12);
+  const book = {
+    id: "OL888801M",
+    workId: "/works/OL888801W",
+    title: "Beyond the original shelves",
+    authors: ["Example Author"],
+    category: "Open Library",
+    subjects: ["Astronomy"],
+    isbn: [],
+    format: "unspecified",
+    priceCents: 1299,
+    stock: 5,
+    stocked: true,
+    sourceUrl: "https://openlibrary.org/books/OL888801M",
+    fetchedAt: "2026-09-30T00:00:00Z",
+  };
+  let searches = 0;
+  await page.route("**/api/v1/discover?**", async (route) => {
+    searches++;
+    const second =
+      new URL(route.request().url()).searchParams.get("page") === "2";
+    await route.fulfill({
+      json: {
+        books: second
+          ? [
+              book,
+              {
+                ...book,
+                id: "OL888802M",
+                workId: "/works/OL888802W",
+                title: "Another discovery",
+              },
+            ]
+          : [book],
+        page: second ? 2 : 1,
+        nextPage: second ? undefined : 2,
+      },
+    });
+  });
+  await page.route("**/api/v1/books/OL888801M", (route) =>
+    route.fulfill({
+      json: {
+        ...book,
+        pages: 123,
+        language: ["eng"],
+        editionPublishDate: "2020",
+        description: "Source text <img src=x onerror=alert(1)>",
+        descriptionSourceUrl: "https://openlibrary.org/works/OL888801W",
+        descriptionLevel: "work",
+      },
+    }),
+  );
+  await page.getByLabel("Search books", { exact: true }).fill("astronomy");
+  await page.waitForTimeout(350); // Would catch the former type-as-you-go request.
+  expect(searches).toBe(0);
+  await page.getByRole("button", { name: "Search books", exact: true }).click();
+  await expect(page.locator(".book-card")).toHaveCount(1);
+  await page.getByRole("button", { name: "Load more books" }).click();
+  await expect(page.locator(".book-card")).toHaveCount(2);
+  await page
+    .getByRole("button", {
+      name: "Details for Beyond the original shelves",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page.getByText("Source text <img src=x onerror=alert(1)>", { exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".source-description img")).toHaveCount(0);
+  await expect(
+    page.getByRole("link", { name: "Description from Open Library (work)" }),
+  ).toHaveAttribute("href", "https://openlibrary.org/works/OL888801W");
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

@@ -55,7 +55,11 @@ The repository contains **97 real edition records from Open Library** across ten
 
 All prices and stock are fictional. Paperback and unspecified-format editions cost $12.99; verified hardcovers cost $22.99; verified ebooks would cost $7.99. The current snapshot may not contain every format. Unknown formats are labelled honestly. A work’s original publication year is distinct from an edition’s publication date.
 
-Each visitor gets an independent fictional stock allocation. External lookup results cannot be purchased. Enable optional low-volume live lookup with `LIVE_BOOK_SEARCH=true` and `OPEN_LIBRARY_CONTACT=your-contact-email`. Refreshing the seed requires internet access and `curl`:
+Each visitor gets an independent fictional stock allocation. The initial shelves remain curated, while explicit searches and chat requests can discover additional Open Library editions. Validated editions with a title and author receive fictional offers; incomplete or work-only records remain discovery-only. Offers are saved in PostgreSQL and their prices are frozen on admission. A book admitted with unknown format keeps its $12.99 price even if a later detail lookup identifies a hardcover.
+
+Live discovery requires `LIVE_BOOK_SEARCH=true` and `OPEN_LIBRARY_CONTACT=your-contact-email`. The Search button searches title, author, ISBN or topic; Load more retrieves the next page. Detail panels distinguish edition publication, language and page count from work-level descriptions. Descriptions are attributed source excerpts of up to 1,200 characters, not model-generated summaries. Unknown fields remain unknown.
+
+Search responses are cached for 24 hours and detail responses for seven days. Identical concurrent requests are combined; the single service instance sends at most one upstream request per second. Source outages show cached information with a warning. These are low-volume user-triggered lookups, not bulk downloads. Refreshing the curated seed requires internet access and `curl`:
 
 ```sh
 npm run seed:refresh
@@ -109,6 +113,6 @@ Production refuses to start without `DATABASE_URL`; Render’s local filesystem 
 
 This is an English/USD prototype. It has no real payment, tax, fulfilment, customer accounts, administration portal, voice or production inventory. Book metadata can be incomplete; age suitability is not guaranteed. No full books or copyrighted descriptions are reproduced.
 
-Anonymous histories, baskets and demo orders expire seven days after session creation and are purged at startup/hourly. “Start fresh” deletes the current session immediately. Server request logs omit message bodies, cookies and search query strings. Live chat content is sent to Anthropic to generate replies; optional live searches send search terms to Open Library. Do not enter personal or payment information.
+Discovered public book records persist in the database so active baskets and orders survive deployments. Cached upstream responses expire separately. Anonymous histories, baskets and demo orders expire seven days after session creation and are purged at startup/hourly. “Start fresh” deletes the current session immediately. Server request logs omit message bodies, cookies and search query strings. Live chat content is sent to Anthropic to generate replies; optional live searches send search terms to Open Library. Do not enter personal or payment information.
 
 Code is MIT licensed. Third-party metadata and cover images are excluded from that license.

@@ -18,9 +18,11 @@ One TypeScript application serves the UI and API. Fastify validates the HTTP bou
 
 ## Storage and concurrency
 
-The committed catalogue is read-only at runtime. Live-source responses are cached in PostgreSQL for one day; stale cached metadata may be returned during an outage. Old cache rows expire after an additional seven days.
+The curated seed remains read-only. A shared Catalogue repository loads seeded and persisted discovered records into the single instance and writes new/enriched records to `catalogue_editions`. Search, details, basket and checkout resolve the same IDs. Insert/update logic preserves an already admitted offer's price, stock allocation and admission format; metadata enrichment cannot reprice active baskets. Records remain persisted across deployments.
 
-Tables: sessions, quotes, orders, model_budget, catalogue_cache. Local PGlite runs the PostgreSQL schema without a separate service; cloud uses `pg` and a Neon URL. Migration 001 is idempotent and is applied at startup. Future schema changes should use numbered migrations and preserve old deploy compatibility.
+Open Library requests are identified, coalesced by URL and serialized at one request per second. Search responses are cached for one day and work/edition/author/ISBN details for seven days. Stale cached data carries a warning during outages; 429 responses back off. Queue length and waiting time are bounded. Old cache rows expire after an additional seven days. Browsing curated shelves never makes a source request; explicit UI search uses `/api/v1/discover` with query, kind, page and optional price filter. Details use the existing book endpoint with edition or work IDs.
+
+Tables: sessions, quotes, orders, model_budget, catalogue_cache, catalogue_editions. Local PGlite runs the PostgreSQL schema without a separate service; cloud uses `pg` and a Neon URL. Numbered idempotent migrations are applied in order at startup; migration 002 adds persistent catalogue records. Future schema changes should use numbered migrations and preserve old deploy compatibility.
 
 Every commerce mutation locks its session row in a transaction. Quote version, current basket, stock and price are checked again at confirmation. One order per quote and one order per session/idempotency key are enforced by database constraints. Confirmation subtracts from a session’s fictional allocation and clears the basket atomically. Multiple users therefore cannot exhaust each other’s demo stock.
 

@@ -165,6 +165,20 @@ function App() {
   const [books, setBooks] = useState<Book[]>([]);
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
+  const [activeQuery, setActiveQuery] = useState("");
+  const [searchKind, setSearchKind] = useState("all");
+  const [activeKind, setActiveKind] = useState("all");
+  const [page, setPage] = useState(1);
+  const [nextPage, setNextPage] = useState<number>();
+  const [detailsLoading, setDetailsLoading] = useState(false);
+  function browseCategory(value: string) {
+    setQuery("");
+    setActiveQuery("");
+    setCategory(value);
+    setPage(1);
+    setNextPage(undefined);
+  }
+
   const [maxPrice, setMaxPrice] = useState("");
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
@@ -212,15 +226,34 @@ function App() {
       try {
         const params = new URLSearchParams({ limit: "12" });
         if (category) params.set("category", category);
-        if (query) params.set("query", query);
+        if (activeQuery) {
+          params.set("query", activeQuery);
+          params.set("kind", activeKind);
+          params.set("page", String(page));
+        }
         if (maxPrice)
           params.set("maxPriceCents", String(Number(maxPrice) * 100));
-        const response = await fetch(`/api/v1/books?${params}`, {
-          signal: controller.signal,
-        });
+        const response = await fetch(
+          `/api/v1/${activeQuery ? "discover" : "books"}?${params}`,
+          {
+            signal: controller.signal,
+          },
+        );
         const data = await response.json();
         if (!response.ok) throw new Error(data.error.message);
-        setBooks(data.books);
+        setBooks((previous) =>
+          page === 1
+            ? data.books
+            : [
+                ...new Map(
+                  [...previous, ...data.books].map((b: Book) => [
+                    b.workId || b.id,
+                    b,
+                  ]),
+                ).values(),
+              ],
+        );
+        setNextPage(data.nextPage);
         if (data.warning) setNotice(data.warning);
       } catch (e) {
         if (!controller.signal.aborted) setError((e as Error).message);
@@ -232,7 +265,36 @@ function App() {
       controller.abort();
       clearTimeout(timer);
     };
-  }, [ready, category, query, maxPrice, searchVersion]);
+  }, [ready, category, activeQuery, activeKind, page, maxPrice, searchVersion]);
+  useEffect(() => {
+    if (!selected) return;
+    let cancelled = false;
+    const id = selected.id;
+    setDetailsLoading(true);
+    api<Book>(`/books/${id}`)
+      .then((book) => {
+        if (!cancelled)
+          setSelected((current) => (current?.id === id ? book : current));
+      })
+      .catch(() => {
+        if (!cancelled)
+          setSelected((current) =>
+            current?.id === id
+              ? {
+                  ...current,
+                  metadataWarning:
+                    "Could not refresh details; showing saved information.",
+                }
+              : current,
+          );
+      })
+      .finally(() => {
+        if (!cancelled) setDetailsLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [selected?.id]);
   useEffect(() => {
     if (messages.length)
       chatEnd.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -451,7 +513,18 @@ function App() {
                 Fictional prices.
               </span>
             </div>
-            <div className="search-row">
+            <form
+              className="search-row"
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (query.trim().length < 2) return;
+                setActiveQuery(query.trim());
+                setActiveKind(searchKind);
+                setCategory("");
+                setPage(1);
+                setSearchVersion((v) => v + 1);
+              }}
+            >
               <label className="search">
                 <Icon name="search" />
                 <input
@@ -464,27 +537,56 @@ function App() {
                 {query && (
                   <button
                     aria-label="Clear search"
-                    onClick={() => setQuery("")}
+                    type="button"
+                    onClick={() => browseCategory("")}
                   >
                     <Icon name="close" size={16} />
                   </button>
                 )}
               </label>
               <select
+                aria-label="Search by"
+                value={searchKind}
+                onChange={(e) => setSearchKind(e.target.value)}
+              >
+                <option value="all">Title, author or ISBN</option>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="topic">Topic</option>
+              </select>
+              <select
                 aria-label="Maximum price"
                 value={maxPrice}
-                onChange={(e) => setMaxPrice(e.target.value)}
+                onChange={(e) => {
+                  setMaxPrice(e.target.value);
+                  setPage(1);
+                }}
               >
                 <option value="">Any price</option>
                 <option value="10">Under $10</option>
                 <option value="15">Under $15</option>
                 <option value="25">Under $25</option>
               </select>
-            </div>
+              <button
+                type="submit"
+                className="primary search-submit"
+                disabled={!ready || searching || query.trim().length < 2}
+              >
+                Search books
+              </button>
+            </form>
+            <p className="discovery-note">
+              {activeQuery
+                ? `Search results for “${activeQuery}”`
+                : "Browse our curated shelves, or search for more books."}{" "}
+              {config?.liveSearch
+                ? "Live discovery powered by Open Library."
+                : "Live discovery is currently off; searching saved books."}
+            </p>
             <div className="categories" aria-label="Book categories">
               <button
                 className={!category ? "active" : ""}
-                onClick={() => setCategory("")}
+                onClick={() => browseCategory("")}
               >
                 All books
               </button>
@@ -492,7 +594,7 @@ function App() {
                 <button
                   key={c}
                   className={category === c ? "active" : ""}
-                  onClick={() => setCategory(c)}
+                  onClick={() => browseCategory(c)}
                 >
                   {c}
                 </button>
@@ -565,6 +667,15 @@ function App() {
                 </article>
               ))}
             </div>
+            {nextPage && (
+              <button
+                className="secondary load-more"
+                disabled={searching}
+                onClick={() => setPage(nextPage)}
+              >
+                Load more books
+              </button>
+            )}
             {!searching && ready && !books.length && (
               <div className="empty-shelf">
                 <Icon name="book" size={32} />
@@ -572,8 +683,7 @@ function App() {
                 <p>Try a different search or a wider budget.</p>
                 <button
                   onClick={() => {
-                    setQuery("");
-                    setCategory("");
+                    browseCategory("");
                     setMaxPrice("");
                   }}
                 >
@@ -602,9 +712,11 @@ function App() {
                 <h2>Your bookseller</h2>
                 <span>
                   <i />
-                  {config?.mode === "ai"
-                    ? "AI-powered · here to help"
-                    : "Offline demo · guided responses"}
+                  {!config
+                    ? "Connecting to your bookseller…"
+                    : config.mode === "ai"
+                      ? "AI-powered · here to help"
+                      : "Offline demo · guided responses"}
                 </span>
               </div>
               <button
@@ -626,9 +738,11 @@ function App() {
             >
               <Icon name="spark" size={16} />
               <span>
-                {config?.mode === "ai"
-                  ? "An AI bookseller with real book data. All sales are simulated."
-                  : "Offline demonstration: guided responses, real book records, simulated purchases."}
+                {!config
+                  ? "Connecting to the bookshop…"
+                  : config.mode === "ai"
+                    ? "An AI bookseller with real book data. All sales are simulated."
+                    : "Offline demonstration: guided responses, real book records, simulated purchases."}
               </span>
             </div>
             <div className="conversation" role="log" aria-label="Conversation">
@@ -762,6 +876,10 @@ function App() {
               <span className="eyebrow">{selected.category}</span>
               <h3>{selected.title}</h3>
               <p>{selected.authors.join(", ")}</p>
+              {detailsLoading && <p role="status">Checking source details…</p>}
+              {selected.metadataWarning && (
+                <p role="status">{selected.metadataWarning}</p>
+              )}
               <dl>
                 <dt>Format</dt>
                 <dd>
@@ -771,7 +889,13 @@ function App() {
                 </dd>
                 <dt>First published (work)</dt>
                 <dd>{selected.year || "Unknown"}</dd>
-                <dt>Edition ID</dt>
+                <dt>Edition publication</dt>
+                <dd>{selected.editionPublishDate || "Unknown"}</dd>
+                <dt>Pages (edition)</dt>
+                <dd>{selected.pages || "Unknown"}</dd>
+                <dt>Language</dt>
+                <dd>{selected.language?.join(", ") || "Unknown"}</dd>
+                <dt>Record ID</dt>
                 <dd>{selected.id}</dd>
                 <dt>ISBN</dt>
                 <dd>{selected.isbn[0] || "Not provided"}</dd>
@@ -789,10 +913,42 @@ function App() {
                 </dd>
               </dl>
               <a href={selected.sourceUrl} target="_blank" rel="noreferrer">
-                View edition on Open Library ↗
+                {selected.id.endsWith("W")
+                  ? "View work on Open Library ↗"
+                  : "View edition on Open Library ↗"}
               </a>
             </div>
           </div>
+          <section className="source-description">
+            <h3>About this book</h3>
+            {selected.description ? (
+              <>
+                <p>
+                  {selected.description}
+                  {selected.descriptionTruncated ? "…" : ""}
+                </p>
+                <a
+                  href={selected.descriptionSourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {selected.descriptionTruncated
+                    ? "Description excerpt"
+                    : "Description"}{" "}
+                  from Open Library ({selected.descriptionLevel}) ↗
+                </a>
+              </>
+            ) : (
+              <p>No source description is available for this record.</p>
+            )}
+            <small>
+              Metadata retrieved{" "}
+              {new Date(
+                selected.detailsFetchedAt || selected.fetchedAt,
+              ).toLocaleDateString()}
+              .
+            </small>
+          </section>
           <p className="detail-note">
             Subjects:{" "}
             {selected.subjects.slice(0, 6).join(" · ") || "Not provided"}. Age
@@ -809,7 +965,9 @@ function App() {
               );
             }}
           >
-            Add to basket — {money(selected.priceCents)}
+            {selected.stocked
+              ? `Add to basket — ${money(selected.priceCents)}`
+              : "Discovery only — no demo stock"}
           </button>
         </Modal>
       )}

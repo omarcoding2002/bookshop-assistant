@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-09-29T22:05:19.168Z",
+  "executedAt": "2026-09-30T07:38:33.365Z",
   "mode": "offline-guided",
   "paidModelCalls": 0,
   "passed": 20,
@@ -9,77 +9,77 @@
     {
       "name": "Greeting",
       "passed": true,
-      "latencyMs": 5
+      "latencyMs": 7
     },
     {
       "name": "Undecided reader",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Gift discovery",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Mystery within budget",
       "passed": true,
-      "latencyMs": 32
+      "latencyMs": 18
     },
     {
       "name": "Fantasy discovery",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 5
     },
     {
       "name": "Science fiction discovery",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Romance discovery",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Children suitability uncertainty",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Teen reader",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 5
     },
     {
       "name": "Nonfiction reader",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 4
     },
     {
       "name": "Exact title",
       "passed": true,
-      "latencyMs": 2
+      "latencyMs": 4
     },
     {
       "name": "Exact ISBN",
       "passed": true,
-      "latencyMs": 2
+      "latencyMs": 3
     },
     {
       "name": "No title match",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 5
     },
     {
       "name": "Budget too low",
       "passed": true,
-      "latencyMs": 3
+      "latencyMs": 6
     },
     {
       "name": "Price objection",
       "passed": true,
-      "latencyMs": 2
+      "latencyMs": 4
     },
     {
       "name": "Comparison",
@@ -89,22 +89,22 @@
     {
       "name": "Preference memory and rejection",
       "passed": true,
-      "latencyMs": 5
+      "latencyMs": 7
     },
     {
       "name": "Unavailable edition",
       "passed": true,
-      "latencyMs": 2
+      "latencyMs": 3
     },
     {
       "name": "Cart changes",
       "passed": true,
-      "latencyMs": 9
+      "latencyMs": 11
     },
     {
       "name": "Complete conversational sale",
       "passed": true,
-      "latencyMs": 13
+      "latencyMs": 14
     }
   ]
 }

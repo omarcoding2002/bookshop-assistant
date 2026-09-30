@@ -47,6 +47,18 @@ const schemas = {
       sourceUrl: { type: "string", format: "uri" },
       fetchedAt: { type: "string", format: "date-time" },
       coverId: int,
+      language: array(str),
+      editionPublishDate: str,
+      description: str,
+      descriptionSourceUrl: { type: "string", format: "uri" },
+      descriptionLevel: { enum: ["work", "edition"] },
+      descriptionTruncated: bool,
+      detailsFetchedAt: { type: "string", format: "date-time" },
+      sourceKind: { enum: ["seed", "openlibrary"] },
+      admissionFormat: {
+        enum: ["paperback", "hardcover", "ebook", "unspecified"],
+      },
+      metadataWarning: str,
     },
     [
       "id",
@@ -146,7 +158,7 @@ const paths = {
   },
   "/api/v1/books": {
     get: endpoint(
-      "Search local books; optional live lookup returns unstocked external records",
+      "Browse curated shelves or search saved records without an upstream request",
       obj({ books: array(ref("Book")), warning: str }, ["books"]),
       {
         parameters: Object.entries({
@@ -156,6 +168,43 @@ const paths = {
           inStockOnly: { type: "string", enum: ["true", "false"] },
           limit: { type: "integer", minimum: 1, maximum: 24, default: 12 },
         }).map(([name, schema]) => ({ name, in: "query", schema })),
+      },
+    ),
+  },
+  "/api/v1/discover": {
+    get: endpoint(
+      "Search saved records and live Open Library; validated editions receive fictional demo offers",
+      obj(
+        { books: array(ref("Book")), page: int, nextPage: int, warning: str },
+        ["books", "page"],
+      ),
+      {
+        parameters: [
+          {
+            in: "query",
+            name: "query",
+            required: true,
+            schema: { type: "string", minLength: 2, maxLength: 200 },
+          },
+          {
+            in: "query",
+            name: "kind",
+            schema: {
+              enum: ["all", "title", "author", "topic"],
+              default: "all",
+            },
+          },
+          {
+            in: "query",
+            name: "page",
+            schema: { type: "integer", minimum: 1, maximum: 20, default: 1 },
+          },
+          {
+            in: "query",
+            name: "maxPriceCents",
+            schema: { type: "integer", minimum: 0 },
+          },
+        ],
       },
     ),
   },

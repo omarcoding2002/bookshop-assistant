@@ -1,0 +1,172 @@
+{
+  "executedAt": "2026-09-30T07:27:55.029Z",
+  "baseUrl": "http://localhost:3002",
+  "paidModelCalls": 0,
+  "passed": true,
+  "exactISBN": "9781526622419",
+  "exactEdition": "OL61022665M",
+  "descriptionCount": 3,
+  "pagination": {
+    "firstCount": 22,
+    "nextCount": 12
+  },
+  "orderId": "DEMO-8a67470b-2d41-465f-98b8-0d24c82608c0",
+  "results": [
+    {
+      "query": "The Dispossessed",
+      "book": {
+        "id": "OL24938050M",
+        "isbn": [],
+        "year": 1974,
+        "pages": 311,
+        "stock": 5,
+        "title": "The Dispossessed",
+        "format": "unspecified",
+        "workId": "/works/OL59863W",
+        "authors": [
+          "Ursula K. Le Guin"
+        ],
+        "coverId": 6902259,
+        "stocked": true,
+        "category": "Open Library",
+        "language": [
+          "eng"
+        ],
+        "subjects": [
+          "Anarchism",
+          "Anarquismo",
+          "Ciencia-ficción",
+          "Communal living",
+          "Ficción",
+          "Fiction",
+          "Fiction in English",
+          "Físicos",
+          "Hugo Award Winner",
+          "Life on other planets",
+          "Novela utópica",
+          "Physicists",
+          "Science fiction",
+          "Utopias",
+          "Vida comunal",
+          "Vida en otros planets",
+          "award:hugo_award=1975",
+          "award:hugo_award=novel"
+        ],
+        "fetchedAt": "2026-09-30T07:27:34.771Z",
+        "sourceUrl": "https://openlibrary.org/books/OL24938050M",
+        "priceCents": 1299,
+        "sourceKind": "openlibrary",
+        "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe.  To do this dangerous task will mean giving up his family and possibly his life.  Shevek must make the unprecedented journey to the planet, Anarres, to challenge the complex structures of life and living, and ignite the fires of change.",
+        "admissionFormat": "unspecified",
+        "descriptionLevel": "work",
+        "detailsFetchedAt": "2026-09-30T07:27:38.065Z",
+        "editionPublishDate": "1974",
+        "descriptionSourceUrl": "https://openlibrary.org/works/OL59863W",
+        "descriptionTruncated": false
+      },
+      "passed": true
+    },
+    {
+      "query": "Piranesi",
+      "book": {
+        "id": "OL61022665M",
+        "isbn": [
+          "9781526622419",
+          "1526622416"
+        ],
+        "year": 2020,
+        "stock": 5,
+        "title": "Piranesi",
+        "format": "unspecified",
+        "workId": "/works/OL20893680W",
+        "authors": [
+          "Susanna Clarke"
+        ],
+        "coverId": 15155469,
+        "stocked": true,
+        "category": "Open Library",
+        "language": [
+          "eng"
+        ],
+        "subjects": [
+          "form:novel",
+          "genre:fantasy",
+          "English literature",
+          "nyt:combined-print-and-e-book-fiction=2020-10-04",
+          "New York Times bestseller",
+          "Labyrinths",
+          "Fiction",
+          "Curiosities and wonders",
+          "Dwellings",
+          "Dead"
+        ],
+        "fetchedAt": "2026-09-30T07:27:39.133Z",
+        "sourceUrl": "https://openlibrary.org/books/OL61022665M",
+        "priceCents": 1299,
+        "sourceKind": "openlibrary",
+        "description": "**From the *New York Times* bestselling author of *Jonathan Strange & Mr. Norrell*, an intoxicating, hypnotic new novel set in a dreamlike alternative reality.**    Piranesi's house is no ordinary building; its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.    There is one other person in the house--a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.    For readers of Neil Gaiman's *The Ocean at the End of the Lane* and fans of Madeline Miller's *Circe*, *Piranesi* introduces an astonishing new world, an infinite labyrinth full of startling images of surreal beauty, haunted by the tides and the clouds.    ",
+        "admissionFormat": "unspecified",
+        "descriptionLevel": "work",
+        "detailsFetchedAt": "2026-09-30T07:27:42.558Z",
+        "editionPublishDate": "2020-09-15",
+        "descriptionSourceUrl": "https://openlibrary.org/works/OL20893680W",
+        "descriptionTruncated": true
+      },
+      "passed": true
+    },
+    {
+      "query": "A Wizard of Earthsea",
+      "book": {
+        "id": "OL58719746M",
+        "isbn": [],
+        "year": 1968,
+        "pages": 183,
+        "stock": 5,
+        "title": "A Wizard of Earthsea",
+        "format": "paperback",
+        "workId": "/works/OL59798W",
+        "authors": [
+          "Ursula K. Le Guin"
+        ],
+        "coverId": 15255407,
+        "stocked": true,
+        "category": "Open Library",
+        "language": [
+          "eng"
+        ],
+        "subjects": [
+          "Fiction",
+          "Magic",
+          "Magic in fiction",
+          "Fantasy",
+          "Wizards",
+          "Wizards in fiction",
+          "Bk. 1.",
+          "Earthsea (Le Guin, Ursula K.)",
+          "Juvenile fiction",
+          "Children's fiction",
+          "Magic, fiction",
+          "Science fiction",
+          "Fantasy fiction",
+          "Fiction, fantasy, general",
+          "Margaret A. Edwards Award",
+          "Earthsea (Imaginary place)",
+          "Fantastic fiction",
+          "Ged (fictitious character), fiction"
+        ],
+        "fetchedAt": "2026-09-30T07:27:43.487Z",
+        "sourceUrl": "https://openlibrary.org/books/OL58719746M",
+        "priceCents": 1299,
+        "sourceKind": "openlibrary",
+        "description": "The first novel of Ursula K. Le Guin's must-read Earthsea Cycle. \"The magic of Earthsea is primal; the lessons of Earthsea remain as potent, as wise, and as necessary as anyone could dream.\" (Neil Gaiman)    Ged was the greatest sorcerer in Earthsea, but in his youth he was the reckless Sparrowhawk. In his hunger for power and knowledge, he tampered with long-held secrets and loosed a terrible shadow upon the world.    This is the tumultuous tale of his testing, how he mastered the mighty words of power, tamed an ancient dragon, and crossed death's threshold to restore the balance.    With stories as perennial and universally beloved as The Chronicles of Narnia and The Lord of The Rings—but also unlike anything but themselves—Ursula K. Le Guin’s Earthsea novels are some of the most acclaimed and awarded works in literature. They have received accolades such as the National Book Award, a Newbery Honor, the Nebula Award, and many more honors, commemorating their enduring place in the hearts and minds of readers and the literary world alike.    Join the millions of fantasy readers who have explored these lands. As The Guardian put it: \"Ursula Le Guin's world of Earthsea is a tangled s",
+        "admissionFormat": "unspecified",
+        "descriptionLevel": "work",
+        "detailsFetchedAt": "2026-09-30T07:27:45.718Z",
+        "editionPublishDate": "1975",
+        "descriptionSourceUrl": "https://openlibrary.org/works/OL59798W",
+        "descriptionTruncated": true
+      },
+      "passed": true
+    }
+  ]
+}

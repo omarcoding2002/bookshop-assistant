@@ -22,7 +22,7 @@ export const policy = {
   fulfilment:
     "Simulated orders only. No payment, delivery, tax or personal details required. No real returns or refunds.",
   stock:
-    "Fictional stock is independent for each visitor. Only seeded editions can be purchased.",
+    "Fictional stock is independent for each visitor. Validated editions can be purchased in the demo. Incomplete and work-only records are discovery-only.",
   suitability:
     "Age suitability and content warnings are not guaranteed; say when evidence is missing.",
 };

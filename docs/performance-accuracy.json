@@ -192,5 +192,7 @@
       "status": 200,
       "latencyMs": 3688
     }
-  ]
+  ],
+  "testedCommit": "4a7e17e3296042f0077fc8f8ebe259c51ad7c6ee",
+  "model": "claude-sonnet-5-5"
 }

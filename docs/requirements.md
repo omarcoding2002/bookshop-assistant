@@ -1,6 +1,6 @@
 # Bookshop Assistant — Requirements
 
-Version 1.0 · 30 September 2026 · Prototype
+Version 1.2 · 30 September 2026 · Prototype
 
 ## Objective and success criteria
 
@@ -22,7 +22,7 @@ Success requires a runnable Git repository, a public browser demo, reproducible 
 | US-08 | Returning-in-session shopper | Preserve preferences, rejected choices and basket across turns and page reloads.                             |
 | US-09 | Ready-to-buy shopper         | See a calculated quote, explicitly confirm and receive a clearly labelled demo receipt.                      |
 | US-10 | Shopper changing their mind  | Remove/change quantities, invalidate old quotes and continue without restarting.                             |
-| US-11 | Unavailable-book shopper     | See honest availability and suitable alternatives; external results are never presented as stocked.          |
+| US-11 | Unavailable-book shopper     | See honest availability and suitable alternatives; incomplete/work-only results stay discovery-only.         |
 | US-12 | Visitor during an outage     | Preserve basket, display an honest failure and keep manual browsing/checkout available.                      |
 
 ## Functional requirements
@@ -30,10 +30,10 @@ Success requires a runnable Git repository, a public browser demo, reproducible 
 | ID    | Requirement                                                                                        | Implementation/verification                                                                         |
 | ----- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | FR-01 | Greet, discover needs and adapt the conversation; ask one question at a time when needed.          | Agent prompt; customer scenario evaluation. Full natural-language quality requires live evaluation. |
-| FR-02 | Search title, author, ISBN and subjects; filter category and price.                                | Seeded catalogue search and optional live-source adapter.                                           |
+| FR-02 | Search title, author, ISBN and subjects; filter category and price.                                | Curated browsing plus paginated live title/author/ISBN/topic discovery.                             |
 | FR-03 | Preserve provenance, work/edition distinction and unknown fields.                                  | Edition IDs, source URL, retrieval time, explicit unspecified format.                               |
 | FR-04 | Recommend/compare two or three source-backed books and preserve preferences/rejections.            | Search/details/preferences tools; persistent session state.                                         |
-| FR-05 | Keep prices, availability and arithmetic outside the model.                                        | Store service, integer cents and immutable seed prices.                                             |
+| FR-05 | Keep prices, availability and arithmetic outside the model.                                        | Store service, integer cents and frozen seed and admitted-edition prices.                           |
 | FR-06 | Support conversational and UI basket changes.                                                      | Absolute-quantity tool/API; zero removes; maximum five copies/edition and twenty distinct editions. |
 | FR-07 | Quote before ordering. Quotes expire after ten minutes and are invalidated by basket changes.      | Transactional quote and confirmation services.                                                      |
 | FR-08 | Require explicit confirmation independent of model instructions.                                   | Confirm button with `confirmed:true`, or exact chat phrase `confirm order`.                         |
@@ -68,7 +68,7 @@ flowchart TD
   API --> Agent[Single bounded conversation orchestrator]
   Agent <--> Claude[Claude API]
   Agent --> Tools[Validated tools]
-  Tools --> Catalogue[Local catalogue plus cached Open Library lookup]
+  Tools --> Catalogue[Shared catalogue repository and cached Open Library discovery]
   Catalogue --> OpenLibrary[Open Library APIs]
   Tools --> Store[Deterministic pricing, basket and quote services]
   API --> Confirm[Explicit confirmation gate]
@@ -85,9 +85,9 @@ The model has no order-creation tool. See `architecture.md` for interfaces, tran
 ## Scope, assumptions and exclusions
 
 - English conversation/UI, USD display, no customer sign-in. General bookstore audience; not a specialist medical/legal adviser.
-- 97 imported editions are the fictional sellable inventory. Prices/stock are synthetic. Work-level subjects can be imperfect and are not age/content guarantees.
+- 97 imported editions form the curated shelves; validated discovered editions extend the fictional sellable inventory. Prices/stock are synthetic. Work-level subjects can be imperfect and are not age/content guarantees.
 - No actual payment, shipment, tax, refunds, real-time merchant stock, email, SMS, voice, multilingual support or administration screen.
-- No recommendation-training pipeline, vector database or multiple agents. Search plus LLM judgement is adequate for the small catalogue.
+- No recommendation-training pipeline, vector database or multiple agents. Search, validated evidence selection and server-rendered facts are used.
 - One server instance; free hosting can sleep and has quotas. External source and model availability are not guaranteed.
 - The current UI was implemented directly because Claude Code was absent. A contract and brief allow later Claude Code refinement without redesigning the backend.
 - Offline guided behaviour demonstrates commerce and constrained scenarios only; it does not satisfy the live conversational-agent acceptance gate.
@@ -101,3 +101,14 @@ The model has no order-creation tool. See `architecture.md` for interfaces, tran
 5. README, source/price decision, architecture, requirements and evidence are committed to the repository.
 
 Live evaluation and public deployment evidence are recorded in `evaluation.md` and `release-status.md`. Automated scenario passes are supplemented by transcript review; they are not a guarantee of correctness for every future model response.
+
+## Accuracy and live discovery acceptance (v1.2)
+
+- Every recommendation, comparison and follow-up book answer uses validated IDs and evidence, with exact catalogue titles. Unknown narrative, suitability and length facts remain unknown. Invalid output falls back to verified cards.
+- The two original factual defects must pass five live repetitions each, alongside the 20-scenario suite. Warm response p95 target remains 15 seconds. Cold source lookup latency is reported separately.
+- Explicit search submissions query Open Library even when saved matches exist. Search pagination uses a Load more control; shelves stay curated. ISBN-10/13 equivalence requires valid checksums; different editions are never substituted.
+- Search cache: 24 hours. Detail cache: seven days. Identical in-flight source calls coalesce and upstream requests start at most once per second. Source failure displays saved results and a notice.
+- Edition ID, title and author validation admits an edition to simulated stock with five copies per visitor. Work-only and incomplete records cannot be ordered. Format-based demo prices freeze at admission.
+- Detail panels distinguish attributed work descriptions from edition pages, language and format; absent fields remain visibly unknown.
+- New titles, ISBN fidelity, missing metadata, source outages and a newly discovered edition purchase surviving deployment must pass before live discovery is enabled.
+- Each phase may use at most $2 of the existing $10 cumulative application allowance; no automatic cap increase or reset. Free Render/Neon, English, USD and simulated purchases remain the scope.

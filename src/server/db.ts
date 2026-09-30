@@ -1,6 +1,6 @@
 import { PGlite } from "@electric-sql/pglite";
 import pg from "pg";
-import { readFile, mkdir } from "node:fs/promises";
+import { readFile, mkdir, readdir } from "node:fs/promises";
 export interface Queryable {
   query<T = Record<string, unknown>>(
     sql: string,
@@ -56,11 +56,13 @@ export async function createDatabase(
     };
   }
   // Execute statements separately for both PostgreSQL drivers; migration is idempotent.
-  const sql = await readFile(
-    new URL("../../migrations/001_initial.sql", import.meta.url),
-    "utf8",
-  );
-  for (const statement of sql.split(";").filter((s) => s.trim()))
-    await db.query(statement);
+  const directory = new URL("../../migrations/", import.meta.url);
+  for (const file of (await readdir(directory))
+    .filter((f) => /^\d+.*\.sql$/.test(f))
+    .sort()) {
+    const sql = await readFile(new URL(file, directory), "utf8");
+    for (const statement of sql.split(";").filter((s) => s.trim()))
+      await db.query(statement);
+  }
   return db;
 }

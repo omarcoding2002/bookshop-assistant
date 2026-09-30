@@ -187,12 +187,7 @@ export async function buildApp(
       ...input,
       inStockOnly: input.inStockOnly === "true",
     });
-    let warning: string | undefined;
-    if (!books.length && input.query) {
-      const external = await catalogue.searchLive(input.query);
-      books = external.books;
-      warning = external.warning;
-    }
+    const warning: string | undefined = undefined;
     return {
       books: books.map((b) => ({
         ...b,
@@ -201,12 +196,35 @@ export async function buildApp(
       warning,
     };
   });
+  app.get(
+    "/api/v1/discover",
+    { config: { rateLimit: { max: 12, timeWindow: "1 minute" } } },
+    async (req) => {
+      const input = z
+        .object({
+          query: z.string().trim().min(2).max(200),
+          kind: z.enum(["all", "title", "author", "topic"]).default("all"),
+          page: z.coerce.number().int().min(1).max(20).default(1),
+          maxPriceCents: z.coerce.number().int().nonnegative().optional(),
+        })
+        .parse(req.query);
+      const state = await session(req);
+      const result = await catalogue.discover(input);
+      return {
+        ...result,
+        books: result.books.map((b) => ({
+          ...b,
+          stock: b.stocked ? store.available(state, b.id) : 0,
+        })),
+      };
+    },
+  );
   app.get("/api/v1/books/:id", async (req) => {
     const state = await session(req);
     const { id } = z
-      .object({ id: z.string().regex(/^OL\d+M$/) })
+      .object({ id: z.string().regex(/^OL\d+[MW]$/) })
       .parse(req.params);
-    const book = catalogue.get(id);
+    const book = await catalogue.details(id);
     if (!book) throw new AppError(404, "NOT_FOUND", "Edition not found.");
     return { ...book, stock: store.available(state, id) };
   });
