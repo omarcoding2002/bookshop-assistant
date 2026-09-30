@@ -42,3 +42,9 @@ The deterministic offline mode understands a small set of demo intents. It is no
 ## Verification budget snapshot
 
 At completion of paid verification, the shared ledger recorded **$2.338110 spent/accounted**, **$0 reserved**, and **$7.661890 remaining** from the $10 allowance. Public use after this snapshot changes the remaining amount. This includes both scenario runs, both concurrency runs and smoke tests.
+
+## Accuracy release — source-backed responses
+
+The two prose defects are now addressed at the output boundary rather than through additional prompt warnings. The AI selects edition IDs, fact names and subject indices. Exact titles and factual sentences are rendered by application code. Arbitrary prose, invented IDs, invalid evidence and unsupported comparisons are rejected; verified cards and an uncertainty notice remain available. Neutral follow-up questions cannot introduce unverified narrative details.
+
+Regression coverage includes the altered title, missing page counts, unsupported narrative claims, malicious metadata, invalid references, previous-turn books and unstructured provider responses. The ten repeated live checks (five per original issue) are recorded in `accuracy-live.json`; all ten passed. The original prose-based evaluation findings above are retained as historical evidence, not as a description of the new response path.

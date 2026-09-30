@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-09-29T22:45:31.747Z",
+  "executedAt": "2026-09-30T07:12:25.180Z",
   "mode": "live-ai",
   "paidModelCalls": "See server budget ledger",
   "passed": 20,
@@ -9,105 +9,102 @@
     {
       "name": "Greeting",
       "passed": true,
-      "latencyMs": 8518
+      "latencyMs": 8342
     },
     {
       "name": "Undecided reader",
       "passed": true,
-      "latencyMs": 8940
+      "latencyMs": 8376
     },
     {
       "name": "Gift discovery",
       "passed": true,
-      "latencyMs": 16220
+      "latencyMs": 8184
     },
     {
       "name": "Mystery within budget",
       "passed": true,
-      "latencyMs": 15025
+      "latencyMs": 13502
     },
     {
       "name": "Fantasy discovery",
       "passed": true,
-      "latencyMs": 12341
+      "latencyMs": 11193
     },
     {
       "name": "Science fiction discovery",
       "passed": true,
-      "latencyMs": 12166
+      "latencyMs": 11484
     },
     {
       "name": "Romance discovery",
       "passed": true,
-      "latencyMs": 13526
+      "latencyMs": 11572
     },
     {
       "name": "Children suitability uncertainty",
       "passed": true,
-      "latencyMs": 12946
+      "latencyMs": 13495
     },
     {
       "name": "Teen reader",
       "passed": true,
-      "latencyMs": 12989
+      "latencyMs": 11510
     },
     {
       "name": "Nonfiction reader",
       "passed": true,
-      "latencyMs": 14642
+      "latencyMs": 11357
     },
     {
       "name": "Exact title",
       "passed": true,
-      "latencyMs": 12377
+      "latencyMs": 10398
     },
     {
       "name": "Exact ISBN",
       "passed": true,
-      "latencyMs": 10812
+      "latencyMs": 12598
     },
     {
       "name": "No title match",
       "passed": true,
-      "latencyMs": 10641
+      "latencyMs": 10077
     },
     {
       "name": "Budget too low",
       "passed": true,
-      "latencyMs": 14920
+      "latencyMs": 12135
     },
     {
       "name": "Price objection",
       "passed": true,
-      "latencyMs": 10831
+      "latencyMs": 16300
     },
     {
       "name": "Comparison",
       "passed": true,
-      "latencyMs": 24423
+      "latencyMs": 24357
     },
     {
       "name": "Preference memory and rejection",
       "passed": true,
-      "latencyMs": 29392
+      "latencyMs": 25528
     },
     {
       "name": "Unavailable edition",
       "passed": true,
-      "latencyMs": 15360
+      "latencyMs": 13172
     },
     {
       "name": "Cart changes",
       "passed": true,
-      "latencyMs": 35140
+      "latencyMs": 34914
     },
     {
       "name": "Complete conversational sale",
       "passed": true,
-      "latencyMs": 40412
+      "latencyMs": 41389
     }
-  ],
-  "model": "claude-sonnet-5-5",
-  "testedCommit": "e239c89727f13d9cad7f0f1fdf425adc7ec00369",
-  "testEnvironment": "Local API connected to the same Neon database and Anthropic workspace as the public service"
+  ]
 }

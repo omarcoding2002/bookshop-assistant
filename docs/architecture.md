@@ -12,8 +12,9 @@ One TypeScript application serves the UI and API. Fastify validates the HTTP bou
 2. A chat request authenticates the session, acquires a per-session execution guard and validates its length.
 3. AI mode supplies a prompt, the last ten messages, saved preferences and current basket/last book cards. The model can remember preferences, search, inspect details/policy, read/change basket and prepare a quote.
 4. Each tool call is schema-validated and executes through application services. Results, including errors, are returned as tool messages. Maximum five model steps and eight tool calls per step.
-5. The browser receives SSE progress and a structured final result. This streams status/final events, not individual model tokens. JSON is available with `stream:false`.
-6. Only the confirmation endpoint or an exact server-recognized chat confirmation can create an order. “Yes”, model prose, metadata instructions and checkout alone cannot create one.
+5. The model finishes with `present_answer`: known book IDs, enumerated fact names, subject indices and a neutral question key. A strict schema rejects invented references and arbitrary prose. The server renders exact catalogue titles, facts and commerce totals; comparisons require every page count. Unstructured model text is never shown. Invalid selections fall back to verified cards and an uncertainty notice.
+6. The browser receives SSE progress and a structured final result. This streams status/final events, not individual model tokens. JSON is available with `stream:false`.
+7. Only the confirmation endpoint or an exact server-recognized chat confirmation can create an order. “Yes”, model prose, metadata instructions and checkout alone cannot create one.
 
 ## Storage and concurrency
 

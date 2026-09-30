@@ -1,0 +1,1314 @@
+{
+  "executedAt": "2026-09-30T07:06:50.109Z",
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "iteration": 1,
+      "message": "Recommend history books, including Capitalist Realism. Which is shorter?",
+      "passed": true,
+      "latencyMs": 10151,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Format not verified. Edition page count unavailable. Work first published: 2009. The source lists these subject labels: \"Capitalism / History / 21st century\", \"Capitalism\", \"Politics\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. Work first published: 2011. The source lists these subject labels: \"Debt\", \"Financial crises\", \"Financial crisis\". $22.99; 5 demo copies available.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Format not verified. Edition page count unavailable. Work first published: 1980. The source lists these subject labels: \"History\", \"United states, history\", \"United states, civilization\". $12.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL42732646M",
+            "workId": "/works/OL15683250W",
+            "title": "Capitalist Realism",
+            "authors": [
+              "Mark Fisher",
+              "MARK FISHER"
+            ],
+            "category": "History",
+            "subjects": [
+              "Accelerationism",
+              "Capitalism / History / 21st century",
+              "Postmoderne",
+              "Capitalism",
+              "Capitalism / History / 20th century",
+              "Politics",
+              "Kapitalisme",
+              "Alternatieven",
+              "Kapitalismus",
+              "Kultur",
+              "History",
+              "Popular culture",
+              "Capitalism--history",
+              "Capitalism--history--20th century",
+              "Capitalism--history--21st century",
+              "Hb501 .f573 2009",
+              "330.122"
+            ],
+            "isbn": [
+              "9781803414300",
+              "1803414308"
+            ],
+            "year": 2009,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6707037
+          },
+          {
+            "id": "OL24088724M",
+            "workId": "/works/OL14909099W",
+            "title": "Debt",
+            "authors": [
+              "David Graeber"
+            ],
+            "category": "History",
+            "subjects": [
+              "Money",
+              "Debt",
+              "Financial crises",
+              "History",
+              "Financial crisis",
+              "Money, history",
+              "Pengar",
+              "Penningväsen",
+              "Finanskriser",
+              "Historia",
+              "Debt--history",
+              "Money--history",
+              "Financial crises--history",
+              "Hg3701 .g73 2014",
+              "332",
+              "Nonfiction",
+              "Economics",
+              "Business & Economics"
+            ],
+            "isbn": [
+              "9781933633862",
+              "1933633867"
+            ],
+            "year": 2011,
+            "format": "hardcover",
+            "priceCents": 2299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6299464,
+            "pages": 534
+          },
+          {
+            "id": "OL61423016M",
+            "workId": "/works/OL50283W",
+            "title": "a people's history of the united states",
+            "authors": [
+              "Howard Zinn",
+              "Kathy Emery",
+              "Ellen Reeves",
+              "Matt Damon",
+              "Howard Zinn"
+            ],
+            "category": "History",
+            "subjects": [
+              "nyt:paperback_nonfiction=2010-05-16",
+              "New York Times bestseller",
+              "History",
+              "Historia",
+              "Civilización",
+              "História dos estados unidos",
+              "United states, history",
+              "United states, civilization",
+              "United States",
+              "Geschichte",
+              "Civilization",
+              "United states, history, 1865-",
+              "United states, history, sources",
+              "Civilisation",
+              "Histoire",
+              "Estados Unidos",
+              "United States -- History",
+              "Long Now Manual for Civilization"
+            ],
+            "isbn": [
+              "9780965607414",
+              "0965607410"
+            ],
+            "year": 1980,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 10592817
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 1,
+      "message": "The lies of Locke Lamora is unavailable. Suggest alternatives and explain their tone and plot.",
+      "passed": true,
+      "latencyMs": 10953,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe Princess Bride — William Goldman\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nWizard's First Rule — Terry Goodkind\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nFurther details could not be verified. Please choose a book card or narrow your request.",
+        "books": [
+          {
+            "id": "OL21920251M",
+            "workId": "/works/OL486967W",
+            "title": "The Princess Bride",
+            "authors": [
+              "William Goldman"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Castles",
+              "Fiction",
+              "Princesses",
+              "Good and evil",
+              "Princes",
+              "Fiction, action & adventure",
+              "Fiction, fantasy, general",
+              "Fiction, romance, fantasy",
+              "Romance fiction",
+              "Fantasy",
+              "Juvenile fiction",
+              "Fantasy fiction",
+              "Pirates"
+            ],
+            "isbn": [
+              "0747543224",
+              "9780747543220"
+            ],
+            "year": 1973,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL21920251M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 9284881
+          },
+          {
+            "id": "OL43028647M",
+            "workId": "/works/OL2010436W",
+            "title": "Wizard's First Rule",
+            "authors": [
+              "Terry Goodkind"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fiction",
+              "Wizards",
+              "Wizards in fiction",
+              "Fiction, fantasy, general",
+              "Fiction, fantasy, epic",
+              "Amnell, kahlan (fictitious character), fiction",
+              "D'haran empire (imaginary place), fiction",
+              "Richard Rahl (Fictitious character)",
+              "Fantasy",
+              "Fantasy fiction",
+              "Magic",
+              "Epic Fantasy",
+              "High Fantasy",
+              "Adventure"
+            ],
+            "isbn": [
+              "9781448741083",
+              "1448741084"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL43028647M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 1005963,
+            "pages": 579
+          },
+          {
+            "id": "OL24255147M",
+            "workId": "/works/OL2577486W",
+            "title": "Blood of Elves",
+            "authors": [
+              "Andrzej Sapkowski"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy",
+              "Fiction",
+              "Fiction, fantasy, general",
+              "Science fiction, fantasy, horror",
+              "Assassins",
+              "Polish Fantasy fiction",
+              "Fiction, fantasy, epic",
+              "Vampires, fiction",
+              "nyt:trade-fiction-paperback=2022-01-09",
+              "New York Times bestseller",
+              "Fiction, fantasy, dragons & mythical creatures",
+              "Fiction, fantasy, paranormal"
+            ],
+            "isbn": [
+              "9780316073714",
+              "0316073717"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 8457619
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 2,
+      "message": "Recommend history books, including Capitalist Realism. Which is shorter?",
+      "passed": true,
+      "latencyMs": 10586,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Edition page count unavailable. Work first published: 2009. The source lists these subject labels: \"Capitalism / History / 21st century\", \"Capitalism\", \"Politics\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. The source lists these subject labels: \"Money\", \"Debt\", \"Financial crises\". $22.99; 5 demo copies available.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Edition page count unavailable. Work first published: 1980. The source lists these subject labels: \"History\", \"United states, history\", \"United states, civilization\". $12.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL42732646M",
+            "workId": "/works/OL15683250W",
+            "title": "Capitalist Realism",
+            "authors": [
+              "Mark Fisher",
+              "MARK FISHER"
+            ],
+            "category": "History",
+            "subjects": [
+              "Accelerationism",
+              "Capitalism / History / 21st century",
+              "Postmoderne",
+              "Capitalism",
+              "Capitalism / History / 20th century",
+              "Politics",
+              "Kapitalisme",
+              "Alternatieven",
+              "Kapitalismus",
+              "Kultur",
+              "History",
+              "Popular culture",
+              "Capitalism--history",
+              "Capitalism--history--20th century",
+              "Capitalism--history--21st century",
+              "Hb501 .f573 2009",
+              "330.122"
+            ],
+            "isbn": [
+              "9781803414300",
+              "1803414308"
+            ],
+            "year": 2009,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6707037
+          },
+          {
+            "id": "OL24088724M",
+            "workId": "/works/OL14909099W",
+            "title": "Debt",
+            "authors": [
+              "David Graeber"
+            ],
+            "category": "History",
+            "subjects": [
+              "Money",
+              "Debt",
+              "Financial crises",
+              "History",
+              "Financial crisis",
+              "Money, history",
+              "Pengar",
+              "Penningväsen",
+              "Finanskriser",
+              "Historia",
+              "Debt--history",
+              "Money--history",
+              "Financial crises--history",
+              "Hg3701 .g73 2014",
+              "332",
+              "Nonfiction",
+              "Economics",
+              "Business & Economics"
+            ],
+            "isbn": [
+              "9781933633862",
+              "1933633867"
+            ],
+            "year": 2011,
+            "format": "hardcover",
+            "priceCents": 2299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6299464,
+            "pages": 534
+          },
+          {
+            "id": "OL61423016M",
+            "workId": "/works/OL50283W",
+            "title": "a people's history of the united states",
+            "authors": [
+              "Howard Zinn",
+              "Kathy Emery",
+              "Ellen Reeves",
+              "Matt Damon",
+              "Howard Zinn"
+            ],
+            "category": "History",
+            "subjects": [
+              "nyt:paperback_nonfiction=2010-05-16",
+              "New York Times bestseller",
+              "History",
+              "Historia",
+              "Civilización",
+              "História dos estados unidos",
+              "United states, history",
+              "United states, civilization",
+              "United States",
+              "Geschichte",
+              "Civilization",
+              "United states, history, 1865-",
+              "United states, history, sources",
+              "Civilisation",
+              "Histoire",
+              "Estados Unidos",
+              "United States -- History",
+              "Long Now Manual for Civilization"
+            ],
+            "isbn": [
+              "9780965607414",
+              "0965607410"
+            ],
+            "year": 1980,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 10592817
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 2,
+      "message": "The lies of Locke Lamora is unavailable. Suggest alternatives and explain their tone and plot.",
+      "passed": true,
+      "latencyMs": 11666,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nThe Princess Bride — William Goldman\nShelved under Fantasy. Work first published: 1973. The source lists these subject labels: \"Castles\", \"Fiction, action & adventure\", \"Fiction, romance, fantasy\". $12.99; 5 demo copies available.\n\nWizard's First Rule — Terry Goodkind\nShelved under Fantasy. Edition length: 579 pages. The source lists these subject labels: \"Wizards\", \"Fiction, fantasy, epic\", \"D'haran empire (imaginary place), fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL21920251M",
+            "workId": "/works/OL486967W",
+            "title": "The Princess Bride",
+            "authors": [
+              "William Goldman"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Castles",
+              "Fiction",
+              "Princesses",
+              "Good and evil",
+              "Princes",
+              "Fiction, action & adventure",
+              "Fiction, fantasy, general",
+              "Fiction, romance, fantasy",
+              "Romance fiction",
+              "Fantasy",
+              "Juvenile fiction",
+              "Fantasy fiction",
+              "Pirates"
+            ],
+            "isbn": [
+              "0747543224",
+              "9780747543220"
+            ],
+            "year": 1973,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL21920251M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 9284881
+          },
+          {
+            "id": "OL43028647M",
+            "workId": "/works/OL2010436W",
+            "title": "Wizard's First Rule",
+            "authors": [
+              "Terry Goodkind"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fiction",
+              "Wizards",
+              "Wizards in fiction",
+              "Fiction, fantasy, general",
+              "Fiction, fantasy, epic",
+              "Amnell, kahlan (fictitious character), fiction",
+              "D'haran empire (imaginary place), fiction",
+              "Richard Rahl (Fictitious character)",
+              "Fantasy",
+              "Fantasy fiction",
+              "Magic",
+              "Epic Fantasy",
+              "High Fantasy",
+              "Adventure"
+            ],
+            "isbn": [
+              "9781448741083",
+              "1448741084"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL43028647M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 1005963,
+            "pages": 579
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 3,
+      "message": "Recommend history books, including Capitalist Realism. Which is shorter?",
+      "passed": true,
+      "latencyMs": 10559,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Format not verified. Edition page count unavailable. Work first published: 2009. The source lists these subject labels: \"Capitalism / History / 21st century\", \"Capitalism\", \"Politics\". $12.99; 5 demo copies available.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Format not verified. Edition page count unavailable. Work first published: 1980. The source lists these subject labels: \"History\", \"United states, history\", \"United states, civilization\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. Work first published: 2011. The source lists these subject labels: \"Money\", \"Debt\", \"Financial crises\". $22.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL42732646M",
+            "workId": "/works/OL15683250W",
+            "title": "Capitalist Realism",
+            "authors": [
+              "Mark Fisher",
+              "MARK FISHER"
+            ],
+            "category": "History",
+            "subjects": [
+              "Accelerationism",
+              "Capitalism / History / 21st century",
+              "Postmoderne",
+              "Capitalism",
+              "Capitalism / History / 20th century",
+              "Politics",
+              "Kapitalisme",
+              "Alternatieven",
+              "Kapitalismus",
+              "Kultur",
+              "History",
+              "Popular culture",
+              "Capitalism--history",
+              "Capitalism--history--20th century",
+              "Capitalism--history--21st century",
+              "Hb501 .f573 2009",
+              "330.122"
+            ],
+            "isbn": [
+              "9781803414300",
+              "1803414308"
+            ],
+            "year": 2009,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6707037
+          },
+          {
+            "id": "OL61423016M",
+            "workId": "/works/OL50283W",
+            "title": "a people's history of the united states",
+            "authors": [
+              "Howard Zinn",
+              "Kathy Emery",
+              "Ellen Reeves",
+              "Matt Damon",
+              "Howard Zinn"
+            ],
+            "category": "History",
+            "subjects": [
+              "nyt:paperback_nonfiction=2010-05-16",
+              "New York Times bestseller",
+              "History",
+              "Historia",
+              "Civilización",
+              "História dos estados unidos",
+              "United states, history",
+              "United states, civilization",
+              "United States",
+              "Geschichte",
+              "Civilization",
+              "United states, history, 1865-",
+              "United states, history, sources",
+              "Civilisation",
+              "Histoire",
+              "Estados Unidos",
+              "United States -- History",
+              "Long Now Manual for Civilization"
+            ],
+            "isbn": [
+              "9780965607414",
+              "0965607410"
+            ],
+            "year": 1980,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 10592817
+          },
+          {
+            "id": "OL24088724M",
+            "workId": "/works/OL14909099W",
+            "title": "Debt",
+            "authors": [
+              "David Graeber"
+            ],
+            "category": "History",
+            "subjects": [
+              "Money",
+              "Debt",
+              "Financial crises",
+              "History",
+              "Financial crisis",
+              "Money, history",
+              "Pengar",
+              "Penningväsen",
+              "Finanskriser",
+              "Historia",
+              "Debt--history",
+              "Money--history",
+              "Financial crises--history",
+              "Hg3701 .g73 2014",
+              "332",
+              "Nonfiction",
+              "Economics",
+              "Business & Economics"
+            ],
+            "isbn": [
+              "9781933633862",
+              "1933633867"
+            ],
+            "year": 2011,
+            "format": "hardcover",
+            "priceCents": 2299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6299464,
+            "pages": 534
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 3,
+      "message": "The lies of Locke Lamora is unavailable. Suggest alternatives and explain their tone and plot.",
+      "passed": true,
+      "latencyMs": 9568,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Polish Fantasy fiction\", \"Fiction, fantasy, epic\", \"Assassins\". $12.99; 5 demo copies available.\n\nThe Assassin’s Blade — Sarah J. Maas\nShelved under Fantasy. Format not verified. Work first published: 2014. The source lists these subject labels: \"Assassins\", \"Young adult fiction, fantasy, dark fantasy\", \"Female assassins in fiction\". $12.99; 5 demo copies available.\n\nLord of Chaos — Robert Jordan\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Fiction, fantasy, epic\", \"Dragons\", \"Fantasy fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL24255147M",
+            "workId": "/works/OL2577486W",
+            "title": "Blood of Elves",
+            "authors": [
+              "Andrzej Sapkowski"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy",
+              "Fiction",
+              "Fiction, fantasy, general",
+              "Science fiction, fantasy, horror",
+              "Assassins",
+              "Polish Fantasy fiction",
+              "Fiction, fantasy, epic",
+              "Vampires, fiction",
+              "nyt:trade-fiction-paperback=2022-01-09",
+              "New York Times bestseller",
+              "Fiction, fantasy, dragons & mythical creatures",
+              "Fiction, fantasy, paranormal"
+            ],
+            "isbn": [
+              "9780316073714",
+              "0316073717"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 8457619
+          },
+          {
+            "id": "OL27172409M",
+            "workId": "/works/OL17546674W",
+            "title": "The Assassin’s Blade",
+            "authors": [
+              "Sarah J. Maas"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fiction, fantasy, collections & anthologies",
+              "Female assassins in fiction",
+              "Young adult fiction, fantasy, dark fantasy",
+              "[series:Throne_of_Glass]",
+              "Fantasy",
+              "Assassins",
+              "Fiction"
+            ],
+            "isbn": [
+              "9781619633612",
+              "1619633612"
+            ],
+            "year": 2014,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 7794980
+          },
+          {
+            "id": "OL1105059M",
+            "workId": "/works/OL7924208W",
+            "title": "Lord of Chaos",
+            "authors": [
+              "Robert Jordan"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy fiction",
+              "Rand al'Thor (Fictitious character)",
+              "Fiction",
+              "Fantasy",
+              "Fiction, fantasy, epic",
+              "Rand al'thor (fictitious character), fiction",
+              "American Fantasy fiction",
+              "Dragons",
+              "Fiction, fantasy, general",
+              "American literature"
+            ],
+            "isbn": [
+              "0312854285",
+              "9780312854287"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 182398
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 4,
+      "message": "Recommend history books, including Capitalist Realism. Which is shorter?",
+      "passed": true,
+      "latencyMs": 11545,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Edition page count unavailable. Work first published: 2009. The source lists these subject labels: \"Capitalism / History / 21st century\", \"Capitalism\", \"Politics\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. The source lists these subject labels: \"Money\", \"Debt\", \"Financial crises\". $22.99; 5 demo copies available.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Edition page count unavailable. Work first published: 1980. The source lists these subject labels: \"History\", \"United states, history\", \"United states, civilization\". $12.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL42732646M",
+            "workId": "/works/OL15683250W",
+            "title": "Capitalist Realism",
+            "authors": [
+              "Mark Fisher",
+              "MARK FISHER"
+            ],
+            "category": "History",
+            "subjects": [
+              "Accelerationism",
+              "Capitalism / History / 21st century",
+              "Postmoderne",
+              "Capitalism",
+              "Capitalism / History / 20th century",
+              "Politics",
+              "Kapitalisme",
+              "Alternatieven",
+              "Kapitalismus",
+              "Kultur",
+              "History",
+              "Popular culture",
+              "Capitalism--history",
+              "Capitalism--history--20th century",
+              "Capitalism--history--21st century",
+              "Hb501 .f573 2009",
+              "330.122"
+            ],
+            "isbn": [
+              "9781803414300",
+              "1803414308"
+            ],
+            "year": 2009,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6707037
+          },
+          {
+            "id": "OL24088724M",
+            "workId": "/works/OL14909099W",
+            "title": "Debt",
+            "authors": [
+              "David Graeber"
+            ],
+            "category": "History",
+            "subjects": [
+              "Money",
+              "Debt",
+              "Financial crises",
+              "History",
+              "Financial crisis",
+              "Money, history",
+              "Pengar",
+              "Penningväsen",
+              "Finanskriser",
+              "Historia",
+              "Debt--history",
+              "Money--history",
+              "Financial crises--history",
+              "Hg3701 .g73 2014",
+              "332",
+              "Nonfiction",
+              "Economics",
+              "Business & Economics"
+            ],
+            "isbn": [
+              "9781933633862",
+              "1933633867"
+            ],
+            "year": 2011,
+            "format": "hardcover",
+            "priceCents": 2299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6299464,
+            "pages": 534
+          },
+          {
+            "id": "OL61423016M",
+            "workId": "/works/OL50283W",
+            "title": "a people's history of the united states",
+            "authors": [
+              "Howard Zinn",
+              "Kathy Emery",
+              "Ellen Reeves",
+              "Matt Damon",
+              "Howard Zinn"
+            ],
+            "category": "History",
+            "subjects": [
+              "nyt:paperback_nonfiction=2010-05-16",
+              "New York Times bestseller",
+              "History",
+              "Historia",
+              "Civilización",
+              "História dos estados unidos",
+              "United states, history",
+              "United states, civilization",
+              "United States",
+              "Geschichte",
+              "Civilization",
+              "United states, history, 1865-",
+              "United states, history, sources",
+              "Civilisation",
+              "Histoire",
+              "Estados Unidos",
+              "United States -- History",
+              "Long Now Manual for Civilization"
+            ],
+            "isbn": [
+              "9780965607414",
+              "0965607410"
+            ],
+            "year": 1980,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 10592817
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 4,
+      "message": "The lies of Locke Lamora is unavailable. Suggest alternatives and explain their tone and plot.",
+      "passed": true,
+      "latencyMs": 9385,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Work first published: 1994. The source lists these subject labels: \"Fiction, fantasy, epic\", \"Polish Fantasy fiction\", \"Fantasy\". $12.99; 5 demo copies available.\n\nThe Assassin’s Blade — Sarah J. Maas\nShelved under Fantasy. Work first published: 2014. The source lists these subject labels: \"Assassins\", \"Young adult fiction, fantasy, dark fantasy\", \"Fantasy\". $12.99; 5 demo copies available.\n\nLord of Chaos — Robert Jordan\nShelved under Fantasy. Work first published: 1994. The source lists these subject labels: \"Fiction, fantasy, epic\", \"Dragons\", \"Fantasy fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL24255147M",
+            "workId": "/works/OL2577486W",
+            "title": "Blood of Elves",
+            "authors": [
+              "Andrzej Sapkowski"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy",
+              "Fiction",
+              "Fiction, fantasy, general",
+              "Science fiction, fantasy, horror",
+              "Assassins",
+              "Polish Fantasy fiction",
+              "Fiction, fantasy, epic",
+              "Vampires, fiction",
+              "nyt:trade-fiction-paperback=2022-01-09",
+              "New York Times bestseller",
+              "Fiction, fantasy, dragons & mythical creatures",
+              "Fiction, fantasy, paranormal"
+            ],
+            "isbn": [
+              "9780316073714",
+              "0316073717"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 8457619
+          },
+          {
+            "id": "OL27172409M",
+            "workId": "/works/OL17546674W",
+            "title": "The Assassin’s Blade",
+            "authors": [
+              "Sarah J. Maas"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fiction, fantasy, collections & anthologies",
+              "Female assassins in fiction",
+              "Young adult fiction, fantasy, dark fantasy",
+              "[series:Throne_of_Glass]",
+              "Fantasy",
+              "Assassins",
+              "Fiction"
+            ],
+            "isbn": [
+              "9781619633612",
+              "1619633612"
+            ],
+            "year": 2014,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 7794980
+          },
+          {
+            "id": "OL1105059M",
+            "workId": "/works/OL7924208W",
+            "title": "Lord of Chaos",
+            "authors": [
+              "Robert Jordan"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy fiction",
+              "Rand al'Thor (Fictitious character)",
+              "Fiction",
+              "Fantasy",
+              "Fiction, fantasy, epic",
+              "Rand al'thor (fictitious character), fiction",
+              "American Fantasy fiction",
+              "Dragons",
+              "Fiction, fantasy, general",
+              "American literature"
+            ],
+            "isbn": [
+              "0312854285",
+              "9780312854287"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 182398
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 5,
+      "message": "Recommend history books, including Capitalist Realism. Which is shorter?",
+      "passed": true,
+      "latencyMs": 10633,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Edition page count unavailable. Work first published: 2009. The source lists these subject labels: \"Capitalism / History / 21st century\", \"Capitalism\", \"Politics\". $12.99; 5 demo copies available.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Edition page count unavailable. Work first published: 1980. The source lists these subject labels: \"nyt:paperback_nonfiction=2010-05-16\", \"New York Times bestseller\", \"Civilización\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. Work first published: 2011. The source lists these subject labels: \"Money\", \"Debt\", \"Financial crises\". $22.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL42732646M",
+            "workId": "/works/OL15683250W",
+            "title": "Capitalist Realism",
+            "authors": [
+              "Mark Fisher",
+              "MARK FISHER"
+            ],
+            "category": "History",
+            "subjects": [
+              "Accelerationism",
+              "Capitalism / History / 21st century",
+              "Postmoderne",
+              "Capitalism",
+              "Capitalism / History / 20th century",
+              "Politics",
+              "Kapitalisme",
+              "Alternatieven",
+              "Kapitalismus",
+              "Kultur",
+              "History",
+              "Popular culture",
+              "Capitalism--history",
+              "Capitalism--history--20th century",
+              "Capitalism--history--21st century",
+              "Hb501 .f573 2009",
+              "330.122"
+            ],
+            "isbn": [
+              "9781803414300",
+              "1803414308"
+            ],
+            "year": 2009,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6707037
+          },
+          {
+            "id": "OL61423016M",
+            "workId": "/works/OL50283W",
+            "title": "a people's history of the united states",
+            "authors": [
+              "Howard Zinn",
+              "Kathy Emery",
+              "Ellen Reeves",
+              "Matt Damon",
+              "Howard Zinn"
+            ],
+            "category": "History",
+            "subjects": [
+              "nyt:paperback_nonfiction=2010-05-16",
+              "New York Times bestseller",
+              "History",
+              "Historia",
+              "Civilización",
+              "História dos estados unidos",
+              "United states, history",
+              "United states, civilization",
+              "United States",
+              "Geschichte",
+              "Civilization",
+              "United states, history, 1865-",
+              "United states, history, sources",
+              "Civilisation",
+              "Histoire",
+              "Estados Unidos",
+              "United States -- History",
+              "Long Now Manual for Civilization"
+            ],
+            "isbn": [
+              "9780965607414",
+              "0965607410"
+            ],
+            "year": 1980,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL61423016M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 10592817
+          },
+          {
+            "id": "OL24088724M",
+            "workId": "/works/OL14909099W",
+            "title": "Debt",
+            "authors": [
+              "David Graeber"
+            ],
+            "category": "History",
+            "subjects": [
+              "Money",
+              "Debt",
+              "Financial crises",
+              "History",
+              "Financial crisis",
+              "Money, history",
+              "Pengar",
+              "Penningväsen",
+              "Finanskriser",
+              "Historia",
+              "Debt--history",
+              "Money--history",
+              "Financial crises--history",
+              "Hg3701 .g73 2014",
+              "332",
+              "Nonfiction",
+              "Economics",
+              "Business & Economics"
+            ],
+            "isbn": [
+              "9781933633862",
+              "1933633867"
+            ],
+            "year": 2011,
+            "format": "hardcover",
+            "priceCents": 2299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24088724M",
+            "fetchedAt": "2026-09-29T21:45:08.993Z",
+            "coverId": 6299464,
+            "pages": 534
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    },
+    {
+      "iteration": 5,
+      "message": "The lies of Locke Lamora is unavailable. Suggest alternatives and explain their tone and plot.",
+      "passed": true,
+      "latencyMs": 10009,
+      "response": {
+        "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Assassins\", \"Fiction, fantasy, epic\", \"Polish Fantasy fiction\". $12.99; 5 demo copies available.\n\nThe Assassin’s Blade — Sarah J. Maas\nShelved under Fantasy. Format not verified. Work first published: 2014. The source lists these subject labels: \"Female assassins in fiction\", \"Young adult fiction, fantasy, dark fantasy\", \"Fantasy\". $12.99; 5 demo copies available.\n\nLord of Chaos — Robert Jordan\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Fantasy fiction\", \"Fiction, fantasy, epic\", \"Dragons\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
+        "books": [
+          {
+            "id": "OL24255147M",
+            "workId": "/works/OL2577486W",
+            "title": "Blood of Elves",
+            "authors": [
+              "Andrzej Sapkowski"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy",
+              "Fiction",
+              "Fiction, fantasy, general",
+              "Science fiction, fantasy, horror",
+              "Assassins",
+              "Polish Fantasy fiction",
+              "Fiction, fantasy, epic",
+              "Vampires, fiction",
+              "nyt:trade-fiction-paperback=2022-01-09",
+              "New York Times bestseller",
+              "Fiction, fantasy, dragons & mythical creatures",
+              "Fiction, fantasy, paranormal"
+            ],
+            "isbn": [
+              "9780316073714",
+              "0316073717"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL24255147M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 8457619
+          },
+          {
+            "id": "OL27172409M",
+            "workId": "/works/OL17546674W",
+            "title": "The Assassin’s Blade",
+            "authors": [
+              "Sarah J. Maas"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fiction, fantasy, collections & anthologies",
+              "Female assassins in fiction",
+              "Young adult fiction, fantasy, dark fantasy",
+              "[series:Throne_of_Glass]",
+              "Fantasy",
+              "Assassins",
+              "Fiction"
+            ],
+            "isbn": [
+              "9781619633612",
+              "1619633612"
+            ],
+            "year": 2014,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 7794980
+          },
+          {
+            "id": "OL1105059M",
+            "workId": "/works/OL7924208W",
+            "title": "Lord of Chaos",
+            "authors": [
+              "Robert Jordan"
+            ],
+            "category": "Fantasy",
+            "subjects": [
+              "Fantasy fiction",
+              "Rand al'Thor (Fictitious character)",
+              "Fiction",
+              "Fantasy",
+              "Fiction, fantasy, epic",
+              "Rand al'thor (fictitious character), fiction",
+              "American Fantasy fiction",
+              "Dragons",
+              "Fiction, fantasy, general",
+              "American literature"
+            ],
+            "isbn": [
+              "0312854285",
+              "9780312854287"
+            ],
+            "year": 1994,
+            "format": "unspecified",
+            "priceCents": 1299,
+            "stock": 5,
+            "stocked": true,
+            "sourceUrl": "https://openlibrary.org/books/OL1105059M",
+            "fetchedAt": "2026-09-29T21:44:48.118Z",
+            "coverId": 182398
+          }
+        ],
+        "cart": {
+          "lines": [],
+          "totalCents": 0,
+          "count": 0,
+          "currency": "USD",
+          "version": 0
+        },
+        "mode": "ai"
+      }
+    }
+  ]
+}

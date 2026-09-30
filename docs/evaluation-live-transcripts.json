@@ -4,9 +4,9 @@
     "turns": [
       {
         "message": "Hello",
-        "latencyMs": 3015,
+        "latencyMs": 2840,
         "response": {
-          "text": "Hello, and welcome to Between the Lines! I can help you find your next read, or a gift for someone else.\n\nWhat are you in the mood for? If you don't have a genre in mind, I can suggest a few, such as Mystery, Fantasy, or Science fiction.",
+          "text": "Welcome to Between the Lines. Let’s find your next book.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [],
           "cart": {
             "lines": [],
@@ -25,9 +25,9 @@
     "turns": [
       {
         "message": "I'm not sure what to read",
-        "latencyMs": 3438,
+        "latencyMs": 2875,
         "response": {
-          "text": "No problem, we can figure it out together. Here are a few of the areas we carry: Mystery, Fantasy, and Science fiction.\n\nDo any of those appeal to you? If not, tell me about a book you've enjoyed, or what mood you're in, and I'll suggest some options.",
+          "text": "Welcome to Between the Lines. Let’s find your next book.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [],
           "cart": {
             "lines": [],
@@ -46,9 +46,9 @@
     "turns": [
       {
         "message": "Help me find a gift",
-        "latencyMs": 10717,
+        "latencyMs": 2679,
         "response": {
-          "text": "Happy to help! Who is the gift for? If you can, tell me a bit about their interests and roughly how old they are. A budget helps too, and so does a category you have in mind. For example, Fantasy, Mystery, or Children.",
+          "text": "Welcome to Between the Lines. Let’s find your next book.\n\nWhat does the person you’re buying for enjoy reading?",
           "books": [],
           "cart": {
             "lines": [],
@@ -67,9 +67,9 @@
     "turns": [
       {
         "message": "A mystery under $15",
-        "latencyMs": 9524,
+        "latencyMs": 8001,
         "response": {
-          "text": "Here are three in-stock mysteries under $15. The cards show price, stock and edition details. This is a demo store, so no real payment or delivery is involved.\n\n- At Bertram's Hotel by Agatha Christie. The catalogue tags it with Jane Marple, women detectives and hotels.\n- Funerals are Fatal by Agatha Christie. The catalogue tags it with Hercule Poirot and private investigators, and lists 214 pages.\n- Hallowe'en Party by Agatha Christie. The catalogue tags it with Hercule Poirot, murder and private investigators.\n\nDo you prefer a particular detective, Miss Marple or Hercule Poirot, or are you open to either?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Hotels\", \"Detective and mystery stories\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Mystery and detective stories\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Work first published: 1969. ISBN: 9780671830731, 0671830732. The source lists these subject labels: \"Murder\", \"Murder Mystery\", \"Hercule Poirot (Fictitious character)\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -205,9 +205,9 @@
     "turns": [
       {
         "message": "fantasy",
-        "latencyMs": 6839,
+        "latencyMs": 5692,
         "response": {
-          "text": "Here are three fantasy books we have in stock. This is a demo store, so prices and stock are fictional.\n\n- Blood of Elves by Andrzej Sapkowski. The catalogue tags it as epic fantasy and lists assassins among its subjects. It's a good pick if you like Polish fantasy fiction.\n- Lord of Chaos by Robert Jordan. It's tagged as epic fantasy with dragons. It could suit you if you want a big-world epic.\n- The Assassin's Blade by Sarah J. Maas. It's a collection tagged dark fantasy and female assassins, and it belongs to the Throne of Glass series.\n\nPrice, stock and edition details are on the cards. The catalogue doesn't list a format for any of them.\n\nWhich do you enjoy more: epic quests, or darker, assassin-style stories?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Assassins\", \"Fiction, fantasy, epic\". $12.99; 5 demo copies available.\n\nLord of Chaos — Robert Jordan\nShelved under Fantasy. Format not verified. Work first published: 1994. The source lists these subject labels: \"Fiction, fantasy, epic\", \"Dragons\". $12.99; 5 demo copies available.\n\nThe Assassin’s Blade — Sarah J. Maas\nShelved under Fantasy. Format not verified. Work first published: 2014. The source lists these subject labels: \"Female assassins in fiction\", \"Young adult fiction, fantasy, dark fantasy\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL24255147M",
@@ -325,9 +325,9 @@
     "turns": [
       {
         "message": "science fiction",
-        "latencyMs": 6664,
+        "latencyMs": 5982,
         "response": {
-          "text": "Here are three science fiction books we have in stock. They're all $12.99 (demo prices):\n\n- 2001 by Arthur C. Clarke (1968). Its subjects include computers, human-computer interaction and space vehicles. It has 226 pages.\n- Altered carbon by Richard K. Morgan (2002). Its subjects include cyberpunk and thriller.\n- Death's end by 刘慈欣 (2010). Its subjects include human-alien encounters, imaginary wars and battles, and survival.\n\nI picked these to give you a spread of subgenres. Which do you enjoy more: big-idea space stories, gritty cyberpunk, or epic alien-contact stories?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\n2001 — Arthur C. Clarke\nFormat not verified. Edition length: 226 pages. Work first published: 1968. The source lists these subject labels: \"Human-computer interaction\", \"Space vehicles\". $12.99; 5 demo copies available.\n\nAltered carbon — Richard K. Morgan\nFormat not verified. Work first published: 2002. The source lists these subject labels: \"Cyberpunk\", \"Thriller\". $12.99; 5 demo copies available.\n\nDeath's end — 刘慈欣\nFormat not verified. Work first published: 2010. The source lists these subject labels: \"Imaginary wars and battles\", \"Chinese Science fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL18674505M",
@@ -467,9 +467,9 @@
     "turns": [
       {
         "message": "romance",
-        "latencyMs": 8024,
+        "latencyMs": 6064,
         "response": {
-          "text": "Here are three romance books we have in stock. All are demo listings with fictional prices and stock.\n\n- Corrupt by Penelope Douglas: The catalogue tags it Dark Romance, Enemies To Lovers, and Contemporary Romance. Choose it if you like an edgier, enemies-to-lovers style.\n- It Ends With Us by Colleen Hoover: The catalogue tags it Contemporary Women and First loves, and it also has a love-triangle subject. It's a good fit if you want a contemporary relationship story.\n- It Starts with Us by Colleen Hoover: The catalogue tags it Contemporary and Friendship.\n\nThe details are on the cards. Which do you prefer: a dark, intense romance, or something more contemporary and character-focused?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nCorrupt — Penelope Douglas\nShelved under Romance. Work first published: 2015. The source lists these subject labels: \"Dark Romance\", \"Enemies To Lovers\", \"Contemporary\". $12.99; 5 demo copies available.\n\nIt Ends With Us — Colleen Hoover\nShelved under Romance. Work first published: 2012. The source lists these subject labels: \"Fiction, Romance, Contemporary, Life change events\", \"Triangles (Interpersonal relations)\", \"Man-woman relationships\". $12.99; 5 demo copies available.\n\nIt Starts with Us — Colleen Hoover\nShelved under Romance. Work first published: 2022. The source lists these subject labels: \"Contemporary\", \"Romance\", \"Friendship\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL28300621M",
@@ -598,9 +598,9 @@
     "turns": [
       {
         "message": "A book for my child",
-        "latencyMs": 7443,
+        "latencyMs": 7989,
         "response": {
-          "text": "Here are a few in-stock children's books to start with:\n\n- A Little Princess by Frances Hodgson Burnett. Its subjects include boarding schools, orphans and London, so it may suit a child who likes school or historical settings.\n- Diary of a Wimpy Kid by Jeff Kinney, 2017 edition. Its subjects include humorous stories, diaries and family life.\n- Diary of a Wimpy Kid by Jeff Kinney, 2007 edition. Its subjects include school stories, middle schools and family life.\n\nAge suitability is unverified for all of these. The catalogue doesn't give recommended ages, so please check they suit your child. The prices and stock are fictional demo data.\n\nHow old is your child, roughly? Knowing that will help me narrow the list.",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nA Little Princess — Frances Hodgson Burnett\nShelved under Children. Work first published: 1905. The source lists these subject labels: \"Children's fiction\", \"Boarding schools, fiction\", \"London (england), fiction\". $12.99; 5 demo copies available.\n\nDiary of a Wimpy Kid — Jeff Kinney\nShelved under Children. Work first published: 2017. ISBN: 9780141385297, 0141385294. The source lists these subject labels: \"Humorous stories\", \"Diaries\", \"JUVENILE FICTION / Humorous Stories\". $12.99; 5 demo copies available.\n\nDiary of a Wimpy Kid — Jeff Kinney\nShelved under Children. Work first published: 2007. ISBN: 9780810993136, 0810993139. The source lists these subject labels: \"School stories\", \"Families\", \"Diaries\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nAge suitability is unverified; check the edition before choosing for a child.\n\nRoughly how old is the reader, and what do they enjoy?",
           "books": [
             {
               "id": "OL51733815M",
@@ -740,9 +740,9 @@
     "turns": [
       {
         "message": "young adult",
-        "latencyMs": 7484,
+        "latencyMs": 6009,
         "response": {
-          "text": "Here are three in-stock Young adult picks. The cards show price and edition details.\n\n- A Good Girl's Guide to Murder: Deluxe Edition by Holly Jackson. Its catalogue subjects include cold cases, murder and detective stories, so it may suit you if you like mysteries.\n- Good Girl, Bad Blood by Holly Jackson. Its subjects list thrillers and suspense, crime, and contemporary romance.\n- Can We Be Strangers Again? by Shrijeet Shandilya. The catalogue only lists \"Young adult fiction\" for it, so I can't say more about the story.\n\nThese are demo listings, so prices and stock are fictional. If any of these are for a younger reader, I can't verify age suitability from the catalogue.\n\nWhat kind of story do you want: mystery and suspense, romance, or something else?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nA Good Girl's Guide to Murder: Deluxe Edition — Holly Jackson\nShelved under Young adult. Format not verified. Work first published: 2019. The source lists these subject labels: \"Cold cases (Criminal investigation)--Fiction.\", \"Mystery and detective stories.\". $12.99; 5 demo copies available.\n\nGood Girl, Bad Blood — Holly Jackson\nShelved under Young adult. Format not verified. Work first published: 2020. The source lists these subject labels: \"thrillers & suspense\", \"crime\\\"\". $12.99; 5 demo copies available.\n\nCan We Be Strangers Again? — Shrijeet Shandilya\nShelved under Young adult. Format not verified. Work first published: 2024. The source lists these subject labels: \"Young adult fiction\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL60608485M",
@@ -787,30 +787,6 @@
               "coverId": 13156188
             },
             {
-              "id": "OL58549598M",
-              "workId": "/works/OL42975424W",
-              "title": "Can We Be Strangers Again?",
-              "authors": [
-                "Shrijeet Shandilya"
-              ],
-              "category": "Young adult",
-              "subjects": [
-                "Young adult fiction"
-              ],
-              "isbn": [
-                "9780143475927",
-                "0143475924"
-              ],
-              "year": 2024,
-              "format": "unspecified",
-              "priceCents": 1299,
-              "stock": 5,
-              "stocked": true,
-              "sourceUrl": "https://openlibrary.org/books/OL58549598M",
-              "fetchedAt": "2026-09-29T21:45:02.892Z",
-              "coverId": 15073759
-            },
-            {
               "id": "OL29471184M",
               "workId": "/works/OL21084352W",
               "title": "Good Girl, Bad Blood",
@@ -840,6 +816,30 @@
               "sourceUrl": "https://openlibrary.org/books/OL29471184M",
               "fetchedAt": "2026-09-29T21:45:02.894Z",
               "coverId": 11466695
+            },
+            {
+              "id": "OL58549598M",
+              "workId": "/works/OL42975424W",
+              "title": "Can We Be Strangers Again?",
+              "authors": [
+                "Shrijeet Shandilya"
+              ],
+              "category": "Young adult",
+              "subjects": [
+                "Young adult fiction"
+              ],
+              "isbn": [
+                "9780143475927",
+                "0143475924"
+              ],
+              "year": 2024,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL58549598M",
+              "fetchedAt": "2026-09-29T21:45:02.892Z",
+              "coverId": 15073759
             }
           ],
           "cart": {
@@ -859,9 +859,9 @@
     "turns": [
       {
         "message": "history",
-        "latencyMs": 9140,
+        "latencyMs": 5851,
         "response": {
-          "text": "Here are three History books that are in stock. The cards show price and stock. Prices and stock are fictional in this demo store.\n\n- a people's history of the united s­tates: its subjects cover United States history and civilization. It's a good fit if you want a broad look at one country's history.\n- Debt: its subjects include money, debt, and financial crises. It suits you if you're curious about how money has worked over time.\n- Capitalism / History / 20th and 21st century: this is Capitalism Realism's subject tag, so it may suit you if you want a shorter, politics-focused read. I haven't verified its length, so treat that as a guess.\n\nWhich period or region of history are you most drawn to?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\na people's history of the united states — Howard Zinn, Kathy Emery, Ellen Reeves, Matt Damon, Howard Zinn\nShelved under History. Format not verified. Work first published: 1980. The source lists these subject labels: \"New York Times bestseller\", \"Civilización\", \"United states, history\". $12.99; 5 demo copies available.\n\nDebt — David Graeber\nShelved under History. Format: hardcover. Edition length: 534 pages. The source lists these subject labels: \"Money\", \"Debt\", \"Financial crisis\". $22.99; 5 demo copies available.\n\nCapitalist Realism — Mark Fisher, MARK FISHER\nShelved under History. Work first published: 2009. The source lists these subject labels: \"Accelerationism\", \"Capitalism / History / 20th century\", \"Politics\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL61423016M",
@@ -909,47 +909,6 @@
               "coverId": 10592817
             },
             {
-              "id": "OL42732646M",
-              "workId": "/works/OL15683250W",
-              "title": "Capitalist Realism",
-              "authors": [
-                "Mark Fisher",
-                "MARK FISHER"
-              ],
-              "category": "History",
-              "subjects": [
-                "Accelerationism",
-                "Capitalism / History / 21st century",
-                "Postmoderne",
-                "Capitalism",
-                "Capitalism / History / 20th century",
-                "Politics",
-                "Kapitalisme",
-                "Alternatieven",
-                "Kapitalismus",
-                "Kultur",
-                "History",
-                "Popular culture",
-                "Capitalism--history",
-                "Capitalism--history--20th century",
-                "Capitalism--history--21st century",
-                "Hb501 .f573 2009",
-                "330.122"
-              ],
-              "isbn": [
-                "9781803414300",
-                "1803414308"
-              ],
-              "year": 2009,
-              "format": "unspecified",
-              "priceCents": 1299,
-              "stock": 5,
-              "stocked": true,
-              "sourceUrl": "https://openlibrary.org/books/OL42732646M",
-              "fetchedAt": "2026-09-29T21:45:08.993Z",
-              "coverId": 6707037
-            },
-            {
               "id": "OL24088724M",
               "workId": "/works/OL14909099W",
               "title": "Debt",
@@ -990,6 +949,47 @@
               "fetchedAt": "2026-09-29T21:45:08.993Z",
               "coverId": 6299464,
               "pages": 534
+            },
+            {
+              "id": "OL42732646M",
+              "workId": "/works/OL15683250W",
+              "title": "Capitalist Realism",
+              "authors": [
+                "Mark Fisher",
+                "MARK FISHER"
+              ],
+              "category": "History",
+              "subjects": [
+                "Accelerationism",
+                "Capitalism / History / 21st century",
+                "Postmoderne",
+                "Capitalism",
+                "Capitalism / History / 20th century",
+                "Politics",
+                "Kapitalisme",
+                "Alternatieven",
+                "Kapitalismus",
+                "Kultur",
+                "History",
+                "Popular culture",
+                "Capitalism--history",
+                "Capitalism--history--20th century",
+                "Capitalism--history--21st century",
+                "Hb501 .f573 2009",
+                "330.122"
+              ],
+              "isbn": [
+                "9781803414300",
+                "1803414308"
+              ],
+              "year": 2009,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL42732646M",
+              "fetchedAt": "2026-09-29T21:45:08.993Z",
+              "coverId": 6707037
             }
           ],
           "cart": {
@@ -1009,9 +1009,9 @@
     "turns": [
       {
         "message": "Meditations",
-        "latencyMs": 6874,
+        "latencyMs": 4896,
         "response": {
-          "text": "We have two editions of Meditations by Marcus Aurelius in stock, and the cards show their details. Both are $12.99, with 5 copies each, and the format is unspecified for both.\n\n- The first edition is listed as 2006 and has ISBNs 9780140449334 and 0140449337. Its subjects are Philosophy and Classical philology.\n- The second edition is listed as 1626 and has no ISBN in the catalogue. Its subjects include Ancient Philosophy, Ethics, Conduct of life and Self-Help.\n\nThe catalogue doesn't say who translated either edition. If you need a particular translation or edition, for example for a course, I can't confirm that from this data.\n\nAre you reading it for yourself, for a class, or as a gift? That will help me point you to the better fit.",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nMeditations — Marcus Aurelius\nShelved under Classics. Format not verified. Work first published: 2006. ISBN: 9780140449334, 0140449337. The source lists these subject labels: \"Philosophy\", \"Classical philology\". $12.99; 5 demo copies available.\n\nMeditations — Marcus Aurelius\nShelved under Classics. Format not verified. Work first published: 1626. The source lists these subject labels: \"Philosophy\", \"Ethics\", \"Conduct of life\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nDo you need a particular edition, format or ISBN?",
           "books": [
             {
               "id": "OL62588651M",
@@ -1086,9 +1086,9 @@
     "turns": [
       {
         "message": "9780140449334",
-        "latencyMs": 5308,
+        "latencyMs": 7096,
         "response": {
-          "text": "I found an exact match for that ISBN (9780140449334): Meditations by Marcus Aurelius. It's a 2006 edition in the Classics category, and its format isn't specified in the catalogue. It's in stock, and the details card shows the current price and stock. This is a demo store, so no real payment or delivery happens.\n\nDo you want me to add it to your basket? Or I can suggest a couple of similar books if you're still browsing.",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nMeditations — Marcus Aurelius\nShelved under Classics. Format not verified. Work first published: 2006. ISBN: 9780140449334, 0140449337. The source lists these subject labels: \"Philosophy\", \"Classical philology\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
           "books": [
             {
               "id": "OL62588651M",
@@ -1133,9 +1133,9 @@
     "turns": [
       {
         "message": "zzzznonexistentbookzzzz",
-        "latencyMs": 5138,
+        "latencyMs": 4575,
         "response": {
-          "text": "I searched for that exact text and found no matches, so we don't have a book by that name.\n\nI can look for something else if you give me one of these:\n- A title or author you have in mind\n- A genre, such as Mystery, Fantasy or Classics\n- A topic or mood you like\n\nWhat kind of book are you in the mood for?",
+          "text": "I couldn’t find a match within the current search and budget filters. That does not mean the whole category is empty.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [],
           "cart": {
             "lines": [],
@@ -1154,9 +1154,9 @@
     "turns": [
       {
         "message": "fantasy under $1",
-        "latencyMs": 9417,
+        "latencyMs": 6630,
         "response": {
-          "text": "I couldn't find any Fantasy books at $1.00 or less in stock. That only rules out this budget. It doesn't mean the whole Fantasy category is empty.\n\nWould you like me to look at Fantasy books at a slightly higher price? If so, what's the most you'd want to spend per book? Prices here are fictional, since this is a demo store.",
+          "text": "I couldn’t find a match within the current search and budget filters. That does not mean the whole category is empty.\n\nWhat would you like to spend per book?",
           "books": [],
           "cart": {
             "lines": [],
@@ -1175,9 +1175,9 @@
     "turns": [
       {
         "message": "Give me a discount",
-        "latencyMs": 5331,
+        "latencyMs": 10798,
         "response": {
-          "text": "I can't give discounts. Prices here are fixed, and this is a demo store, so no real payment happens. I can still help you find something that fits a budget.\n\nWhat's your budget, and what kind of book are you after? For example, Fantasy, Mystery, or Classics. If you give me a per-book limit, I'll search within it and only show books that are in stock.",
+          "text": "Fictional fixed prices: paperback $12.99, hardcover $22.99, ebook $7.99, unspecified format $12.99. No discretionary discounts.\n\nSimulated orders only. No payment, delivery, tax or personal details required. No real returns or refunds.\n\nAge suitability and content warnings are not guaranteed; say when evidence is missing.\n\nWhat would you like to spend per book?",
           "books": [],
           "cart": {
             "lines": [],
@@ -1196,9 +1196,9 @@
     "turns": [
       {
         "message": "mystery",
-        "latencyMs": 6489,
+        "latencyMs": 6780,
         "response": {
-          "text": "Here are three in-stock mysteries, all by Agatha Christie. Prices and stock are fictional demo data, and the cards show the details.\n\n- At Bertram's Hotel (1965): a Jane Marple story set in a hotel. Its catalogue subjects include women detectives and older women.\n- Funerals are Fatal (1953): a Hercule Poirot mystery. The catalogue lists 214 pages.\n- Hallowe'en Party (1969): another Hercule Poirot mystery. Its subjects include murder and private investigators.\n\nDo you prefer Miss Marple or Hercule Poirot? Or would you like something other than classic detective stories?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Hotels\", \"Detective and mystery stories\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Belgians\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Work first published: 1969. The source lists these subject labels: \"Private investigators in fiction\", \"Hercule Poirot (Fictitious character)\", \"Murder\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -1329,9 +1329,9 @@
       },
       {
         "message": "compare these books",
-        "latencyMs": 6929,
+        "latencyMs": 6572,
         "response": {
-          "text": "Here is how the three compare, using the catalogue data. The cards show the full details.\n\n- Price and stock: All three cost $12.99 and have 5 in stock. This is fictional demo data. The format is unspecified for all three.\n- At Bertram's Hotel (1965): Jane Marple is the detective. Its subjects include hotels, women detectives and older women. No page count is listed.\n- Funerals are Fatal (1953): Hercule Poirot is the detective. Its subjects include private investigators and England. It is the only one with a page count, at 214 pages.\n- Hallowe'en Party (1969): Hercule Poirot is the detective. Its subjects include murder and senior detectives. It is the only one with an ISBN listed. No page count is listed.\n\nI can't compare length, because only one book has a page count. The catalogue doesn't tell me about tone or pacing either.\n\nMy suggestion is based on the detective, not on any verified detail. If you want to try Miss Marple, pick At Bertram's Hotel. If you want Poirot, pick either of the other two.\n\nWhich detective appeals to you more?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Hotels\", \"Detective and mystery stories\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Format not verified. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Belgians\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1969. ISBN: 9780671830731, 0671830732. The source lists these subject labels: \"Murder\", \"Hercule Poirot (Fictitious character)\", \"Senior detectives\". $12.99; 5 demo copies available.\n\nI can’t compare length because a verified page count is not available for every compared edition.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -1467,9 +1467,9 @@
     "turns": [
       {
         "message": "mystery under $15",
-        "latencyMs": 8333,
+        "latencyMs": 7375,
         "response": {
-          "text": "Here are three in-stock mysteries under $15. The cards show price and stock. This is a demo store, so there's no real payment or delivery.\n\n- At Bertram's Hotel by Agatha Christie. Its subjects list Jane Marple and a hotel setting, so it may suit you if you like a classic amateur-detective story.\n- Funerals are Fatal by Agatha Christie. Its subjects list Hercule Poirot, and the record gives 214 pages.\n- Hallowe'en Party by Agatha Christie. Its subjects list Hercule Poirot and murder.\n\nAll three are Christie, and the catalogue doesn't specify their formats. Do you prefer Marple or Poirot, or would you like something other than classic Christie-style detective fiction?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"History\", \"Detective and mystery stories\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Mystery and detective stories\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Work first published: 1969. ISBN: 9780671830731, 0671830732. The source lists these subject labels: \"Murder Mystery\", \"Private investigators\", \"Hercule Poirot (Fictitious character)\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -1600,9 +1600,9 @@
       },
       {
         "message": "different books please",
-        "latencyMs": 10051,
+        "latencyMs": 7145,
         "response": {
-          "text": "Here are three different in-stock mysteries, all under $15. The cards show price and stock. This is a demo store, so there's no real payment or delivery.\n\n- Never Lie by Freida McFadden. Its subjects list thriller, psychological thriller and suspense. If you want something more contemporary than Christie, this is the one to try.\n- Peril at End House by Agatha Christie. Its subjects list private investigators and detective stories. It's a classic option if you still like that style.\n- The Big Four (Hercule Poirot Mysteries) by Agatha Christie. Its subjects list Hercule Poirot. The subjects also mention translations, which are work-level metadata, so I can't confirm this edition's language.\n\nNone of the records specify a format. Would you rather have modern psychological suspense or classic detective stories?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nNever Lie — Freida McFadden\nShelved under Mystery. Work first published: 2022. ISBN: 9781464221361, 1464221367. The source lists these subject labels: \"Thriller\", \"Crime\", \"Psychological Thriller\". $12.99; 5 demo copies available.\n\nPeril at End House — Agatha Christie\nShelved under Mystery. Work first published: 1932. ISBN: 0671428535, 9780671428532. The source lists these subject labels: \"English Detective and mystery stories\", \"Private investigators\", \"Detective and mystery stories\". $12.99; 5 demo copies available.\n\nThe Big Four (Hercule Poirot Mysteries) — Agatha Christie\nShelved under Mystery. Work first published: 1927. The source lists these subject labels: \"Private investigators\", \"Large type books\", \"Translations into Arabic\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL50648604M",
@@ -1732,9 +1732,9 @@
     "turns": [
       {
         "message": "The lies of Locke Lamora",
-        "latencyMs": 9855,
+        "latencyMs": 7664,
         "response": {
-          "text": "We carry The lies of Locke Lamora by Scott Lynch, but the catalogue shows 0 copies in stock right now. That means I can't add it to your basket. This is a demo store, so prices and stock are fictional. The format is unspecified.\n\nI found a few in-stock fantasy books that share an assassin or epic-fantasy tag in their catalogue subjects. I'm going only by that metadata, not by whether the tone or plot is similar.\n- Blood of Elves by Andrzej Sapkowski (subjects include Assassins and epic fantasy)\n- The Assassin’s Blade by Sarah J. Maas (subjects include Female assassins in fiction and dark fantasy)\n- Lord of Chaos by Robert Jordan (subjects include epic fantasy)\n\nWhat did you want from Locke Lamora: the heist and con-artist side, or the wider fantasy adventure? Your answer will help me narrow these down.",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nBlood of Elves — Andrzej Sapkowski\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nLord of Chaos — Robert Jordan\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nThe Eye of the World — Robert Jordan\nShelved under Fantasy. Format not verified. $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nFurther details could not be verified. Please choose a book card or narrow your request.",
           "books": [
             {
               "id": "OL24255147M",
@@ -1805,34 +1805,51 @@
               "coverId": 182398
             },
             {
-              "id": "OL27172409M",
-              "workId": "/works/OL17546674W",
-              "title": "The Assassin’s Blade",
+              "id": "OL24934473M",
+              "workId": "/works/OL7924103W",
+              "title": "The Eye of the World",
               "authors": [
-                "Sarah J. Maas"
+                "Robert Jordan"
               ],
               "category": "Fantasy",
               "subjects": [
-                "Fiction, fantasy, collections & anthologies",
-                "Female assassins in fiction",
-                "Young adult fiction, fantasy, dark fantasy",
-                "[series:Throne_of_Glass]",
-                "Fantasy",
-                "Assassins",
-                "Fiction"
+                "series:The Wheel of Time",
+                "Fantasy fiction",
+                "Rand al'Thor (Fictitious character)",
+                "Fiction",
+                "Reader recommended, 2001-02",
+                "Fantasy .",
+                "American Fantasy",
+                "al'Thor Rand (Fictitious character)",
+                "Good and evil",
+                "Monsters",
+                "Rand al'thor (fictitious character), fiction",
+                "Fiction, fantasy, epic",
+                "Science fiction",
+                "Children's fiction",
+                "Fiction, fantasy, general",
+                "Comics & graphic novels, fantasy",
+                "Comic books, strips",
+                "nyt:hardcover-graphic-books=2013-02-17"
               ],
               "isbn": [
-                "9781619633612",
-                "1619633612"
+                "9780812511819",
+                "9780812579956",
+                "9780613176347",
+                "9780812500486",
+                "0812511816",
+                "081257995X",
+                "0613176340",
+                "0812500482"
               ],
-              "year": 2014,
+              "year": 1990,
               "format": "unspecified",
               "priceCents": 1299,
               "stock": 5,
               "stocked": true,
-              "sourceUrl": "https://openlibrary.org/books/OL27172409M",
+              "sourceUrl": "https://openlibrary.org/books/OL24934473M",
               "fetchedAt": "2026-09-29T21:44:48.118Z",
-              "coverId": 7794980
+              "coverId": 980232
             }
           ],
           "cart": {
@@ -1852,9 +1869,9 @@
     "turns": [
       {
         "message": "mystery",
-        "latencyMs": 6483,
+        "latencyMs": 6381,
         "response": {
-          "text": "Here are three in-stock mysteries, all by Agatha Christie. Details and prices are on the cards.\n\n- At Bertram's Hotel: a Jane Marple story set in a hotel. The catalogue tags it with women detectives and older women.\n- Funerals are Fatal: a Hercule Poirot mystery. The catalogue lists it at 214 pages.\n- Hallowe'en Party: another Hercule Poirot book. Its catalogue subjects include murder and private investigators.\n\nThis is a demo store, so prices and stock are fictional and no real payment or delivery happens.\n\nDo you prefer Miss Marple or Poirot, or would you like something that isn't Christie?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Women detectives\", \"Hotels\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Belgians\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Work first published: 1969. ISBN: 9780671830731, 0671830732. The source lists these subject labels: \"Murder\", \"Murder Mystery\", \"Private investigators\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -1985,10 +2002,47 @@
       },
       {
         "message": "add the first one",
-        "latencyMs": 6198,
+        "latencyMs": 5240,
         "response": {
-          "text": "I added At Bertram's Hotel to your basket. The basket total is $12.99 for 1 item. This is a demo store, so no real payment is taken.\n\nWould you like to keep browsing, or check out? If you check out, I'll prepare a quote first. You then confirm it yourself.",
-          "books": [],
+          "text": "Your basket has been updated. 1 book(s), $12.99 total. All prices are fictional; no payment is taken.\n\nHere are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Women detectives\", \"Hotels\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            }
+          ],
           "cart": {
             "lines": [
               {
@@ -2042,9 +2096,9 @@
       },
       {
         "message": "remove the first one",
-        "latencyMs": 5951,
+        "latencyMs": 6785,
         "response": {
-          "text": "I removed At Bertram's Hotel, so your basket is empty and the total is $0.00.\n\nWould you like to look at Funerals are Fatal or Hallowe'en Party instead? Or I can look for something that isn't Christie.",
+          "text": "Your basket has been updated. 0 book(s), $0.00 total. All prices are fictional; no payment is taken.",
           "books": [],
           "cart": {
             "lines": [],
@@ -2063,9 +2117,9 @@
     "turns": [
       {
         "message": "mystery",
-        "latencyMs": 6391,
+        "latencyMs": 6069,
         "response": {
-          "text": "Here are three mysteries we have in stock. All three are by Agatha Christie, and the cards show price and stock. This is a demo store, so prices and stock are fictional.\n\n- At Bertram's Hotel (1965): a Jane Marple story set in a hotel. Pick this if you like an older woman detective.\n- Funerals are Fatal (1953): a Hercule Poirot story, with 214 pages listed.\n- Hallowe'en Party (1969): another Hercule Poirot story, tagged in the catalogue with murder mystery and private investigators.\n\nDo you prefer Miss Marple or Hercule Poirot? Or would you like something different, such as a different author or style?",
+          "text": "Here are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Women detectives\", \"Hotels\". $12.99; 5 demo copies available.\n\nFunerals are Fatal — Agatha Christie\nShelved under Mystery. Edition length: 214 pages. Work first published: 1953. The source lists these subject labels: \"Hercule Poirot (Fictitious character)\", \"Private investigators\", \"Belgians\". $12.99; 5 demo copies available.\n\nHallowe'en Party — Agatha Christie\nShelved under Mystery. Work first published: 1969. ISBN: 9780671830731, 0671830732. The source lists these subject labels: \"Murder Mystery\", \"Private investigators\", \"Hercule Poirot (Fictitious character)\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.\n\nWhat subjects or kinds of stories do you enjoy?",
           "books": [
             {
               "id": "OL51009206M",
@@ -2196,10 +2250,47 @@
       },
       {
         "message": "add the first one",
-        "latencyMs": 4998,
+        "latencyMs": 5530,
         "response": {
-          "text": "I've added At Bertram's Hotel to your basket. The total is $12.99. This is a demo store, so nothing is actually charged or shipped.\n\nWould you like to look at another mystery, or check out with this one?",
-          "books": [],
+          "text": "Your basket has been updated. 1 book(s), $12.99 total. All prices are fictional; no payment is taken.\n\nHere are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Women detectives\", \"Hotels\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            }
+          ],
           "cart": {
             "lines": [
               {
@@ -2253,12 +2344,49 @@
       },
       {
         "message": "checkout",
-        "latencyMs": 5125,
+        "latencyMs": 5874,
         "response": {
-          "text": "Your demo checkout quote is ready:\n\n- At Bertram's Hotel by Agatha Christie, quantity 1, $12.99\n- Total: $12.99\n\nThis is a demo, so no payment will be taken and nothing will ship. The quote hasn't placed an order yet. To place the demo order, press Confirm demo order or type exactly: confirm order",
-          "books": [],
+          "text": "Your demo quote is ready: 1 book(s), $12.99 total. No order has been placed. Press Confirm demo order or type exactly: confirm order. No payment or delivery will occur.\n\nHere are the verified catalogue details. Prices and availability are fictional demo data.\n\nAt Bertram's Hotel — Agatha Christie\nShelved under Mystery. Format not verified. Work first published: 1965. The source lists these subject labels: \"Jane Marple (Fictitious character)\", \"Women detectives\", \"Hotels\". $12.99; 5 demo copies available.\n\nThese records do not verify plot, tone, pacing or age suitability.",
+          "books": [
+            {
+              "id": "OL51009206M",
+              "workId": "/works/OL265415W",
+              "title": "At Bertram's Hotel",
+              "authors": [
+                "Agatha Christie"
+              ],
+              "category": "Mystery",
+              "subjects": [
+                "Fiction",
+                "Jane Marple (Fictitious character)",
+                "Women detectives",
+                "Older women",
+                "History",
+                "Hotels",
+                "Mystery",
+                "Detective and mystery stories",
+                "Mystery fiction",
+                "Marple, Jane (Fictitious character)",
+                "Fiction, mystery & detective, traditional",
+                "Marple, jane (fictitious character), fiction",
+                "Fiction, mystery & detective, women sleuths",
+                "England, fiction",
+                "English literature",
+                "Fiction, mystery & detective, general"
+              ],
+              "isbn": [],
+              "year": 1965,
+              "format": "unspecified",
+              "priceCents": 1299,
+              "stock": 5,
+              "stocked": true,
+              "sourceUrl": "https://openlibrary.org/books/OL51009206M",
+              "fetchedAt": "2026-09-29T21:44:50.729Z",
+              "coverId": 6379981
+            }
+          ],
           "quote": {
-            "id": "bfdd54fa-60a4-462b-b80b-531109d3be5f",
+            "id": "096dfd08-b475-4999-a764-c9a836649342",
             "cart": {
               "lines": [
                 {
@@ -2307,7 +2435,7 @@
               "currency": "USD",
               "version": 1
             },
-            "expiresAt": "2026-09-29T22:55:21.264Z",
+            "expiresAt": "2026-09-30T07:22:14.203Z",
             "label": "Demo quote — no payment will be taken"
           },
           "cart": {
@@ -2363,7 +2491,7 @@
       },
       {
         "message": "confirm order",
-        "latencyMs": 1891,
+        "latencyMs": 1906,
         "response": {
           "text": "Your demo order is confirmed for $12.99. No payment was taken.",
           "books": [],
@@ -2375,8 +2503,8 @@
             "version": 2
           },
           "order": {
-            "id": "DEMO-224ebc2e-39b7-419a-bd34-0222de3fde48",
-            "quoteId": "bfdd54fa-60a4-462b-b80b-531109d3be5f",
+            "id": "DEMO-a7dd18be-c4a3-44c5-b901-a526f9266fd7",
+            "quoteId": "096dfd08-b475-4999-a764-c9a836649342",
             "cart": {
               "lines": [
                 {
@@ -2425,7 +2553,7 @@
               "currency": "USD",
               "version": 1
             },
-            "createdAt": "2026-09-29T22:45:30.644Z",
+            "createdAt": "2026-09-30T07:12:24.099Z",
             "label": "Demo order — no payment taken"
           },
           "mode": "ai"

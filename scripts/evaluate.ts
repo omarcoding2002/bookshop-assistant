@@ -157,7 +157,7 @@ for (const scenario of cases) {
   const state = await store.createSession();
   let cookie = "";
   if (live) {
-    await new Promise((r) => setTimeout(r, 7000));
+    await new Promise((r) => setTimeout(r, 1000));
     const response = await fetch(`${base}/api/v1/sessions`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

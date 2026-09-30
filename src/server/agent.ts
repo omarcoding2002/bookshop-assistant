@@ -5,6 +5,7 @@ import type { Book, ChatResult, Quote, SessionState } from "../shared.js";
 import { money } from "../shared.js";
 import { Store, policy, AppError } from "./store.js";
 import { Budget } from "./budget.js";
+import { answerSchema, renderAnswer } from "./recommendations.js";
 const searchSchema = z.object({
   query: z.string().max(200).optional(),
   category: z.string().max(50).optional(),
@@ -12,6 +13,12 @@ const searchSchema = z.object({
   inStockOnly: z.boolean().optional(),
 });
 const tools = [
+  {
+    name: "present_answer",
+    description:
+      "Finish EVERY turn using this tool alone, after other tools complete. Select only known book IDs and facts/subject indices (0-based, first 8) from tool or session data. No free text is displayed. Use discovery with no selections for greeting or preference questions; policy for discounts/store rules; cart for basket status. For comparisons select all compared books. For a new search use its matches, not previous rejected books. Unsupported plot, tone and age details are unavailable. Never place other tool calls alongside this final tool.",
+    schema: answerSchema,
+  },
   {
     name: "remember_preferences",
     description:
@@ -68,7 +75,7 @@ const tools = [
   },
 ];
 export const systemPrompt = `You are the warm, concise bookseller at Between the Lines, an English/USD demo bookstore.
-Help people find books, not just search results. Ask one useful question at a time, remember preferences and rejected choices, and normally recommend 2–3 books with a reason tied to their request. Avoid spoilers and pressure.
+Finish every turn with present_answer. Customer-facing book facts are rendered by the server; never write a prose final answer. Use tools first, then present_answer alone. Help people find books, not just search results. Ask one useful question at a time, remember preferences and rejected choices, and normally recommend 2–3 books with a reason tied to their request. Avoid spoilers and pressure.
 Use remember_preferences when the customer gives new constraints or rejects books. These preferences survive conversation truncation. Do not infer sensitive personal attributes. Distinguish a per-book budget from a total basket budget and verify the total when buying multiple books.
 Use tools for book facts, prices, availability, basket contents and quotes. Do not invent titles, editions, plots, awards, age suitability or content warnings. If evidence is missing, say so. Subjects are work-level metadata and may span editions. A source link is not a full-text source.
 For children/gifts ask about interests and approximate age when helpful. Always explicitly say age suitability is unverified when suggesting books for a child. For study/textbooks verify the exact edition; never claim that another edition is equivalent. Honour budgets; if no stocked item fits, say so. Do not silently relax constraints. Search results report effective filters: a saved budget remains applied even when omitted from the tool call. An empty filtered search never proves the whole category is empty. For price objections offer alternatives, not made-up discounts; check stock before implying any cheaper format is available.
@@ -168,6 +175,48 @@ export class Agent {
     let books: Book[] = [],
       quote: Quote | undefined,
       warning: string | undefined;
+    let searched = false,
+      cartChanged = false;
+    const evidence = new Map(
+      state.lastBookIds
+        .map((id) => this.store.catalogue.get(id))
+        .filter((b): b is Book => !!b)
+        .map((b) => [b.id, b]),
+    );
+    const finish = async (input: unknown): Promise<ChatResult> => {
+      const current = await this.store.state(state.id);
+      const candidates = (
+        searched
+          ? books
+          : [
+              ...new Map([
+                ...evidence,
+                ...books.map((b) => [b.id, b] as const),
+              ]).values(),
+            ]
+      ).map((b) => ({
+        ...b,
+        stock: b.stocked ? this.store.available(current, b.id) : 0,
+      }));
+      const rendered = renderAnswer(input, {
+        books: candidates,
+        cart: this.store.cart(current),
+        quote,
+        cartChanged,
+        searched,
+        child:
+          /child|kid|year.old|daughter|son\b/i.test(message) ||
+          current.preferences.category === "Children",
+      });
+      return {
+        text: rendered.text,
+        books: rendered.books,
+        quote,
+        warning,
+        cart: this.store.cart(current),
+        mode: "ai",
+      };
+    };
     const messages: any[] = [
       ...state.messages.slice(-10),
       { role: "user", content: message },
@@ -253,27 +302,10 @@ export class Agent {
         outputTokens: usage.output_tokens,
       });
       const calls = response.content.filter((b: any) => b.type === "tool_use");
-      if (!calls.length) {
-        const text = response.content
-          .filter((b: any) => b.type === "text")
-          .map((b: any) => b.text)
-          .join("\n")
-          .trim();
-        if (!text)
-          throw new AppError(
-            503,
-            "EMPTY_RESPONSE",
-            "The AI returned no message. Please try again.",
-          );
-        return {
-          text,
-          books,
-          quote,
-          warning,
-          cart: this.store.cart(await this.store.state(state.id)),
-          mode: "ai",
-        };
-      }
+      if (!calls.length) return finish(undefined);
+      const terminal = calls.find((c: any) => c.name === "present_answer");
+      if (terminal)
+        return finish(calls.length === 1 ? terminal.input : undefined);
       messages.push({ role: "assistant", content: response.content });
       const results: any[] = [];
       for (const call of calls.slice(0, 8)) {
@@ -292,6 +324,7 @@ export class Agent {
               return current.preferences;
             });
           } else if (call.name === "search_books") {
+            searched = true;
             const saved = (await this.store.state(state.id)).preferences;
             const maxPriceCents =
               saved.budgetCents === undefined
@@ -321,6 +354,7 @@ export class Agent {
               ...b,
               stock: b.stocked ? this.store.available(current, b.id) : 0,
             }));
+            books.forEach((b) => evidence.set(b.id, b));
             value = {
               books: books.map(compact),
               effectiveFilters: {
@@ -341,6 +375,7 @@ export class Agent {
               stock: this.store.available(current, book.id),
             };
             if (!books.some((b) => b.id === book.id)) books.push(effectiveBook);
+            evidence.set(book.id, effectiveBook);
             value = compact(effectiveBook);
           } else if (call.name === "get_store_policy") value = policy;
           else if (call.name === "get_cart")
@@ -359,6 +394,7 @@ export class Agent {
               input.bookId,
               input.quantity,
             );
+            cartChanged = true;
           } else if (call.name === "quote_cart") {
             quote = await this.store.quote(state.id);
             value = quote;
@@ -386,15 +422,9 @@ export class Agent {
         });
       messages.push({ role: "user", content: results });
     }
-    return {
-      text: "I reached the demo’s search limit for this turn. Here are the results so far; please narrow your request.",
-      books,
-      quote,
-      warning,
-      cart: this.store.cart(await this.store.state(state.id)),
-      mode: "ai",
-    };
+    return finish(undefined);
   }
+
   private async offline(
     state: SessionState,
     message: string,

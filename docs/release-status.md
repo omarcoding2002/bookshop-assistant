@@ -13,10 +13,10 @@ Updated 30 September 2026 (Asia/Qatar).
 | Public hosting                | Render free web service, Frankfurt; Neon PostgreSQL, Frankfurt                            |
 | Commerce                      | Conversational basket/quote and explicit simulated order confirmation                     |
 | Public UI purchase            | Browser verified quote, confirmation, itemized receipt and $12.99 demo total              |
-| Backend checks                | 32 passing tests and successful production build                                          |
+| Backend checks                | 40 passing tests and successful production build                                          |
 | Desktop/mobile checks         | 8 passing Chromium browser tests in CI                                                    |
 | Offline evaluation            | 20/20 guided scenarios passed                                                             |
-| Live evaluation               | 20/20 automated checks; 18/20 clean grounding review; two prose limitations documented    |
+| Live evaluation               | 20/20 live scenarios; 10/10 repeated accuracy checks; server-rendered catalogue facts     |
 | Concurrency/latency           | 30/30 public live turns, three visitors; p50 4.628 s, p95 8.366 s                         |
 | Continuous delivery           | GitHub Actions checks gate Render deployments from main                                   |
 | Requirements/architecture/API | Included with setup, data/price decisions and UI handoff                                  |

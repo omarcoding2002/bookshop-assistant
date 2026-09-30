@@ -45,6 +45,8 @@ MODEL_OUTPUT_USD_PER_MILLION=10
 
 Verify model access and current provider pricing before using a different model. The configurable cost rates drive conservative per-call reservations in a persistent budget ledger. A timeout is charged at its reserved estimate, so an uncertain bill cannot silently exceed the application allowance. Provider-side spending limits remain essential. The application budget is cumulative and does not reset on restart or every month.
 
+The agent selects validated book and evidence references; the server writes the factual reply using exact catalogue fields. Unknown plot, tone and age details stay unknown. Invalid or unstructured model replies fall back to verified cards rather than unchecked prose.
+
 The agent uses validated tools for facts and commerce. It cannot directly create an order: confirmation happens in server code. See [architecture](docs/architecture.md) and [design decisions](docs/data-and-decisions.md).
 
 ## Data and prices
