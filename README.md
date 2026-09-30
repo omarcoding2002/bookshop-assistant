@@ -33,12 +33,12 @@ The visible **Offline demo** label means responses are deterministic guided inte
 
 ## Enable live AI
 
-Use a dedicated Anthropic workspace with a funded API key and automatic replenishment disabled. This deployment has an owner-configured $20 monthly provider cap and a stricter $10 cumulative application allowance. Keep both safeguards; the application allowance does not reset monthly. The application does not fund accounts. Configure:
+Use a dedicated Anthropic workspace with a funded API key and automatic replenishment disabled. This deployment has an owner-configured $20 monthly provider cap and a $20 cumulative application allowance. Keep both safeguards; the application allowance does not reset monthly. The application does not fund accounts. Configure:
 
 ```dotenv
 ANTHROPIC_API_KEY=your-secret-key
 ANTHROPIC_MODEL=claude-sonnet-5-5
-MODEL_BUDGET_USD=10
+MODEL_BUDGET_USD=20
 MODEL_INPUT_USD_PER_MILLION=2
 MODEL_OUTPUT_USD_PER_MILLION=10
 ```

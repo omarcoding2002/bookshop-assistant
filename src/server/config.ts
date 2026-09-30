@@ -10,7 +10,7 @@ const schema = z.object({
   PUBLIC_ORIGIN: z.string().url().default("http://localhost:3000"),
   OPEN_LIBRARY_CONTACT: z.string().default(""),
   LIVE_BOOK_SEARCH: z.enum(["true", "false"]).default("false"),
-  MODEL_BUDGET_USD: z.coerce.number().min(0).max(10).default(10),
+  MODEL_BUDGET_USD: z.coerce.number().min(0).max(20).default(20),
   MODEL_INPUT_USD_PER_MILLION: z.coerce.number().positive().default(2),
   MODEL_OUTPUT_USD_PER_MILLION: z.coerce.number().positive().default(10),
   NODE_ENV: z.string().default("development"),

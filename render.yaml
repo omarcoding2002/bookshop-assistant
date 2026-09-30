@@ -22,7 +22,7 @@ services:
       - key: ANTHROPIC_MODEL
         value: claude-sonnet-5-5
       - key: MODEL_BUDGET_USD
-        value: "10"
+        value: "20"
       - key: MODEL_INPUT_USD_PER_MILLION
         value: "2"
       - key: MODEL_OUTPUT_USD_PER_MILLION

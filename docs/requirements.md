@@ -50,7 +50,7 @@ Success requires a runnable Git repository, a public browser demo, reproducible 
 | ------ | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NFR-01 | Session privacy     | Opaque HttpOnly/SameSite cookies, hashed tokens at rest; other sessions cannot read or confirm quotes/orders. Secure cookies in production.                    |
 | NFR-02 | Input/output safety | Validated payloads and tools, 2,000-character messages, 16 KB request limit, escaped React text, CSP, no raw HTML or model-supplied URLs used for execution.   |
-| NFR-03 | Cost control        | Maximum configured $10 cumulative application allowance, persistent atomic reservations, bounded history/output/tool loops and separate provider spending cap. |
+| NFR-03 | Cost control        | Maximum configured $20 cumulative application allowance, persistent atomic reservations, bounded history/output/tool loops and separate provider spending cap. |
 | NFR-04 | Rate control        | 90 requests/minute/IP globally; 12 chat requests and 10 session creations/minute/IP. Same-session writes cannot overlap in the single-instance deployment.     |
 | NFR-05 | Data lifetime       | Expire anonymous sessions, related quotes and orders after seven days; hourly/startup purge. Reset deletes immediately. No raw chat in server logs.            |
 | NFR-06 | Usability           | Keyboard-labelled controls and native accessible dialogs; no horizontal page overflow at tested desktop/mobile sizes; visible errors and loading state.        |
@@ -111,4 +111,4 @@ Live evaluation and public deployment evidence are recorded in `evaluation.md` a
 - Edition ID, title and author validation admits an edition to simulated stock with five copies per visitor. Work-only and incomplete records cannot be ordered. Format-based demo prices freeze at admission.
 - Detail panels distinguish attributed work descriptions from edition pages, language and format; absent fields remain visibly unknown.
 - New titles, ISBN fidelity, missing metadata, source outages and a newly discovered edition purchase surviving deployment must pass before live discovery is enabled.
-- Each phase may use at most $2 of the existing $10 cumulative application allowance; no automatic cap increase or reset. Free Render/Neon, English, USD and simulated purchases remain the scope.
+- Each phase may use at most $2 of the current $20 cumulative application allowance; no automatic cap increase or reset. Free Render/Neon, English, USD and simulated purchases remain the scope.
